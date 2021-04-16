@@ -1,0 +1,510 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\work\github\engine-x\extensions\fairygui\Controller.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\fairygui\DragDropManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\fairygui\GButton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\fairygui\GComboBox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\fairygui\GComponent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\fairygui\GGraph.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\fairygui\GGroup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\fairygui\GImage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\fairygui\GLabel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\fairygui\GList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\fairygui\GLoader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\fairygui\GLoader3D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\fairygui\GMovieClip.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\fairygui\GObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\fairygui\GObjectPool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\fairygui\GProgressBar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\fairygui\GRichTextField.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\fairygui\GRoot.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\fairygui\GScrollBar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\fairygui\GSlider.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\fairygui\GTextField.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\fairygui\GTextInput.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\fairygui\GTree.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\fairygui\GTreeNode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\fairygui\Margin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\fairygui\PackageItem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\fairygui\PopupMenu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\fairygui\RelationItem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\fairygui\Relations.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\fairygui\ScrollPane.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\fairygui\Transition.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\fairygui\TranslationHelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\fairygui\UIConfig.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\fairygui\UIObjectFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\fairygui\UIPackage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\fairygui\Window.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\fairygui\controller_action\ChangePageAction.cpp">
+      <Filter>Source Files\controller_action</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\fairygui\controller_action\ControllerAction.cpp">
+      <Filter>Source Files\controller_action</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\fairygui\controller_action\PlayTransitionAction.cpp">
+      <Filter>Source Files\controller_action</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\fairygui\display\BitmapFont.cpp">
+      <Filter>Source Files\display</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\fairygui\display\FUIContainer.cpp">
+      <Filter>Source Files\display</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\fairygui\display\FUIInput.cpp">
+      <Filter>Source Files\display</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\fairygui\display\FUILabel.cpp">
+      <Filter>Source Files\display</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\fairygui\display\FUIRichText.cpp">
+      <Filter>Source Files\display</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\fairygui\display\FUISprite.cpp">
+      <Filter>Source Files\display</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\fairygui\display\TextFormat.cpp">
+      <Filter>Source Files\display</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\fairygui\event\EventContext.cpp">
+      <Filter>Source Files\event</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\fairygui\event\HitTest.cpp">
+      <Filter>Source Files\event</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\fairygui\event\InputEvent.cpp">
+      <Filter>Source Files\event</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\fairygui\event\InputProcessor.cpp">
+      <Filter>Source Files\event</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\fairygui\event\UIEventDispatcher.cpp">
+      <Filter>Source Files\event</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\fairygui\gears\GearAnimation.cpp">
+      <Filter>Source Files\gears</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\fairygui\gears\GearBase.cpp">
+      <Filter>Source Files\gears</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\fairygui\gears\GearColor.cpp">
+      <Filter>Source Files\gears</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\fairygui\gears\GearDisplay.cpp">
+      <Filter>Source Files\gears</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\fairygui\gears\GearDisplay2.cpp">
+      <Filter>Source Files\gears</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\fairygui\gears\GearFontSize.cpp">
+      <Filter>Source Files\gears</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\fairygui\gears\GearIcon.cpp">
+      <Filter>Source Files\gears</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\fairygui\gears\GearLook.cpp">
+      <Filter>Source Files\gears</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\fairygui\gears\GearSize.cpp">
+      <Filter>Source Files\gears</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\fairygui\gears\GearText.cpp">
+      <Filter>Source Files\gears</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\fairygui\gears\GearXY.cpp">
+      <Filter>Source Files\gears</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\fairygui\tween\EaseManager.cpp">
+      <Filter>Source Files\tween</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\fairygui\tween\GPath.cpp">
+      <Filter>Source Files\tween</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\fairygui\tween\GTween.cpp">
+      <Filter>Source Files\tween</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\fairygui\tween\GTweener.cpp">
+      <Filter>Source Files\tween</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\fairygui\tween\TweenManager.cpp">
+      <Filter>Source Files\tween</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\fairygui\tween\TweenPropType.cpp">
+      <Filter>Source Files\tween</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\fairygui\tween\TweenValue.cpp">
+      <Filter>Source Files\tween</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\fairygui\utils\ByteBuffer.cpp">
+      <Filter>Source Files\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\fairygui\utils\ToolSet.cpp">
+      <Filter>Source Files\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\fairygui\utils\UBBParser.cpp">
+      <Filter>Source Files\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\fairygui\utils\WeakPtr.cpp">
+      <Filter>Source Files\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\fairygui\utils\html\HtmlElement.cpp">
+      <Filter>Source Files\utils\html</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\fairygui\utils\html\HtmlObject.cpp">
+      <Filter>Source Files\utils\html</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\fairygui\utils\html\HtmlParser.cpp">
+      <Filter>Source Files\utils\html</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\precheader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\work\github\engine-x\extensions\fairygui\Controller.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\fairygui\DragDropManager.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\fairygui\FairyGUI.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\fairygui\FairyGUIMacros.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\fairygui\FieldTypes.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\fairygui\GButton.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\fairygui\GComboBox.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\fairygui\GComponent.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\fairygui\GGraph.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\fairygui\GGroup.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\fairygui\GImage.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\fairygui\GLabel.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\fairygui\GList.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\fairygui\GLoader.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\fairygui\GLoader3D.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\fairygui\GMovieClip.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\fairygui\GObject.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\fairygui\GObjectPool.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\fairygui\GProgressBar.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\fairygui\GRichTextField.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\fairygui\GRoot.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\fairygui\GScrollBar.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\fairygui\GSlider.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\fairygui\GTextField.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\fairygui\GTextInput.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\fairygui\GTree.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\fairygui\GTreeNode.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\fairygui\Margin.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\fairygui\PackageItem.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\fairygui\PopupMenu.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\fairygui\RelationItem.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\fairygui\Relations.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\fairygui\ScrollPane.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\fairygui\Transition.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\fairygui\TranslationHelper.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\fairygui\UIConfig.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\fairygui\UIObjectFactory.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\fairygui\UIPackage.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\fairygui\Window.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\fairygui\controller_action\ChangePageAction.h">
+      <Filter>Source Files\controller_action</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\fairygui\controller_action\ControllerAction.h">
+      <Filter>Source Files\controller_action</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\fairygui\controller_action\PlayTransitionAction.h">
+      <Filter>Source Files\controller_action</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\fairygui\display\BitmapFont.h">
+      <Filter>Source Files\display</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\fairygui\display\FUIContainer.h">
+      <Filter>Source Files\display</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\fairygui\display\FUIInput.h">
+      <Filter>Source Files\display</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\fairygui\display\FUILabel.h">
+      <Filter>Source Files\display</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\fairygui\display\FUIRichText.h">
+      <Filter>Source Files\display</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\fairygui\display\FUISprite.h">
+      <Filter>Source Files\display</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\fairygui\display\TextFormat.h">
+      <Filter>Source Files\display</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\fairygui\event\EventContext.h">
+      <Filter>Source Files\event</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\fairygui\event\HitTest.h">
+      <Filter>Source Files\event</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\fairygui\event\InputEvent.h">
+      <Filter>Source Files\event</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\fairygui\event\InputProcessor.h">
+      <Filter>Source Files\event</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\fairygui\event\UIEventDispatcher.h">
+      <Filter>Source Files\event</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\fairygui\event\UIEventType.h">
+      <Filter>Source Files\event</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\fairygui\gears\GearAnimation.h">
+      <Filter>Source Files\gears</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\fairygui\gears\GearBase.h">
+      <Filter>Source Files\gears</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\fairygui\gears\GearColor.h">
+      <Filter>Source Files\gears</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\fairygui\gears\GearDisplay.h">
+      <Filter>Source Files\gears</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\fairygui\gears\GearDisplay2.h">
+      <Filter>Source Files\gears</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\fairygui\gears\GearFontSize.h">
+      <Filter>Source Files\gears</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\fairygui\gears\GearIcon.h">
+      <Filter>Source Files\gears</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\fairygui\gears\GearLook.h">
+      <Filter>Source Files\gears</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\fairygui\gears\GearSize.h">
+      <Filter>Source Files\gears</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\fairygui\gears\GearText.h">
+      <Filter>Source Files\gears</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\fairygui\gears\GearXY.h">
+      <Filter>Source Files\gears</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\fairygui\tween\EaseManager.h">
+      <Filter>Source Files\tween</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\fairygui\tween\EaseType.h">
+      <Filter>Source Files\tween</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\fairygui\tween\GPath.h">
+      <Filter>Source Files\tween</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\fairygui\tween\GTween.h">
+      <Filter>Source Files\tween</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\fairygui\tween\GTweener.h">
+      <Filter>Source Files\tween</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\fairygui\tween\TweenManager.h">
+      <Filter>Source Files\tween</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\fairygui\tween\TweenPropType.h">
+      <Filter>Source Files\tween</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\fairygui\tween\TweenValue.h">
+      <Filter>Source Files\tween</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\fairygui\utils\ByteBuffer.h">
+      <Filter>Source Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\fairygui\utils\ToolSet.h">
+      <Filter>Source Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\fairygui\utils\UBBParser.h">
+      <Filter>Source Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\fairygui\utils\WeakPtr.h">
+      <Filter>Source Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\fairygui\utils\html\HtmlElement.h">
+      <Filter>Source Files\utils\html</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\fairygui\utils\html\HtmlObject.h">
+      <Filter>Source Files\utils\html</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\fairygui\utils\html\HtmlParser.h">
+      <Filter>Source Files\utils\html</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\work\github\engine-x\extensions\fairygui\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{A4BAD2AB-32A2-3B75-86A8-BB08949E87DB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\controller_action">
+      <UniqueIdentifier>{2B600132-255F-314F-BBDD-EB9459F77D04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\display">
+      <UniqueIdentifier>{F539897E-673C-3081-B92C-54474420F1F4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\event">
+      <UniqueIdentifier>{788A7B9C-37C5-35BF-BC87-5C2BF1E0F123}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\gears">
+      <UniqueIdentifier>{9F0A373C-371C-3998-A6A1-5CEEFF4256C9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\tween">
+      <UniqueIdentifier>{895529B1-5ABA-3E76-92E5-EA97863D4F2C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\utils">
+      <UniqueIdentifier>{83D9522D-3914-3765-B0CB-F9C779798038}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\utils\html">
+      <UniqueIdentifier>{D8994B8B-505F-315C-8AA0-57A17EC1DA93}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

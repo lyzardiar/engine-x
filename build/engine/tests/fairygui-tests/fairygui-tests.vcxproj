@@ -1,0 +1,856 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{71453DC1-D344-3844-8222-DE598120B12D}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>fairygui-tests</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+    <Import Project="E:\work\github\engine-x\build\engine\tests\fairygui-tests\fairygui-tests.dir\nasm.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\work\github\engine-x\build\bin\fairygui-tests\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">fairygui-tests.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">fairygui-tests</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\work\github\engine-x\build\bin\fairygui-tests\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">fairygui-tests.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">fairygui-tests</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\work\github\engine-x\build\bin\fairygui-tests\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">fairygui-tests.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">fairygui-tests</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\work\github\engine-x\build\bin\fairygui-tests\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">fairygui-tests.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">fairygui-tests</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\work\github\engine-x\tests\fairygui-tests\Classes;E:\work\github\engine-x;E:\work\github\engine-x\external;E:\work\github\engine-x\extensions;E:\work\github\engine-x\cocos;E:\work\github\engine-x\cocos\platform;E:\work\github\engine-x\cocos\base;E:\work\github\engine-x\cocos\audio\include;E:\work\github\engine-x\cocos\platform\win32;E:\work\github\engine-x\external\jpeg;E:\work\github\engine-x\build\engine\external\jpeg\inc;E:\work\github\engine-x\external\box2d\src\..\include;E:\work\github\engine-x\external\chipmunk\include;E:\work\github\engine-x\external\recast\..;E:\work\github\engine-x\external\fastlz\.;E:\work\github\engine-x\external\bullet\.;E:\work\github\engine-x\external\webp\src\webp;E:\work\github\engine-x\external\pugixml;E:\work\github\engine-x\external\lz4\.;E:\work\github\engine-x\external\clipper\.;E:\work\github\engine-x\external\edtaa3func\.;E:\work\github\engine-x\external\ConvertUTF\.;E:\work\github\engine-x\external\poly2tri\..;E:\work\github\engine-x\external\md5\..;E:\work\github\engine-x\external\astc\..;E:\work\github\engine-x\external\ogg\include;E:\work\github\engine-x\external\glad\include;E:\work\github\engine-x\external\png;E:\work\github\engine-x\external\unzip\.;E:\work\github\engine-x\extensions\cocostudio;E:\work\github\engine-x\extensions\spine\runtime\include;E:\work\github\engine-x\extensions\fairygui;E:\work\github\engine-x\extensions\GUI;E:\work\github\engine-x\external\freetype\include\win32;E:\work\github\engine-x\external\openssl\include\win32;E:\work\github\engine-x\external\curl\include\win32;E:\work\github\engine-x\external\openal\include;E:\work\github\engine-x\external\win32-specific\iconv\include;E:\work\github\engine-x\external\glfw3\include\win32;E:\work\github\engine-x\external\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;COCOS2D_DEBUG=1;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CC_STATIC;CP_USE_CGTYPES=0;CP_USE_DOUBLES=0;BT_USE_SSE_IN_API=1;CC_STATIC=1;CC_BUILD_WITH_SPINE=1;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;COCOS2D_DEBUG=1;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CC_STATIC;CP_USE_CGTYPES=0;CP_USE_DOUBLES=0;BT_USE_SSE_IN_API=1;CC_STATIC=1;CC_BUILD_WITH_SPINE=1;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\work\github\engine-x\tests\fairygui-tests\Classes;E:\work\github\engine-x;E:\work\github\engine-x\external;E:\work\github\engine-x\extensions;E:\work\github\engine-x\cocos;E:\work\github\engine-x\cocos\platform;E:\work\github\engine-x\cocos\base;E:\work\github\engine-x\cocos\audio\include;E:\work\github\engine-x\cocos\platform\win32;E:\work\github\engine-x\external\jpeg;E:\work\github\engine-x\build\engine\external\jpeg\inc;E:\work\github\engine-x\external\box2d\src\..\include;E:\work\github\engine-x\external\chipmunk\include;E:\work\github\engine-x\external\recast\..;E:\work\github\engine-x\external\fastlz\.;E:\work\github\engine-x\external\bullet\.;E:\work\github\engine-x\external\webp\src\webp;E:\work\github\engine-x\external\pugixml;E:\work\github\engine-x\external\lz4\.;E:\work\github\engine-x\external\clipper\.;E:\work\github\engine-x\external\edtaa3func\.;E:\work\github\engine-x\external\ConvertUTF\.;E:\work\github\engine-x\external\poly2tri\..;E:\work\github\engine-x\external\md5\..;E:\work\github\engine-x\external\astc\..;E:\work\github\engine-x\external\ogg\include;E:\work\github\engine-x\external\glad\include;E:\work\github\engine-x\external\png;E:\work\github\engine-x\external\unzip\.;E:\work\github\engine-x\extensions\cocostudio;E:\work\github\engine-x\extensions\spine\runtime\include;E:\work\github\engine-x\extensions\fairygui;E:\work\github\engine-x\extensions\GUI;E:\work\github\engine-x\external\freetype\include\win32;E:\work\github\engine-x\external\openssl\include\win32;E:\work\github\engine-x\external\curl\include\win32;E:\work\github\engine-x\external\openal\include;E:\work\github\engine-x\external\win32-specific\iconv\include;E:\work\github\engine-x\external\glfw3\include\win32;E:\work\github\engine-x\external\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <NASM>
+      <IncludePaths>E:\work\github\engine-x\tests\fairygui-tests\Classes\;E:\work\github\engine-x\;E:\work\github\engine-x\external\;E:\work\github\engine-x\extensions\;E:\work\github\engine-x\cocos\;E:\work\github\engine-x\cocos\platform\;E:\work\github\engine-x\cocos\base\;E:\work\github\engine-x\cocos\audio\include\;E:\work\github\engine-x\cocos\platform\win32\;E:\work\github\engine-x\external\jpeg\;E:\work\github\engine-x\build\engine\external\jpeg\inc\;E:\work\github\engine-x\external\box2d\src\..\include\;E:\work\github\engine-x\external\chipmunk\include\;E:\work\github\engine-x\external\recast\..\;E:\work\github\engine-x\external\fastlz\.\;E:\work\github\engine-x\external\bullet\.\;E:\work\github\engine-x\external\webp\src\webp\;E:\work\github\engine-x\external\pugixml\;E:\work\github\engine-x\external\lz4\.\;E:\work\github\engine-x\external\clipper\.\;E:\work\github\engine-x\external\edtaa3func\.\;E:\work\github\engine-x\external\ConvertUTF\.\;E:\work\github\engine-x\external\poly2tri\..\;E:\work\github\engine-x\external\md5\..\;E:\work\github\engine-x\external\astc\..\;E:\work\github\engine-x\external\ogg\include\;E:\work\github\engine-x\external\glad\include\;E:\work\github\engine-x\external\png\;E:\work\github\engine-x\external\unzip\.\;E:\work\github\engine-x\extensions\cocostudio\;E:\work\github\engine-x\extensions\spine\runtime\include\;E:\work\github\engine-x\extensions\fairygui\;E:\work\github\engine-x\extensions\GUI\;E:\work\github\engine-x\external\freetype\include\win32\;E:\work\github\engine-x\external\openssl\include\win32\;E:\work\github\engine-x\external\curl\include\win32\;E:\work\github\engine-x\external\openal\include\;E:\work\github\engine-x\external\win32-specific\iconv\include\;E:\work\github\engine-x\external\glfw3\include\win32\;E:\work\github\engine-x\external\zlib\include\;%(IncludePaths)</IncludePaths>
+      <Outputswitch>0</Outputswitch>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;COCOS2D_DEBUG=1;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CC_STATIC;CP_USE_CGTYPES=0;CP_USE_DOUBLES=0;BT_USE_SSE_IN_API=1;CC_STATIC=1;CC_BUILD_WITH_SPINE=1;CMAKE_INTDIR="Debug";;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </NASM>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\work\github\engine-x\tests\fairygui-tests\Classes;E:\work\github\engine-x;E:\work\github\engine-x\external;E:\work\github\engine-x\extensions;E:\work\github\engine-x\cocos;E:\work\github\engine-x\cocos\platform;E:\work\github\engine-x\cocos\base;E:\work\github\engine-x\cocos\audio\include;E:\work\github\engine-x\cocos\platform\win32;E:\work\github\engine-x\external\jpeg;E:\work\github\engine-x\build\engine\external\jpeg\inc;E:\work\github\engine-x\external\box2d\src\..\include;E:\work\github\engine-x\external\chipmunk\include;E:\work\github\engine-x\external\recast\..;E:\work\github\engine-x\external\fastlz\.;E:\work\github\engine-x\external\bullet\.;E:\work\github\engine-x\external\webp\src\webp;E:\work\github\engine-x\external\pugixml;E:\work\github\engine-x\external\lz4\.;E:\work\github\engine-x\external\clipper\.;E:\work\github\engine-x\external\edtaa3func\.;E:\work\github\engine-x\external\ConvertUTF\.;E:\work\github\engine-x\external\poly2tri\..;E:\work\github\engine-x\external\md5\..;E:\work\github\engine-x\external\astc\..;E:\work\github\engine-x\external\ogg\include;E:\work\github\engine-x\external\glad\include;E:\work\github\engine-x\external\png;E:\work\github\engine-x\external\unzip\.;E:\work\github\engine-x\extensions\cocostudio;E:\work\github\engine-x\extensions\spine\runtime\include;E:\work\github\engine-x\extensions\fairygui;E:\work\github\engine-x\extensions\GUI;E:\work\github\engine-x\external\freetype\include\win32;E:\work\github\engine-x\external\openssl\include\win32;E:\work\github\engine-x\external\curl\include\win32;E:\work\github\engine-x\external\openal\include;E:\work\github\engine-x\external\win32-specific\iconv\include;E:\work\github\engine-x\external\glfw3\include\win32;E:\work\github\engine-x\external\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>						</Message>
+      <Command>setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy_if_different E:/work/github/engine-x/external/openssl/prebuilt/win32/libcrypto-1_1.dll E:/work/github/engine-x/build/bin/fairygui-tests/Debug/libcrypto-1_1.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy_if_different E:/work/github/engine-x/external/openssl/prebuilt/win32/libssl-1_1.dll E:/work/github/engine-x/build/bin/fairygui-tests/Debug/libssl-1_1.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy_if_different E:/work/github/engine-x/external/curl/prebuilt/win32/libcurl.dll E:/work/github/engine-x/build/bin/fairygui-tests/Debug/libcurl.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy_if_different E:/work/github/engine-x/external/openal/prebuilt/win32/OpenAL32.dll E:/work/github/engine-x/build/bin/fairygui-tests/Debug/OpenAL32.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy_if_different E:/work/github/engine-x/external/win32-specific/iconv/prebuilt/libiconv.dll E:/work/github/engine-x/build/bin/fairygui-tests/Debug/libiconv.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy_if_different E:/work/github/engine-x/external/zlib/prebuilt/win32/zlib1.dll E:/work/github/engine-x/build/bin/fairygui-tests/Debug/zlib1.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy_if_different E:/work/github/engine-x/external/angle/prebuilt/win32/libGLESv2.dll E:/work/github/engine-x/external/angle/prebuilt/win32/libEGL.dll E:/work/github/engine-x/external/angle/prebuilt/win32/d3dcompiler_47.dll E:/work/github/engine-x/build/bin/fairygui-tests/Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\..\..\lib\Debug\cocos2d.lib;..\..\..\lib\Debug\cocostudio.lib;..\..\..\lib\Debug\ImGuiEXT.lib;..\..\..\lib\Debug\fairygui.lib;..\..\..\lib\Debug\DragonBones.lib;..\..\..\lib\Debug\spine.lib;..\..\..\lib\Debug\physics-nodes.lib;..\..\..\lib\Debug\particle3d.lib;..\..\..\lib\Debug\assets-manager.lib;..\..\..\lib\Debug\GUI.lib;..\..\..\lib\Debug\cocos2d.lib;..\..\..\lib\Debug\external.lib;..\..\..\lib\Debug\box2d.lib;..\..\..\lib\Debug\chipmunk.lib;..\..\..\..\external\freetype\prebuilt\win32\freetype.lib;..\..\..\lib\Debug\recast.lib;..\..\..\lib\Debug\fastlz.lib;..\..\..\lib\Debug\bullet.lib;..\..\..\lib\Debug\jpeg.lib;..\..\..\..\external\openssl\prebuilt\win32\libcrypto.lib;..\..\..\..\external\openssl\prebuilt\win32\libssl.lib;..\..\..\lib\Debug\webp.lib;..\..\..\lib\Debug\pugixml.lib;..\..\..\lib\Debug\lz4.lib;..\..\..\lib\Debug\clipper.lib;..\..\..\lib\Debug\edtaa3func.lib;..\..\..\lib\Debug\convertUTF.lib;..\..\..\lib\Debug\poly2tri.lib;..\..\..\lib\Debug\md5.lib;..\..\..\lib\Debug\astc.lib;..\..\..\..\external\curl\prebuilt\win32\libcurl.lib;..\..\..\..\external\openal\prebuilt\win32\OpenAL32.lib;..\..\..\lib\Debug\ogg.lib;..\..\..\lib\Debug\glad.lib;..\..\..\..\external\win32-specific\iconv\prebuilt\libiconv.lib;..\..\..\..\external\glfw3\prebuilt\win32\glfw3.lib;..\..\..\..\external\zlib\prebuilt\win32\libzlib.lib;..\..\..\lib\Debug\png.lib;..\..\..\lib\Debug\unzip.lib;ws2_32.lib;userenv.lib;psapi.lib;winmm.lib;Version.lib;Iphlpapi.lib;opengl32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/work/github/engine-x/build/engine/tests/fairygui-tests/Debug/fairygui-tests.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/work/github/engine-x/build/bin/fairygui-tests/Debug/fairygui-tests.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\work\github\engine-x\tests\fairygui-tests\Classes;E:\work\github\engine-x;E:\work\github\engine-x\external;E:\work\github\engine-x\extensions;E:\work\github\engine-x\cocos;E:\work\github\engine-x\cocos\platform;E:\work\github\engine-x\cocos\base;E:\work\github\engine-x\cocos\audio\include;E:\work\github\engine-x\cocos\platform\win32;E:\work\github\engine-x\external\jpeg;E:\work\github\engine-x\build\engine\external\jpeg\inc;E:\work\github\engine-x\external\box2d\src\..\include;E:\work\github\engine-x\external\chipmunk\include;E:\work\github\engine-x\external\recast\..;E:\work\github\engine-x\external\fastlz\.;E:\work\github\engine-x\external\bullet\.;E:\work\github\engine-x\external\webp\src\webp;E:\work\github\engine-x\external\pugixml;E:\work\github\engine-x\external\lz4\.;E:\work\github\engine-x\external\clipper\.;E:\work\github\engine-x\external\edtaa3func\.;E:\work\github\engine-x\external\ConvertUTF\.;E:\work\github\engine-x\external\poly2tri\..;E:\work\github\engine-x\external\md5\..;E:\work\github\engine-x\external\astc\..;E:\work\github\engine-x\external\ogg\include;E:\work\github\engine-x\external\glad\include;E:\work\github\engine-x\external\png;E:\work\github\engine-x\external\unzip\.;E:\work\github\engine-x\extensions\cocostudio;E:\work\github\engine-x\extensions\spine\runtime\include;E:\work\github\engine-x\extensions\fairygui;E:\work\github\engine-x\extensions\GUI;E:\work\github\engine-x\external\freetype\include\win32;E:\work\github\engine-x\external\openssl\include\win32;E:\work\github\engine-x\external\curl\include\win32;E:\work\github\engine-x\external\openal\include;E:\work\github\engine-x\external\win32-specific\iconv\include;E:\work\github\engine-x\external\glfw3\include\win32;E:\work\github\engine-x\external\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CC_STATIC;CP_USE_CGTYPES=0;CP_USE_DOUBLES=0;BT_USE_SSE_IN_API=1;CC_STATIC=1;CC_BUILD_WITH_SPINE=1;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CC_STATIC;CP_USE_CGTYPES=0;CP_USE_DOUBLES=0;BT_USE_SSE_IN_API=1;CC_STATIC=1;CC_BUILD_WITH_SPINE=1;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\work\github\engine-x\tests\fairygui-tests\Classes;E:\work\github\engine-x;E:\work\github\engine-x\external;E:\work\github\engine-x\extensions;E:\work\github\engine-x\cocos;E:\work\github\engine-x\cocos\platform;E:\work\github\engine-x\cocos\base;E:\work\github\engine-x\cocos\audio\include;E:\work\github\engine-x\cocos\platform\win32;E:\work\github\engine-x\external\jpeg;E:\work\github\engine-x\build\engine\external\jpeg\inc;E:\work\github\engine-x\external\box2d\src\..\include;E:\work\github\engine-x\external\chipmunk\include;E:\work\github\engine-x\external\recast\..;E:\work\github\engine-x\external\fastlz\.;E:\work\github\engine-x\external\bullet\.;E:\work\github\engine-x\external\webp\src\webp;E:\work\github\engine-x\external\pugixml;E:\work\github\engine-x\external\lz4\.;E:\work\github\engine-x\external\clipper\.;E:\work\github\engine-x\external\edtaa3func\.;E:\work\github\engine-x\external\ConvertUTF\.;E:\work\github\engine-x\external\poly2tri\..;E:\work\github\engine-x\external\md5\..;E:\work\github\engine-x\external\astc\..;E:\work\github\engine-x\external\ogg\include;E:\work\github\engine-x\external\glad\include;E:\work\github\engine-x\external\png;E:\work\github\engine-x\external\unzip\.;E:\work\github\engine-x\extensions\cocostudio;E:\work\github\engine-x\extensions\spine\runtime\include;E:\work\github\engine-x\extensions\fairygui;E:\work\github\engine-x\extensions\GUI;E:\work\github\engine-x\external\freetype\include\win32;E:\work\github\engine-x\external\openssl\include\win32;E:\work\github\engine-x\external\curl\include\win32;E:\work\github\engine-x\external\openal\include;E:\work\github\engine-x\external\win32-specific\iconv\include;E:\work\github\engine-x\external\glfw3\include\win32;E:\work\github\engine-x\external\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <NASM>
+      <IncludePaths>E:\work\github\engine-x\tests\fairygui-tests\Classes\;E:\work\github\engine-x\;E:\work\github\engine-x\external\;E:\work\github\engine-x\extensions\;E:\work\github\engine-x\cocos\;E:\work\github\engine-x\cocos\platform\;E:\work\github\engine-x\cocos\base\;E:\work\github\engine-x\cocos\audio\include\;E:\work\github\engine-x\cocos\platform\win32\;E:\work\github\engine-x\external\jpeg\;E:\work\github\engine-x\build\engine\external\jpeg\inc\;E:\work\github\engine-x\external\box2d\src\..\include\;E:\work\github\engine-x\external\chipmunk\include\;E:\work\github\engine-x\external\recast\..\;E:\work\github\engine-x\external\fastlz\.\;E:\work\github\engine-x\external\bullet\.\;E:\work\github\engine-x\external\webp\src\webp\;E:\work\github\engine-x\external\pugixml\;E:\work\github\engine-x\external\lz4\.\;E:\work\github\engine-x\external\clipper\.\;E:\work\github\engine-x\external\edtaa3func\.\;E:\work\github\engine-x\external\ConvertUTF\.\;E:\work\github\engine-x\external\poly2tri\..\;E:\work\github\engine-x\external\md5\..\;E:\work\github\engine-x\external\astc\..\;E:\work\github\engine-x\external\ogg\include\;E:\work\github\engine-x\external\glad\include\;E:\work\github\engine-x\external\png\;E:\work\github\engine-x\external\unzip\.\;E:\work\github\engine-x\extensions\cocostudio\;E:\work\github\engine-x\extensions\spine\runtime\include\;E:\work\github\engine-x\extensions\fairygui\;E:\work\github\engine-x\extensions\GUI\;E:\work\github\engine-x\external\freetype\include\win32\;E:\work\github\engine-x\external\openssl\include\win32\;E:\work\github\engine-x\external\curl\include\win32\;E:\work\github\engine-x\external\openal\include\;E:\work\github\engine-x\external\win32-specific\iconv\include\;E:\work\github\engine-x\external\glfw3\include\win32\;E:\work\github\engine-x\external\zlib\include\;%(IncludePaths)</IncludePaths>
+      <Outputswitch>0</Outputswitch>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CC_STATIC;CP_USE_CGTYPES=0;CP_USE_DOUBLES=0;BT_USE_SSE_IN_API=1;CC_STATIC=1;CC_BUILD_WITH_SPINE=1;CMAKE_INTDIR="Release";;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </NASM>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\work\github\engine-x\tests\fairygui-tests\Classes;E:\work\github\engine-x;E:\work\github\engine-x\external;E:\work\github\engine-x\extensions;E:\work\github\engine-x\cocos;E:\work\github\engine-x\cocos\platform;E:\work\github\engine-x\cocos\base;E:\work\github\engine-x\cocos\audio\include;E:\work\github\engine-x\cocos\platform\win32;E:\work\github\engine-x\external\jpeg;E:\work\github\engine-x\build\engine\external\jpeg\inc;E:\work\github\engine-x\external\box2d\src\..\include;E:\work\github\engine-x\external\chipmunk\include;E:\work\github\engine-x\external\recast\..;E:\work\github\engine-x\external\fastlz\.;E:\work\github\engine-x\external\bullet\.;E:\work\github\engine-x\external\webp\src\webp;E:\work\github\engine-x\external\pugixml;E:\work\github\engine-x\external\lz4\.;E:\work\github\engine-x\external\clipper\.;E:\work\github\engine-x\external\edtaa3func\.;E:\work\github\engine-x\external\ConvertUTF\.;E:\work\github\engine-x\external\poly2tri\..;E:\work\github\engine-x\external\md5\..;E:\work\github\engine-x\external\astc\..;E:\work\github\engine-x\external\ogg\include;E:\work\github\engine-x\external\glad\include;E:\work\github\engine-x\external\png;E:\work\github\engine-x\external\unzip\.;E:\work\github\engine-x\extensions\cocostudio;E:\work\github\engine-x\extensions\spine\runtime\include;E:\work\github\engine-x\extensions\fairygui;E:\work\github\engine-x\extensions\GUI;E:\work\github\engine-x\external\freetype\include\win32;E:\work\github\engine-x\external\openssl\include\win32;E:\work\github\engine-x\external\curl\include\win32;E:\work\github\engine-x\external\openal\include;E:\work\github\engine-x\external\win32-specific\iconv\include;E:\work\github\engine-x\external\glfw3\include\win32;E:\work\github\engine-x\external\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>						</Message>
+      <Command>setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy_if_different E:/work/github/engine-x/external/openssl/prebuilt/win32/libcrypto-1_1.dll E:/work/github/engine-x/build/bin/fairygui-tests/Release/libcrypto-1_1.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy_if_different E:/work/github/engine-x/external/openssl/prebuilt/win32/libssl-1_1.dll E:/work/github/engine-x/build/bin/fairygui-tests/Release/libssl-1_1.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy_if_different E:/work/github/engine-x/external/curl/prebuilt/win32/libcurl.dll E:/work/github/engine-x/build/bin/fairygui-tests/Release/libcurl.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy_if_different E:/work/github/engine-x/external/openal/prebuilt/win32/OpenAL32.dll E:/work/github/engine-x/build/bin/fairygui-tests/Release/OpenAL32.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy_if_different E:/work/github/engine-x/external/win32-specific/iconv/prebuilt/libiconv.dll E:/work/github/engine-x/build/bin/fairygui-tests/Release/libiconv.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy_if_different E:/work/github/engine-x/external/zlib/prebuilt/win32/zlib1.dll E:/work/github/engine-x/build/bin/fairygui-tests/Release/zlib1.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy_if_different E:/work/github/engine-x/external/angle/prebuilt/win32/libGLESv2.dll E:/work/github/engine-x/external/angle/prebuilt/win32/libEGL.dll E:/work/github/engine-x/external/angle/prebuilt/win32/d3dcompiler_47.dll E:/work/github/engine-x/build/bin/fairygui-tests/Release
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\..\..\lib\Release\cocos2d.lib;..\..\..\lib\Release\cocostudio.lib;..\..\..\lib\Release\ImGuiEXT.lib;..\..\..\lib\Release\fairygui.lib;..\..\..\lib\Release\DragonBones.lib;..\..\..\lib\Release\spine.lib;..\..\..\lib\Release\physics-nodes.lib;..\..\..\lib\Release\particle3d.lib;..\..\..\lib\Release\assets-manager.lib;..\..\..\lib\Release\GUI.lib;..\..\..\lib\Release\cocos2d.lib;..\..\..\lib\Release\external.lib;..\..\..\lib\Release\box2d.lib;..\..\..\lib\Release\chipmunk.lib;..\..\..\..\external\freetype\prebuilt\win32\freetype.lib;..\..\..\lib\Release\recast.lib;..\..\..\lib\Release\fastlz.lib;..\..\..\lib\Release\bullet.lib;..\..\..\lib\Release\jpeg.lib;..\..\..\..\external\openssl\prebuilt\win32\libcrypto.lib;..\..\..\..\external\openssl\prebuilt\win32\libssl.lib;..\..\..\lib\Release\webp.lib;..\..\..\lib\Release\pugixml.lib;..\..\..\lib\Release\lz4.lib;..\..\..\lib\Release\clipper.lib;..\..\..\lib\Release\edtaa3func.lib;..\..\..\lib\Release\convertUTF.lib;..\..\..\lib\Release\poly2tri.lib;..\..\..\lib\Release\md5.lib;..\..\..\lib\Release\astc.lib;..\..\..\..\external\curl\prebuilt\win32\libcurl.lib;..\..\..\..\external\openal\prebuilt\win32\OpenAL32.lib;..\..\..\lib\Release\ogg.lib;..\..\..\lib\Release\glad.lib;..\..\..\..\external\win32-specific\iconv\prebuilt\libiconv.lib;..\..\..\..\external\glfw3\prebuilt\win32\glfw3.lib;..\..\..\..\external\zlib\prebuilt\win32\libzlib.lib;..\..\..\lib\Release\png.lib;..\..\..\lib\Release\unzip.lib;ws2_32.lib;userenv.lib;psapi.lib;winmm.lib;Version.lib;Iphlpapi.lib;opengl32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/work/github/engine-x/build/engine/tests/fairygui-tests/Release/fairygui-tests.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/work/github/engine-x/build/bin/fairygui-tests/Release/fairygui-tests.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\work\github\engine-x\tests\fairygui-tests\Classes;E:\work\github\engine-x;E:\work\github\engine-x\external;E:\work\github\engine-x\extensions;E:\work\github\engine-x\cocos;E:\work\github\engine-x\cocos\platform;E:\work\github\engine-x\cocos\base;E:\work\github\engine-x\cocos\audio\include;E:\work\github\engine-x\cocos\platform\win32;E:\work\github\engine-x\external\jpeg;E:\work\github\engine-x\build\engine\external\jpeg\inc;E:\work\github\engine-x\external\box2d\src\..\include;E:\work\github\engine-x\external\chipmunk\include;E:\work\github\engine-x\external\recast\..;E:\work\github\engine-x\external\fastlz\.;E:\work\github\engine-x\external\bullet\.;E:\work\github\engine-x\external\webp\src\webp;E:\work\github\engine-x\external\pugixml;E:\work\github\engine-x\external\lz4\.;E:\work\github\engine-x\external\clipper\.;E:\work\github\engine-x\external\edtaa3func\.;E:\work\github\engine-x\external\ConvertUTF\.;E:\work\github\engine-x\external\poly2tri\..;E:\work\github\engine-x\external\md5\..;E:\work\github\engine-x\external\astc\..;E:\work\github\engine-x\external\ogg\include;E:\work\github\engine-x\external\glad\include;E:\work\github\engine-x\external\png;E:\work\github\engine-x\external\unzip\.;E:\work\github\engine-x\extensions\cocostudio;E:\work\github\engine-x\extensions\spine\runtime\include;E:\work\github\engine-x\extensions\fairygui;E:\work\github\engine-x\extensions\GUI;E:\work\github\engine-x\external\freetype\include\win32;E:\work\github\engine-x\external\openssl\include\win32;E:\work\github\engine-x\external\curl\include\win32;E:\work\github\engine-x\external\openal\include;E:\work\github\engine-x\external\win32-specific\iconv\include;E:\work\github\engine-x\external\glfw3\include\win32;E:\work\github\engine-x\external\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CC_STATIC;CP_USE_CGTYPES=0;CP_USE_DOUBLES=0;BT_USE_SSE_IN_API=1;CC_STATIC=1;CC_BUILD_WITH_SPINE=1;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CC_STATIC;CP_USE_CGTYPES=0;CP_USE_DOUBLES=0;BT_USE_SSE_IN_API=1;CC_STATIC=1;CC_BUILD_WITH_SPINE=1;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\work\github\engine-x\tests\fairygui-tests\Classes;E:\work\github\engine-x;E:\work\github\engine-x\external;E:\work\github\engine-x\extensions;E:\work\github\engine-x\cocos;E:\work\github\engine-x\cocos\platform;E:\work\github\engine-x\cocos\base;E:\work\github\engine-x\cocos\audio\include;E:\work\github\engine-x\cocos\platform\win32;E:\work\github\engine-x\external\jpeg;E:\work\github\engine-x\build\engine\external\jpeg\inc;E:\work\github\engine-x\external\box2d\src\..\include;E:\work\github\engine-x\external\chipmunk\include;E:\work\github\engine-x\external\recast\..;E:\work\github\engine-x\external\fastlz\.;E:\work\github\engine-x\external\bullet\.;E:\work\github\engine-x\external\webp\src\webp;E:\work\github\engine-x\external\pugixml;E:\work\github\engine-x\external\lz4\.;E:\work\github\engine-x\external\clipper\.;E:\work\github\engine-x\external\edtaa3func\.;E:\work\github\engine-x\external\ConvertUTF\.;E:\work\github\engine-x\external\poly2tri\..;E:\work\github\engine-x\external\md5\..;E:\work\github\engine-x\external\astc\..;E:\work\github\engine-x\external\ogg\include;E:\work\github\engine-x\external\glad\include;E:\work\github\engine-x\external\png;E:\work\github\engine-x\external\unzip\.;E:\work\github\engine-x\extensions\cocostudio;E:\work\github\engine-x\extensions\spine\runtime\include;E:\work\github\engine-x\extensions\fairygui;E:\work\github\engine-x\extensions\GUI;E:\work\github\engine-x\external\freetype\include\win32;E:\work\github\engine-x\external\openssl\include\win32;E:\work\github\engine-x\external\curl\include\win32;E:\work\github\engine-x\external\openal\include;E:\work\github\engine-x\external\win32-specific\iconv\include;E:\work\github\engine-x\external\glfw3\include\win32;E:\work\github\engine-x\external\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <NASM>
+      <IncludePaths>E:\work\github\engine-x\tests\fairygui-tests\Classes\;E:\work\github\engine-x\;E:\work\github\engine-x\external\;E:\work\github\engine-x\extensions\;E:\work\github\engine-x\cocos\;E:\work\github\engine-x\cocos\platform\;E:\work\github\engine-x\cocos\base\;E:\work\github\engine-x\cocos\audio\include\;E:\work\github\engine-x\cocos\platform\win32\;E:\work\github\engine-x\external\jpeg\;E:\work\github\engine-x\build\engine\external\jpeg\inc\;E:\work\github\engine-x\external\box2d\src\..\include\;E:\work\github\engine-x\external\chipmunk\include\;E:\work\github\engine-x\external\recast\..\;E:\work\github\engine-x\external\fastlz\.\;E:\work\github\engine-x\external\bullet\.\;E:\work\github\engine-x\external\webp\src\webp\;E:\work\github\engine-x\external\pugixml\;E:\work\github\engine-x\external\lz4\.\;E:\work\github\engine-x\external\clipper\.\;E:\work\github\engine-x\external\edtaa3func\.\;E:\work\github\engine-x\external\ConvertUTF\.\;E:\work\github\engine-x\external\poly2tri\..\;E:\work\github\engine-x\external\md5\..\;E:\work\github\engine-x\external\astc\..\;E:\work\github\engine-x\external\ogg\include\;E:\work\github\engine-x\external\glad\include\;E:\work\github\engine-x\external\png\;E:\work\github\engine-x\external\unzip\.\;E:\work\github\engine-x\extensions\cocostudio\;E:\work\github\engine-x\extensions\spine\runtime\include\;E:\work\github\engine-x\extensions\fairygui\;E:\work\github\engine-x\extensions\GUI\;E:\work\github\engine-x\external\freetype\include\win32\;E:\work\github\engine-x\external\openssl\include\win32\;E:\work\github\engine-x\external\curl\include\win32\;E:\work\github\engine-x\external\openal\include\;E:\work\github\engine-x\external\win32-specific\iconv\include\;E:\work\github\engine-x\external\glfw3\include\win32\;E:\work\github\engine-x\external\zlib\include\;%(IncludePaths)</IncludePaths>
+      <Outputswitch>0</Outputswitch>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CC_STATIC;CP_USE_CGTYPES=0;CP_USE_DOUBLES=0;BT_USE_SSE_IN_API=1;CC_STATIC=1;CC_BUILD_WITH_SPINE=1;CMAKE_INTDIR="MinSizeRel";;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </NASM>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\work\github\engine-x\tests\fairygui-tests\Classes;E:\work\github\engine-x;E:\work\github\engine-x\external;E:\work\github\engine-x\extensions;E:\work\github\engine-x\cocos;E:\work\github\engine-x\cocos\platform;E:\work\github\engine-x\cocos\base;E:\work\github\engine-x\cocos\audio\include;E:\work\github\engine-x\cocos\platform\win32;E:\work\github\engine-x\external\jpeg;E:\work\github\engine-x\build\engine\external\jpeg\inc;E:\work\github\engine-x\external\box2d\src\..\include;E:\work\github\engine-x\external\chipmunk\include;E:\work\github\engine-x\external\recast\..;E:\work\github\engine-x\external\fastlz\.;E:\work\github\engine-x\external\bullet\.;E:\work\github\engine-x\external\webp\src\webp;E:\work\github\engine-x\external\pugixml;E:\work\github\engine-x\external\lz4\.;E:\work\github\engine-x\external\clipper\.;E:\work\github\engine-x\external\edtaa3func\.;E:\work\github\engine-x\external\ConvertUTF\.;E:\work\github\engine-x\external\poly2tri\..;E:\work\github\engine-x\external\md5\..;E:\work\github\engine-x\external\astc\..;E:\work\github\engine-x\external\ogg\include;E:\work\github\engine-x\external\glad\include;E:\work\github\engine-x\external\png;E:\work\github\engine-x\external\unzip\.;E:\work\github\engine-x\extensions\cocostudio;E:\work\github\engine-x\extensions\spine\runtime\include;E:\work\github\engine-x\extensions\fairygui;E:\work\github\engine-x\extensions\GUI;E:\work\github\engine-x\external\freetype\include\win32;E:\work\github\engine-x\external\openssl\include\win32;E:\work\github\engine-x\external\curl\include\win32;E:\work\github\engine-x\external\openal\include;E:\work\github\engine-x\external\win32-specific\iconv\include;E:\work\github\engine-x\external\glfw3\include\win32;E:\work\github\engine-x\external\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>						</Message>
+      <Command>setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy_if_different E:/work/github/engine-x/external/openssl/prebuilt/win32/libcrypto-1_1.dll E:/work/github/engine-x/build/bin/fairygui-tests/MinSizeRel/libcrypto-1_1.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy_if_different E:/work/github/engine-x/external/openssl/prebuilt/win32/libssl-1_1.dll E:/work/github/engine-x/build/bin/fairygui-tests/MinSizeRel/libssl-1_1.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy_if_different E:/work/github/engine-x/external/curl/prebuilt/win32/libcurl.dll E:/work/github/engine-x/build/bin/fairygui-tests/MinSizeRel/libcurl.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy_if_different E:/work/github/engine-x/external/openal/prebuilt/win32/OpenAL32.dll E:/work/github/engine-x/build/bin/fairygui-tests/MinSizeRel/OpenAL32.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy_if_different E:/work/github/engine-x/external/win32-specific/iconv/prebuilt/libiconv.dll E:/work/github/engine-x/build/bin/fairygui-tests/MinSizeRel/libiconv.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy_if_different E:/work/github/engine-x/external/zlib/prebuilt/win32/zlib1.dll E:/work/github/engine-x/build/bin/fairygui-tests/MinSizeRel/zlib1.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy_if_different E:/work/github/engine-x/external/angle/prebuilt/win32/libGLESv2.dll E:/work/github/engine-x/external/angle/prebuilt/win32/libEGL.dll E:/work/github/engine-x/external/angle/prebuilt/win32/d3dcompiler_47.dll E:/work/github/engine-x/build/bin/fairygui-tests/MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\..\..\lib\MinSizeRel\cocos2d.lib;..\..\..\lib\MinSizeRel\cocostudio.lib;..\..\..\lib\MinSizeRel\ImGuiEXT.lib;..\..\..\lib\MinSizeRel\fairygui.lib;..\..\..\lib\MinSizeRel\DragonBones.lib;..\..\..\lib\MinSizeRel\spine.lib;..\..\..\lib\MinSizeRel\physics-nodes.lib;..\..\..\lib\MinSizeRel\particle3d.lib;..\..\..\lib\MinSizeRel\assets-manager.lib;..\..\..\lib\MinSizeRel\GUI.lib;..\..\..\lib\MinSizeRel\cocos2d.lib;..\..\..\lib\MinSizeRel\external.lib;..\..\..\lib\MinSizeRel\box2d.lib;..\..\..\lib\MinSizeRel\chipmunk.lib;..\..\..\..\external\freetype\prebuilt\win32\freetype.lib;..\..\..\lib\MinSizeRel\recast.lib;..\..\..\lib\MinSizeRel\fastlz.lib;..\..\..\lib\MinSizeRel\bullet.lib;..\..\..\lib\MinSizeRel\jpeg.lib;..\..\..\..\external\openssl\prebuilt\win32\libcrypto.lib;..\..\..\..\external\openssl\prebuilt\win32\libssl.lib;..\..\..\lib\MinSizeRel\webp.lib;..\..\..\lib\MinSizeRel\pugixml.lib;..\..\..\lib\MinSizeRel\lz4.lib;..\..\..\lib\MinSizeRel\clipper.lib;..\..\..\lib\MinSizeRel\edtaa3func.lib;..\..\..\lib\MinSizeRel\convertUTF.lib;..\..\..\lib\MinSizeRel\poly2tri.lib;..\..\..\lib\MinSizeRel\md5.lib;..\..\..\lib\MinSizeRel\astc.lib;..\..\..\..\external\curl\prebuilt\win32\libcurl.lib;..\..\..\..\external\openal\prebuilt\win32\OpenAL32.lib;..\..\..\lib\MinSizeRel\ogg.lib;..\..\..\lib\MinSizeRel\glad.lib;..\..\..\..\external\win32-specific\iconv\prebuilt\libiconv.lib;..\..\..\..\external\glfw3\prebuilt\win32\glfw3.lib;..\..\..\..\external\zlib\prebuilt\win32\libzlib.lib;..\..\..\lib\MinSizeRel\png.lib;..\..\..\lib\MinSizeRel\unzip.lib;ws2_32.lib;userenv.lib;psapi.lib;winmm.lib;Version.lib;Iphlpapi.lib;opengl32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/work/github/engine-x/build/engine/tests/fairygui-tests/MinSizeRel/fairygui-tests.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/work/github/engine-x/build/bin/fairygui-tests/MinSizeRel/fairygui-tests.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\work\github\engine-x\tests\fairygui-tests\Classes;E:\work\github\engine-x;E:\work\github\engine-x\external;E:\work\github\engine-x\extensions;E:\work\github\engine-x\cocos;E:\work\github\engine-x\cocos\platform;E:\work\github\engine-x\cocos\base;E:\work\github\engine-x\cocos\audio\include;E:\work\github\engine-x\cocos\platform\win32;E:\work\github\engine-x\external\jpeg;E:\work\github\engine-x\build\engine\external\jpeg\inc;E:\work\github\engine-x\external\box2d\src\..\include;E:\work\github\engine-x\external\chipmunk\include;E:\work\github\engine-x\external\recast\..;E:\work\github\engine-x\external\fastlz\.;E:\work\github\engine-x\external\bullet\.;E:\work\github\engine-x\external\webp\src\webp;E:\work\github\engine-x\external\pugixml;E:\work\github\engine-x\external\lz4\.;E:\work\github\engine-x\external\clipper\.;E:\work\github\engine-x\external\edtaa3func\.;E:\work\github\engine-x\external\ConvertUTF\.;E:\work\github\engine-x\external\poly2tri\..;E:\work\github\engine-x\external\md5\..;E:\work\github\engine-x\external\astc\..;E:\work\github\engine-x\external\ogg\include;E:\work\github\engine-x\external\glad\include;E:\work\github\engine-x\external\png;E:\work\github\engine-x\external\unzip\.;E:\work\github\engine-x\extensions\cocostudio;E:\work\github\engine-x\extensions\spine\runtime\include;E:\work\github\engine-x\extensions\fairygui;E:\work\github\engine-x\extensions\GUI;E:\work\github\engine-x\external\freetype\include\win32;E:\work\github\engine-x\external\openssl\include\win32;E:\work\github\engine-x\external\curl\include\win32;E:\work\github\engine-x\external\openal\include;E:\work\github\engine-x\external\win32-specific\iconv\include;E:\work\github\engine-x\external\glfw3\include\win32;E:\work\github\engine-x\external\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CC_STATIC;CP_USE_CGTYPES=0;CP_USE_DOUBLES=0;BT_USE_SSE_IN_API=1;CC_STATIC=1;CC_BUILD_WITH_SPINE=1;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CC_STATIC;CP_USE_CGTYPES=0;CP_USE_DOUBLES=0;BT_USE_SSE_IN_API=1;CC_STATIC=1;CC_BUILD_WITH_SPINE=1;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\work\github\engine-x\tests\fairygui-tests\Classes;E:\work\github\engine-x;E:\work\github\engine-x\external;E:\work\github\engine-x\extensions;E:\work\github\engine-x\cocos;E:\work\github\engine-x\cocos\platform;E:\work\github\engine-x\cocos\base;E:\work\github\engine-x\cocos\audio\include;E:\work\github\engine-x\cocos\platform\win32;E:\work\github\engine-x\external\jpeg;E:\work\github\engine-x\build\engine\external\jpeg\inc;E:\work\github\engine-x\external\box2d\src\..\include;E:\work\github\engine-x\external\chipmunk\include;E:\work\github\engine-x\external\recast\..;E:\work\github\engine-x\external\fastlz\.;E:\work\github\engine-x\external\bullet\.;E:\work\github\engine-x\external\webp\src\webp;E:\work\github\engine-x\external\pugixml;E:\work\github\engine-x\external\lz4\.;E:\work\github\engine-x\external\clipper\.;E:\work\github\engine-x\external\edtaa3func\.;E:\work\github\engine-x\external\ConvertUTF\.;E:\work\github\engine-x\external\poly2tri\..;E:\work\github\engine-x\external\md5\..;E:\work\github\engine-x\external\astc\..;E:\work\github\engine-x\external\ogg\include;E:\work\github\engine-x\external\glad\include;E:\work\github\engine-x\external\png;E:\work\github\engine-x\external\unzip\.;E:\work\github\engine-x\extensions\cocostudio;E:\work\github\engine-x\extensions\spine\runtime\include;E:\work\github\engine-x\extensions\fairygui;E:\work\github\engine-x\extensions\GUI;E:\work\github\engine-x\external\freetype\include\win32;E:\work\github\engine-x\external\openssl\include\win32;E:\work\github\engine-x\external\curl\include\win32;E:\work\github\engine-x\external\openal\include;E:\work\github\engine-x\external\win32-specific\iconv\include;E:\work\github\engine-x\external\glfw3\include\win32;E:\work\github\engine-x\external\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <NASM>
+      <IncludePaths>E:\work\github\engine-x\tests\fairygui-tests\Classes\;E:\work\github\engine-x\;E:\work\github\engine-x\external\;E:\work\github\engine-x\extensions\;E:\work\github\engine-x\cocos\;E:\work\github\engine-x\cocos\platform\;E:\work\github\engine-x\cocos\base\;E:\work\github\engine-x\cocos\audio\include\;E:\work\github\engine-x\cocos\platform\win32\;E:\work\github\engine-x\external\jpeg\;E:\work\github\engine-x\build\engine\external\jpeg\inc\;E:\work\github\engine-x\external\box2d\src\..\include\;E:\work\github\engine-x\external\chipmunk\include\;E:\work\github\engine-x\external\recast\..\;E:\work\github\engine-x\external\fastlz\.\;E:\work\github\engine-x\external\bullet\.\;E:\work\github\engine-x\external\webp\src\webp\;E:\work\github\engine-x\external\pugixml\;E:\work\github\engine-x\external\lz4\.\;E:\work\github\engine-x\external\clipper\.\;E:\work\github\engine-x\external\edtaa3func\.\;E:\work\github\engine-x\external\ConvertUTF\.\;E:\work\github\engine-x\external\poly2tri\..\;E:\work\github\engine-x\external\md5\..\;E:\work\github\engine-x\external\astc\..\;E:\work\github\engine-x\external\ogg\include\;E:\work\github\engine-x\external\glad\include\;E:\work\github\engine-x\external\png\;E:\work\github\engine-x\external\unzip\.\;E:\work\github\engine-x\extensions\cocostudio\;E:\work\github\engine-x\extensions\spine\runtime\include\;E:\work\github\engine-x\extensions\fairygui\;E:\work\github\engine-x\extensions\GUI\;E:\work\github\engine-x\external\freetype\include\win32\;E:\work\github\engine-x\external\openssl\include\win32\;E:\work\github\engine-x\external\curl\include\win32\;E:\work\github\engine-x\external\openal\include\;E:\work\github\engine-x\external\win32-specific\iconv\include\;E:\work\github\engine-x\external\glfw3\include\win32\;E:\work\github\engine-x\external\zlib\include\;%(IncludePaths)</IncludePaths>
+      <Outputswitch>0</Outputswitch>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CC_STATIC;CP_USE_CGTYPES=0;CP_USE_DOUBLES=0;BT_USE_SSE_IN_API=1;CC_STATIC=1;CC_BUILD_WITH_SPINE=1;CMAKE_INTDIR="RelWithDebInfo";;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </NASM>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\work\github\engine-x\tests\fairygui-tests\Classes;E:\work\github\engine-x;E:\work\github\engine-x\external;E:\work\github\engine-x\extensions;E:\work\github\engine-x\cocos;E:\work\github\engine-x\cocos\platform;E:\work\github\engine-x\cocos\base;E:\work\github\engine-x\cocos\audio\include;E:\work\github\engine-x\cocos\platform\win32;E:\work\github\engine-x\external\jpeg;E:\work\github\engine-x\build\engine\external\jpeg\inc;E:\work\github\engine-x\external\box2d\src\..\include;E:\work\github\engine-x\external\chipmunk\include;E:\work\github\engine-x\external\recast\..;E:\work\github\engine-x\external\fastlz\.;E:\work\github\engine-x\external\bullet\.;E:\work\github\engine-x\external\webp\src\webp;E:\work\github\engine-x\external\pugixml;E:\work\github\engine-x\external\lz4\.;E:\work\github\engine-x\external\clipper\.;E:\work\github\engine-x\external\edtaa3func\.;E:\work\github\engine-x\external\ConvertUTF\.;E:\work\github\engine-x\external\poly2tri\..;E:\work\github\engine-x\external\md5\..;E:\work\github\engine-x\external\astc\..;E:\work\github\engine-x\external\ogg\include;E:\work\github\engine-x\external\glad\include;E:\work\github\engine-x\external\png;E:\work\github\engine-x\external\unzip\.;E:\work\github\engine-x\extensions\cocostudio;E:\work\github\engine-x\extensions\spine\runtime\include;E:\work\github\engine-x\extensions\fairygui;E:\work\github\engine-x\extensions\GUI;E:\work\github\engine-x\external\freetype\include\win32;E:\work\github\engine-x\external\openssl\include\win32;E:\work\github\engine-x\external\curl\include\win32;E:\work\github\engine-x\external\openal\include;E:\work\github\engine-x\external\win32-specific\iconv\include;E:\work\github\engine-x\external\glfw3\include\win32;E:\work\github\engine-x\external\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>						</Message>
+      <Command>setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy_if_different E:/work/github/engine-x/external/openssl/prebuilt/win32/libcrypto-1_1.dll E:/work/github/engine-x/build/bin/fairygui-tests/RelWithDebInfo/libcrypto-1_1.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy_if_different E:/work/github/engine-x/external/openssl/prebuilt/win32/libssl-1_1.dll E:/work/github/engine-x/build/bin/fairygui-tests/RelWithDebInfo/libssl-1_1.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy_if_different E:/work/github/engine-x/external/curl/prebuilt/win32/libcurl.dll E:/work/github/engine-x/build/bin/fairygui-tests/RelWithDebInfo/libcurl.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy_if_different E:/work/github/engine-x/external/openal/prebuilt/win32/OpenAL32.dll E:/work/github/engine-x/build/bin/fairygui-tests/RelWithDebInfo/OpenAL32.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy_if_different E:/work/github/engine-x/external/win32-specific/iconv/prebuilt/libiconv.dll E:/work/github/engine-x/build/bin/fairygui-tests/RelWithDebInfo/libiconv.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy_if_different E:/work/github/engine-x/external/zlib/prebuilt/win32/zlib1.dll E:/work/github/engine-x/build/bin/fairygui-tests/RelWithDebInfo/zlib1.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy_if_different E:/work/github/engine-x/external/angle/prebuilt/win32/libGLESv2.dll E:/work/github/engine-x/external/angle/prebuilt/win32/libEGL.dll E:/work/github/engine-x/external/angle/prebuilt/win32/d3dcompiler_47.dll E:/work/github/engine-x/build/bin/fairygui-tests/RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\..\..\lib\RelWithDebInfo\cocos2d.lib;..\..\..\lib\RelWithDebInfo\cocostudio.lib;..\..\..\lib\RelWithDebInfo\ImGuiEXT.lib;..\..\..\lib\RelWithDebInfo\fairygui.lib;..\..\..\lib\RelWithDebInfo\DragonBones.lib;..\..\..\lib\RelWithDebInfo\spine.lib;..\..\..\lib\RelWithDebInfo\physics-nodes.lib;..\..\..\lib\RelWithDebInfo\particle3d.lib;..\..\..\lib\RelWithDebInfo\assets-manager.lib;..\..\..\lib\RelWithDebInfo\GUI.lib;..\..\..\lib\RelWithDebInfo\cocos2d.lib;..\..\..\lib\RelWithDebInfo\external.lib;..\..\..\lib\RelWithDebInfo\box2d.lib;..\..\..\lib\RelWithDebInfo\chipmunk.lib;..\..\..\..\external\freetype\prebuilt\win32\freetype.lib;..\..\..\lib\RelWithDebInfo\recast.lib;..\..\..\lib\RelWithDebInfo\fastlz.lib;..\..\..\lib\RelWithDebInfo\bullet.lib;..\..\..\lib\RelWithDebInfo\jpeg.lib;..\..\..\..\external\openssl\prebuilt\win32\libcrypto.lib;..\..\..\..\external\openssl\prebuilt\win32\libssl.lib;..\..\..\lib\RelWithDebInfo\webp.lib;..\..\..\lib\RelWithDebInfo\pugixml.lib;..\..\..\lib\RelWithDebInfo\lz4.lib;..\..\..\lib\RelWithDebInfo\clipper.lib;..\..\..\lib\RelWithDebInfo\edtaa3func.lib;..\..\..\lib\RelWithDebInfo\convertUTF.lib;..\..\..\lib\RelWithDebInfo\poly2tri.lib;..\..\..\lib\RelWithDebInfo\md5.lib;..\..\..\lib\RelWithDebInfo\astc.lib;..\..\..\..\external\curl\prebuilt\win32\libcurl.lib;..\..\..\..\external\openal\prebuilt\win32\OpenAL32.lib;..\..\..\lib\RelWithDebInfo\ogg.lib;..\..\..\lib\RelWithDebInfo\glad.lib;..\..\..\..\external\win32-specific\iconv\prebuilt\libiconv.lib;..\..\..\..\external\glfw3\prebuilt\win32\glfw3.lib;..\..\..\..\external\zlib\prebuilt\win32\libzlib.lib;..\..\..\lib\RelWithDebInfo\png.lib;..\..\..\lib\RelWithDebInfo\unzip.lib;ws2_32.lib;userenv.lib;psapi.lib;winmm.lib;Version.lib;Iphlpapi.lib;opengl32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/work/github/engine-x/build/engine/tests/fairygui-tests/RelWithDebInfo/fairygui-tests.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/work/github/engine-x/build/bin/fairygui-tests/RelWithDebInfo/fairygui-tests.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\work\github\engine-x\tests\fairygui-tests\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule E:/work/github/engine-x/tests/fairygui-tests/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -SE:/work/github/engine-x -BE:/work/github/engine-x/build --check-stamp-file E:/work/github/engine-x/build/engine/tests/fairygui-tests/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Program Files (x86)\CMake\share\cmake-3.16\Templates\MSBuild\nasm.props.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\work\github\engine-x\build\engine\tests\fairygui-tests\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule E:/work/github/engine-x/tests/fairygui-tests/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -SE:/work/github/engine-x -BE:/work/github/engine-x/build --check-stamp-file E:/work/github/engine-x/build/engine/tests/fairygui-tests/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Program Files (x86)\CMake\share\cmake-3.16\Templates\MSBuild\nasm.props.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\work\github\engine-x\build\engine\tests\fairygui-tests\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule E:/work/github/engine-x/tests/fairygui-tests/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -SE:/work/github/engine-x -BE:/work/github/engine-x/build --check-stamp-file E:/work/github/engine-x/build/engine/tests/fairygui-tests/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Program Files (x86)\CMake\share\cmake-3.16\Templates\MSBuild\nasm.props.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\work\github\engine-x\build\engine\tests\fairygui-tests\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule E:/work/github/engine-x/tests/fairygui-tests/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -SE:/work/github/engine-x -BE:/work/github/engine-x/build --check-stamp-file E:/work/github/engine-x/build/engine/tests/fairygui-tests/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Program Files (x86)\CMake\share\cmake-3.16\Templates\MSBuild\nasm.props.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\work\github\engine-x\build\engine\tests\fairygui-tests\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Classes\AppDelegate.h" />
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Classes\BagScene.h" />
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Classes\BagWindow.h" />
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Classes\BasicsScene.h" />
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Classes\ChatScene.h" />
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Classes\CooldownScene.h" />
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Classes\DemoScene.h" />
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Classes\EmojiParser.h" />
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Classes\GuideScene.h" />
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Classes\HitTestScene.h" />
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Classes\JoystickModule.h" />
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Classes\JoystickScene.h" />
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Classes\ListEffectScene.h" />
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Classes\LoopListScene.h" />
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Classes\MailItem.h" />
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Classes\MenuScene.h" />
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Classes\ModalWaitingScene.h" />
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Classes\PullToRefreshScene.h" />
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Classes\ScrollPaneScene.h" />
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Classes\TransitionDemoScene.h" />
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Classes\TreeViewScene.h" />
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Classes\VirtualListScene.h" />
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Classes\Window1.h" />
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Classes\Window2.h" />
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\proj.win32\main.h" />
+    <ClCompile Include="E:\work\github\engine-x\tests\fairygui-tests\Classes\AppDelegate.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\tests\fairygui-tests\Classes\BagScene.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\tests\fairygui-tests\Classes\BagWindow.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\tests\fairygui-tests\Classes\BasicsScene.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\tests\fairygui-tests\Classes\ChatScene.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\tests\fairygui-tests\Classes\CooldownScene.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\tests\fairygui-tests\Classes\DemoScene.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\tests\fairygui-tests\Classes\EmojiParser.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\tests\fairygui-tests\Classes\GuideScene.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\tests\fairygui-tests\Classes\HitTestScene.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\tests\fairygui-tests\Classes\JoystickModule.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\tests\fairygui-tests\Classes\JoystickScene.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\tests\fairygui-tests\Classes\ListEffectScene.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\tests\fairygui-tests\Classes\LoopListScene.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\tests\fairygui-tests\Classes\MailItem.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\tests\fairygui-tests\Classes\MenuScene.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\tests\fairygui-tests\Classes\ModalWaitingScene.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\tests\fairygui-tests\Classes\PullToRefreshScene.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\tests\fairygui-tests\Classes\ScrollPaneScene.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\tests\fairygui-tests\Classes\TransitionDemoScene.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\tests\fairygui-tests\Classes\TreeViewScene.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\tests\fairygui-tests\Classes\VirtualListScene.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\tests\fairygui-tests\Classes\Window1.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\tests\fairygui-tests\Classes\Window2.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\tests\fairygui-tests\proj.win32\main.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Resources\HelloWorld.png" />
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Resources\UI\Bag.fui" />
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Resources\UI\Bag_atlas0.png" />
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Resources\UI\Basics.fui" />
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Resources\UI\Basics_atlas0.png" />
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Resources\UI\Basics_atlas_fjqr7k.png" />
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Resources\UI\Basics_atlas_nz0z20.png" />
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Resources\UI\Basics_gojg7u.mp3" />
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Resources\UI\Basics_o4lt7w.mp3" />
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Resources\UI\Cooldown.fui" />
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Resources\UI\Cooldown_atlas0.png" />
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Resources\UI\Emoji.fui" />
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Resources\UI\Emoji_atlas0.png" />
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Resources\UI\Extension.fui" />
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Resources\UI\Extension_atlas0.png" />
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Resources\UI\Guide.fui" />
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Resources\UI\Guide_atlas0.png" />
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Resources\UI\HitTest.fui" />
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Resources\UI\HitTest_atlas0.png" />
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Resources\UI\Joystick.fui" />
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Resources\UI\Joystick_atlas0.png" />
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Resources\UI\LoopList.fui" />
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Resources\UI\LoopList_atlas0.png" />
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Resources\UI\MainMenu.fui" />
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Resources\UI\MainMenu_atlas0.png" />
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Resources\UI\ModalWaiting.fui" />
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Resources\UI\ModalWaiting_atlas0.png" />
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Resources\UI\PullToRefresh.fui" />
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Resources\UI\PullToRefresh_atlas0.png" />
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Resources\UI\ScrollPane.fui" />
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Resources\UI\ScrollPane_atlas0.png" />
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Resources\UI\Transition.fui" />
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Resources\UI\Transition_atlas0.png" />
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Resources\UI\Transition_gkq03.mp3" />
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Resources\UI\TreeView.fui" />
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Resources\UI\TreeView_atlas0.png" />
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Resources\UI\VirtualList.fui" />
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Resources\UI\VirtualList_atlas0.png" />
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Resources\fonts\DroidSansFallback.ttf" />
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Resources\fonts\Marker Felt.ttf" />
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Resources\fonts\arial.ttf" />
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Resources\icons\i0.png" />
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Resources\icons\i1.png" />
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Resources\icons\i2.png" />
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Resources\icons\i3.png" />
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Resources\icons\i4.png" />
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Resources\icons\i5.png" />
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Resources\icons\i6.png" />
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Resources\icons\i7.png" />
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Resources\icons\i8.png" />
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Resources\icons\i9.png" />
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Resources\icons\k0.png" />
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Resources\icons\k1.png" />
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Resources\res\.gitkeep" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\precheader.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\work\github\engine-x\build\ZERO_CHECK.vcxproj">
+      <Project>{EC8FFA69-D228-30C9-96F1-FCEA69E0155E}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\work\github\engine-x\build\engine\extensions\DragonBones\DragonBones.vcxproj">
+      <Project>{D57406F7-A895-331D-953E-6575ABF55760}</Project>
+      <Name>DragonBones</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\work\github\engine-x\build\engine\extensions\GUI\GUI.vcxproj">
+      <Project>{6D83D2ED-9EA8-39B0-83EA-33598AB08C5D}</Project>
+      <Name>GUI</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\work\github\engine-x\build\engine\extensions\ImGuiEXT\ImGuiEXT.vcxproj">
+      <Project>{1350EEE4-08B5-3E01-B234-B272A81F621B}</Project>
+      <Name>ImGuiEXT</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\work\github\engine-x\build\engine\tests\fairygui-tests\SYNC_RESOURCE-fairygui-tests.vcxproj">
+      <Project>{201D747D-FA05-350A-9865-F76F51C3D279}</Project>
+      <Name>SYNC_RESOURCE-fairygui-tests</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\work\github\engine-x\build\engine\extensions\assets-manager\assets-manager.vcxproj">
+      <Project>{0A874B96-B965-3A41-9F40-D9D3D06650BB}</Project>
+      <Name>assets-manager</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\work\github\engine-x\build\engine\external\astc\astc.vcxproj">
+      <Project>{59EAB49E-BE24-37F0-8B45-D1604791EC95}</Project>
+      <Name>astc</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\work\github\engine-x\build\engine\external\box2d\src\box2d.vcxproj">
+      <Project>{4E1DCD9C-167D-3134-81ED-CFB76B38F19F}</Project>
+      <Name>box2d</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\work\github\engine-x\build\engine\external\bullet\bullet.vcxproj">
+      <Project>{BF811F3F-E890-36D0-B300-A5D0F30D93C0}</Project>
+      <Name>bullet</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\work\github\engine-x\build\engine\external\chipmunk\src\chipmunk.vcxproj">
+      <Project>{49DC4A70-21A1-3D35-9C3C-7B1D14F20DF5}</Project>
+      <Name>chipmunk</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\work\github\engine-x\build\engine\external\clipper\clipper.vcxproj">
+      <Project>{F87E9C4A-43A7-3803-9C06-2846B37258A9}</Project>
+      <Name>clipper</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\work\github\engine-x\build\engine\cocos\core\cocos2d.vcxproj">
+      <Project>{3B772E50-3B80-3D53-89C9-3C095C545E90}</Project>
+      <Name>cocos2d</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\work\github\engine-x\build\engine\extensions\cocostudio\cocostudio.vcxproj">
+      <Project>{49674FA9-FA9A-3D8D-9B1B-B27C8339D0EB}</Project>
+      <Name>cocostudio</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\work\github\engine-x\build\engine\external\ConvertUTF\convertUTF.vcxproj">
+      <Project>{69A60D9F-5F31-37A3-BC04-A2774F8CDE5C}</Project>
+      <Name>convertUTF</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\work\github\engine-x\build\engine\external\edtaa3func\edtaa3func.vcxproj">
+      <Project>{351F3D43-E53D-3D2B-8804-306402EA83F1}</Project>
+      <Name>edtaa3func</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\work\github\engine-x\build\engine\external\external.vcxproj">
+      <Project>{ACCCDAF8-82CA-3657-8565-882D7E42C1EF}</Project>
+      <Name>external</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\work\github\engine-x\build\engine\extensions\fairygui\fairygui.vcxproj">
+      <Project>{285541B2-5F1A-3CF6-8429-3CF6305021FA}</Project>
+      <Name>fairygui</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\work\github\engine-x\build\engine\external\fastlz\fastlz.vcxproj">
+      <Project>{9E50A72C-1E76-3F97-AF81-4928D6AF509F}</Project>
+      <Name>fastlz</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\work\github\engine-x\build\engine\external\glad\glad.vcxproj">
+      <Project>{2E02A3C6-29FE-3328-889B-7D34E68AAC41}</Project>
+      <Name>glad</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\work\github\engine-x\build\engine\external\jpeg\jpeg.vcxproj">
+      <Project>{81802F3F-C0E3-3A45-AA05-7E4AEA630B66}</Project>
+      <Name>jpeg</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\work\github\engine-x\build\engine\external\lz4\lz4.vcxproj">
+      <Project>{A216F884-CA1B-3D29-B27C-3533D62C5A00}</Project>
+      <Name>lz4</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\work\github\engine-x\build\engine\external\md5\md5.vcxproj">
+      <Project>{9A066789-F14D-3C42-9412-21B9685871E1}</Project>
+      <Name>md5</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\work\github\engine-x\build\engine\external\ogg\ogg.vcxproj">
+      <Project>{E62F0D77-B1DD-3CA1-A7F0-B8D16358BB91}</Project>
+      <Name>ogg</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\work\github\engine-x\build\engine\extensions\Particle3D\particle3d.vcxproj">
+      <Project>{43D00EE2-FF1E-3C7B-A53D-1A2CA35B9A16}</Project>
+      <Name>particle3d</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\work\github\engine-x\build\engine\extensions\physics-nodes\physics-nodes.vcxproj">
+      <Project>{1955ADFD-9BF5-336D-BA7F-0CD10A90CFD2}</Project>
+      <Name>physics-nodes</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\work\github\engine-x\build\engine\external\png\png.vcxproj">
+      <Project>{CA9C11A8-4CD9-364D-A932-D6079E20F196}</Project>
+      <Name>png</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\work\github\engine-x\build\engine\external\poly2tri\poly2tri.vcxproj">
+      <Project>{7FC8E97B-6F97-331A-826B-BB3C87D1345D}</Project>
+      <Name>poly2tri</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\work\github\engine-x\build\engine\external\pugixml\pugixml.vcxproj">
+      <Project>{81C5ABF4-84BD-31E0-B609-147E4A9AC6EA}</Project>
+      <Name>pugixml</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\work\github\engine-x\build\engine\external\recast\recast.vcxproj">
+      <Project>{E41E567B-A4CC-318E-B7CD-25F291E74DC7}</Project>
+      <Name>recast</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\work\github\engine-x\build\engine\extensions\spine\spine.vcxproj">
+      <Project>{E3D278CE-06E6-3111-95AF-9657365E5B2A}</Project>
+      <Name>spine</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\work\github\engine-x\build\engine\external\unzip\unzip.vcxproj">
+      <Project>{A9C8F58D-CF37-3EAE-836F-4B8346CD8D27}</Project>
+      <Name>unzip</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\work\github\engine-x\build\engine\external\webp\webp.vcxproj">
+      <Project>{455BEC1C-0378-3650-BFA8-E8F587F7B01F}</Project>
+      <Name>webp</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="C:\Program Files (x86)\CMake\share\cmake-3.16\Templates\MSBuild\nasm.targets" />
+  </ImportGroup>
+</Project>

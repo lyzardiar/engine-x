@@ -1,0 +1,1839 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\work\github\engine-x\cocos\cocos2d.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\2d\CCActionCamera.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\2d\CCActionCatmullRom.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\2d\CCAction.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\2d\CCActionEase.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\2d\CCActionGrid3D.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\2d\CCActionGrid.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\2d\CCActionInstant.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\2d\CCActionInterval.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\2d\CCActionManager.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\2d\CCActionPageTurn3D.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\2d\CCActionProgressTimer.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\2d\CCActionTiledGrid.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\2d\CCActionTween.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\2d\CCAnimationCache.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\2d\CCAnimation.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\2d\CCAtlasNode.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\2d\CCCamera.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\2d\CCCameraBackgroundBrush.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\2d\CCClippingNode.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\2d\CCClippingRectangleNode.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\2d\CCComponentContainer.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\2d\CCComponent.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\2d\CCDrawNode.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\2d\CCFastTMXLayer.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\2d\CCFastTMXTiledMap.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\2d\CCFontAtlasCache.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\2d\CCFontAtlas.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\2d\CCFontCharMap.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\2d\CCFont.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\2d\CCFontFNT.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\2d\CCFontFreeType.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\2d\CCGrid.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\2d\CCLabelAtlas.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\2d\CCLabel.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\2d\CCLabelTextFormatter.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\2d\CCLayer.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\2d\CCLight.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\2d\CCMenu.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\2d\CCMenuItem.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\2d\CCMotionStreak.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\2d\CCNode.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\2d\CCNodeGrid.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\2d\CCParallaxNode.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\2d\CCParticleBatchNode.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\2d\CCParticleExamples.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\2d\CCParticleSystem.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\2d\CCParticleSystemQuad.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\2d\CCProgressTimer.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\2d\CCProtectedNode.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\2d\CCRenderTexture.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\2d\CCScene.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\2d\CCSpriteBatchNode.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\2d\CCSprite.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\2d\CCSpriteFrameCache.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\2d\CCSpriteFrame.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\2d\CCAutoPolygon.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\2d\CCTextFieldTTF.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\2d\CCTileMapAtlas.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\2d\CCTMXObjectGroup.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\2d\CCTMXXMLParser.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\2d\CCTransition.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\2d\CCTransitionPageTurn.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\2d\CCTransitionProgress.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\2d\CCTweenFunction.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\3d\CCAABB.cpp">
+      <Filter>Source Files\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\3d\CCAnimate3D.cpp">
+      <Filter>Source Files\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\3d\CCAnimation3D.cpp">
+      <Filter>Source Files\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\3d\CCAttachNode.cpp">
+      <Filter>Source Files\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\3d\CCBillBoard.cpp">
+      <Filter>Source Files\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\3d\CCBundle3D.cpp">
+      <Filter>Source Files\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\3d\CCBundle3DData.cpp">
+      <Filter>Source Files\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\3d\CCBundleReader.cpp">
+      <Filter>Source Files\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\3d\CCFrustum.cpp">
+      <Filter>Source Files\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\3d\CCMesh.cpp">
+      <Filter>Source Files\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\3d\CCMeshSkin.cpp">
+      <Filter>Source Files\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\3d\CCMeshVertexIndexData.cpp">
+      <Filter>Source Files\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\3d\CCMotionStreak3D.cpp">
+      <Filter>Source Files\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\3d\CCOBB.cpp">
+      <Filter>Source Files\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\3d\CCObjLoader.cpp">
+      <Filter>Source Files\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\3d\CCPlane.cpp">
+      <Filter>Source Files\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\3d\CCRay.cpp">
+      <Filter>Source Files\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\3d\CCSkeleton3D.cpp">
+      <Filter>Source Files\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\3d\CCSkybox.cpp">
+      <Filter>Source Files\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\3d\CCSprite3D.cpp">
+      <Filter>Source Files\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\3d\CCSprite3DMaterial.cpp">
+      <Filter>Source Files\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\3d\CCTerrain.cpp">
+      <Filter>Source Files\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\3d\CCVertexAttribBinding.cpp">
+      <Filter>Source Files\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\3d\CC3DProgramInfo.cpp">
+      <Filter>Source Files\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\platform\win32\CCStdC-win32.cpp">
+      <Filter>Source Files\platform\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\platform\win32\CCFileUtils-win32.cpp">
+      <Filter>Source Files\platform\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\platform\win32\CCCommon-win32.cpp">
+      <Filter>Source Files\platform\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\platform\win32\CCApplication-win32.cpp">
+      <Filter>Source Files\platform\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\platform\win32\CCDevice-win32.cpp">
+      <Filter>Source Files\platform\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\platform\win32\inet_pton_mingw.cpp">
+      <Filter>Source Files\platform\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\platform\desktop\CCGLViewImpl-desktop.cpp">
+      <Filter>Source Files\platform\desktop</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\platform\CCSAXParser.cpp">
+      <Filter>Source Files\platform</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\platform\CCGLView.cpp">
+      <Filter>Source Files\platform</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\platform\CCFileUtils.cpp">
+      <Filter>Source Files\platform</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\platform\CCImage.cpp">
+      <Filter>Source Files\platform</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\platform\CCFileStream.cpp">
+      <Filter>Source Files\platform</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\physics\CCPhysicsBody.cpp">
+      <Filter>Source Files\physics</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\physics\CCPhysicsContact.cpp">
+      <Filter>Source Files\physics</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\physics\CCPhysicsJoint.cpp">
+      <Filter>Source Files\physics</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\physics\CCPhysicsShape.cpp">
+      <Filter>Source Files\physics</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\physics\CCPhysicsWorld.cpp">
+      <Filter>Source Files\physics</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\physics3d\CCPhysics3D.cpp">
+      <Filter>Source Files\physics3d</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\physics3d\CCPhysics3DComponent.cpp">
+      <Filter>Source Files\physics3d</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\physics3d\CCPhysics3DConstraint.cpp">
+      <Filter>Source Files\physics3d</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\physics3d\CCPhysics3DDebugDrawer.cpp">
+      <Filter>Source Files\physics3d</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\physics3d\CCPhysics3DObject.cpp">
+      <Filter>Source Files\physics3d</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\physics3d\CCPhysics3DShape.cpp">
+      <Filter>Source Files\physics3d</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\physics3d\CCPhysics3DWorld.cpp">
+      <Filter>Source Files\physics3d</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\physics3d\CCPhysicsSprite3D.cpp">
+      <Filter>Source Files\physics3d</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\math\CCAffineTransform.cpp">
+      <Filter>Source Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\math\CCGeometry.cpp">
+      <Filter>Source Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\math\CCVertex.cpp">
+      <Filter>Source Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\math\Mat3.cpp">
+      <Filter>Source Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\math\Mat4.cpp">
+      <Filter>Source Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\math\MathUtil.cpp">
+      <Filter>Source Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\math\Quaternion.cpp">
+      <Filter>Source Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\math\TransformUtils.cpp">
+      <Filter>Source Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\math\Vec2.cpp">
+      <Filter>Source Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\math\Vec3.cpp">
+      <Filter>Source Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\math\Vec4.cpp">
+      <Filter>Source Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\navmesh\CCNavMesh.cpp">
+      <Filter>Source Files\navmesh</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\navmesh\CCNavMeshAgent.cpp">
+      <Filter>Source Files\navmesh</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\navmesh\CCNavMeshDebugDraw.cpp">
+      <Filter>Source Files\navmesh</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\navmesh\CCNavMeshObstacle.cpp">
+      <Filter>Source Files\navmesh</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\navmesh\CCNavMeshUtils.cpp">
+      <Filter>Source Files\navmesh</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\renderer\CCCallbackCommand.cpp">
+      <Filter>Source Files\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\renderer\CCCustomCommand.cpp">
+      <Filter>Source Files\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\renderer\CCGroupCommand.cpp">
+      <Filter>Source Files\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\renderer\CCMaterial.cpp">
+      <Filter>Source Files\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\renderer\CCMeshCommand.cpp">
+      <Filter>Source Files\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\renderer\CCPass.cpp">
+      <Filter>Source Files\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\renderer\CCQuadCommand.cpp">
+      <Filter>Source Files\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\renderer\CCRenderCommand.cpp">
+      <Filter>Source Files\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\renderer\CCRenderState.cpp">
+      <Filter>Source Files\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\renderer\CCRenderer.cpp">
+      <Filter>Source Files\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\renderer\CCTechnique.cpp">
+      <Filter>Source Files\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\renderer\CCTexture2D.cpp">
+      <Filter>Source Files\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\renderer\CCTextureAtlas.cpp">
+      <Filter>Source Files\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\renderer\CCTextureCache.cpp">
+      <Filter>Source Files\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\renderer\CCTextureCube.cpp">
+      <Filter>Source Files\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\renderer\CCTrianglesCommand.cpp">
+      <Filter>Source Files\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\renderer\ccShaders.cpp">
+      <Filter>Source Files\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\renderer\CCColorizer.cpp">
+      <Filter>Source Files\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\renderer\backend\CommandBuffer.cpp">
+      <Filter>Source Files\renderer\backend</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\renderer\backend\DepthStencilState.cpp">
+      <Filter>Source Files\renderer\backend</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\renderer\backend\Device.cpp">
+      <Filter>Source Files\renderer\backend</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\renderer\backend\ShaderModule.cpp">
+      <Filter>Source Files\renderer\backend</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\renderer\backend\Texture.cpp">
+      <Filter>Source Files\renderer\backend</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\renderer\backend\TextureUtils.cpp">
+      <Filter>Source Files\renderer\backend</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\renderer\backend\Types.cpp">
+      <Filter>Source Files\renderer\backend</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\renderer\backend\VertexLayout.cpp">
+      <Filter>Source Files\renderer\backend</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\renderer\backend\ProgramCache.cpp">
+      <Filter>Source Files\renderer\backend</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\renderer\backend\Program.cpp">
+      <Filter>Source Files\renderer\backend</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\renderer\backend\ProgramState.cpp">
+      <Filter>Source Files\renderer\backend</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\renderer\backend\ProgramStateRegistry.cpp">
+      <Filter>Source Files\renderer\backend</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\renderer\backend\ShaderCache.cpp">
+      <Filter>Source Files\renderer\backend</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\renderer\backend\RenderPassDescriptor.cpp">
+      <Filter>Source Files\renderer\backend</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\renderer\backend\opengl\BufferGL.cpp">
+      <Filter>Source Files\renderer\backend\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\renderer\backend\opengl\CommandBufferGL.cpp">
+      <Filter>Source Files\renderer\backend\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\renderer\backend\opengl\DepthStencilStateGL.cpp">
+      <Filter>Source Files\renderer\backend\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\renderer\backend\opengl\DeviceGL.cpp">
+      <Filter>Source Files\renderer\backend\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\renderer\backend\opengl\ProgramGL.cpp">
+      <Filter>Source Files\renderer\backend\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\renderer\backend\opengl\RenderPipelineGL.cpp">
+      <Filter>Source Files\renderer\backend\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\renderer\backend\opengl\ShaderModuleGL.cpp">
+      <Filter>Source Files\renderer\backend\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\renderer\backend\opengl\TextureGL.cpp">
+      <Filter>Source Files\renderer\backend\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\renderer\backend\opengl\UtilsGL.cpp">
+      <Filter>Source Files\renderer\backend\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\renderer\backend\opengl\DeviceInfoGL.cpp">
+      <Filter>Source Files\renderer\backend\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\renderer\backend\opengl\RenderTargetGL.cpp">
+      <Filter>Source Files\renderer\backend\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\base\CCAsyncTaskPool.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\base\CCAutoreleasePool.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\base\CCConfiguration.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\base\CCConsole.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\base\CCController.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\base\CCData.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\base\CCNinePatchImageParser.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\base\CCDirector.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\base\CCEvent.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\base\CCEventAcceleration.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\base\CCEventController.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\base\CCEventCustom.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\base\CCEventDispatcher.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\base\CCEventFocus.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\base\CCEventKeyboard.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\base\CCEventListener.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\base\CCEventListenerAcceleration.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\base\CCEventListenerController.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\base\CCEventListenerCustom.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\base\CCEventListenerFocus.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\base\CCEventListenerKeyboard.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\base\CCEventListenerMouse.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\base\CCEventListenerTouch.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\base\CCEventMouse.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\base\CCEventTouch.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\base\CCIMEDispatcher.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\base\CCNS.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\base\CCProfiling.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\base\CCProperties.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\base\CCRef.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\base\CCScheduler.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\base\CCScriptSupport.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\base\CCTouch.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\base\CCUserDefault.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\base\CCValue.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\base\ObjectFactory.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\base\CCStencilStateManager.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\base\TGAlib.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\base\ZipUtils.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\base\atitc.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\base\base64.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\base\ccCArray.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\base\ccFPSImages.c">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\base\ccRandom.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\base\ccTypes.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\base\ccUTF8.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\base\ccUtils.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\base\SimpleTimer.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\base\etc1.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\base\etc2.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\base\pvr.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\base\s3tc.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\base\astc.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\base\CCController-linux-win32.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\audio\src\AudioEngine.cpp">
+      <Filter>Source Files\audio\src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\audio\src\AudioDecoderManager.cpp">
+      <Filter>Source Files\audio\src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\audio\src\AudioDecoder.cpp">
+      <Filter>Source Files\audio\src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\audio\src\AudioDecoderOgg.cpp">
+      <Filter>Source Files\audio\src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\audio\src\AudioPlayer.cpp">
+      <Filter>Source Files\audio\src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\audio\src\AudioCache.cpp">
+      <Filter>Source Files\audio\src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\audio\src\AudioEngineImpl.mm">
+      <Filter>Source Files\audio\src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\audio\src\AudioDecoderMp3.cpp">
+      <Filter>Source Files\audio\src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\audio\src\AudioDecoderWav.cpp">
+      <Filter>Source Files\audio\src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\ui\UIEditBox\UIEditBoxImpl-win32.cpp">
+      <Filter>Source Files\ui\UIEditBox</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\ui\CocosGUI.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\ui\UIButton.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\ui\UIAbstractCheckButton.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\ui\UICheckBox.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\ui\UIRadioButton.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\ui\LayoutHelper.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\ui\UIHBox.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\ui\UIHelper.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\ui\UIImageView.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\ui\UILayout.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\ui\UILayoutManager.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\ui\UILayoutParameter.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\ui\UIListView.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\ui\UILoadingBar.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\ui\UIPageView.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\ui\UIPageViewIndicator.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\ui\UIRelativeBox.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\ui\UIRichText.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\ui\UIScale9Sprite.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\ui\UIScrollView.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\ui\UIScrollViewBar.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\ui\UISlider.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\ui\UIText.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\ui\UITextAtlas.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\ui\UITextBMFont.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\ui\UITextField.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\ui\UIVBox.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\ui\UIWidget.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\ui\UIEditBox\UIEditBox.cpp">
+      <Filter>Source Files\ui\UIEditBox</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\ui\UILayoutComponent.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\ui\UIEditBox\UIEditBoxImpl-common.cpp">
+      <Filter>Source Files\ui\UIEditBox</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\ui\UITabControl.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\ui\UITextFieldEx.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\network\HttpClient.cpp">
+      <Filter>Source Files\network</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\network\CCDownloader.cpp">
+      <Filter>Source Files\network</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\network\CCDownloader-curl.cpp">
+      <Filter>Source Files\network</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\network\HttpCookie.cpp">
+      <Filter>Source Files\network</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\network\Uri.cpp">
+      <Filter>Source Files\network</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\precheader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\work\github\engine-x\cocos\cocos2d.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\2d\CCActionPageTurn3D.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\2d\CCActionTween.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\2d\CCGrid.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\2d\CCSpriteFrameCache.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\2d\CCLayer.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\2d\CCActionCamera.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\2d\CCParticleExamples.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\2d\CCSprite.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\2d\CCNode.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\2d\CCComponentContainer.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\2d\CCActionProgressTimer.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\2d\CCTweenFunction.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\2d\CCLight.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\2d\CCAutoPolygon.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\2d\CCFontAtlas.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\2d\CCAtlasNode.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\2d\CCClippingNode.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\2d\CCRenderTexture.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\2d\CCActionInterval.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\2d\CCTMXXMLParser.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\2d\CCActionInstant.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\2d\CCLabel.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\2d\CCComponent.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\2d\CCLabelAtlas.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\2d\CCActionCatmullRom.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\2d\CCActionGrid.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\2d\CCParticleBatchNode.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\2d\CCClippingRectangleNode.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\2d\CCActionEase.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\2d\CCScene.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\2d\CCProtectedNode.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\2d\CCTextFieldTTF.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\2d\CCAnimationCache.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\2d\CCFastTMXLayer.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\2d\CCFontAtlasCache.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\2d\CCFont.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\2d\CCParticleSystemQuad.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\2d\CCActionGrid3D.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\2d\CCCameraBackgroundBrush.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\2d\CCFastTMXTiledMap.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\2d\CCLabelTextFormatter.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\2d\CCMenuItem.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\2d\CCFontFNT.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\2d\CCSpriteBatchNode.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\2d\CCTransitionProgress.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\2d\CCSpriteFrame.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\2d\CCTMXObjectGroup.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\2d\CCAnimation.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\2d\CCNodeGrid.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\2d\CCFontFreeType.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\2d\CCAction.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\2d\CCTransition.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\2d\CCTransitionPageTurn.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\2d\CCFontCharMap.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\2d\CCParticleSystem.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\2d\CCProgressTimer.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\2d\CCTileMapAtlas.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\2d\CCActionTiledGrid.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\2d\CCActionManager.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\2d\CCMotionStreak.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\2d\CCMenu.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\2d\CCDrawNode.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\2d\CCCamera.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\2d\CCParallaxNode.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\3d\CCBillBoard.h">
+      <Filter>Source Files\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\3d\CCFrustum.h">
+      <Filter>Source Files\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\3d\CCSprite3DMaterial.h">
+      <Filter>Source Files\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\3d\CCMeshVertexIndexData.h">
+      <Filter>Source Files\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\3d\CCPlane.h">
+      <Filter>Source Files\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\3d\CCRay.h">
+      <Filter>Source Files\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\3d\CCMesh.h">
+      <Filter>Source Files\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\3d\CCAnimate3D.h">
+      <Filter>Source Files\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\3d\CCTerrain.h">
+      <Filter>Source Files\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\3d\CCAnimationCurve.h">
+      <Filter>Source Files\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\3d\CCSprite3D.h">
+      <Filter>Source Files\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\3d\CCOBB.h">
+      <Filter>Source Files\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\3d\CCAnimation3D.h">
+      <Filter>Source Files\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\3d\CCMotionStreak3D.h">
+      <Filter>Source Files\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\3d\CCSkybox.h">
+      <Filter>Source Files\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\3d\CCMeshSkin.h">
+      <Filter>Source Files\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\3d\cocos3d.h">
+      <Filter>Source Files\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\3d\CCAABB.h">
+      <Filter>Source Files\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\3d\CCBundle3D.h">
+      <Filter>Source Files\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\3d\CCObjLoader.h">
+      <Filter>Source Files\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\3d\CCBundle3DData.h">
+      <Filter>Source Files\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\3d\CCSkeleton3D.h">
+      <Filter>Source Files\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\3d\CCBundleReader.h">
+      <Filter>Source Files\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\3d\CCAttachNode.h">
+      <Filter>Source Files\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\3d\CCVertexAttribBinding.h">
+      <Filter>Source Files\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\3d\CC3DProgramInfo.h">
+      <Filter>Source Files\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\platform\win32\compat\stdint.h">
+      <Filter>Source Files\platform\win32\compat</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\platform\win32\CCApplication-win32.h">
+      <Filter>Source Files\platform\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\platform\win32\inet_pton_mingw.h">
+      <Filter>Source Files\platform\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\platform\win32\CCGL-win32.h">
+      <Filter>Source Files\platform\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\platform\win32\CCFileUtils-win32.h">
+      <Filter>Source Files\platform\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\platform\win32\CCStdC-win32.h">
+      <Filter>Source Files\platform\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\platform\win32\CCPlatformDefine-win32.h">
+      <Filter>Source Files\platform\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\platform\desktop\CCGLViewImpl-desktop.h">
+      <Filter>Source Files\platform\desktop</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\platform\CCApplication.h">
+      <Filter>Source Files\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\platform\CCApplicationProtocol.h">
+      <Filter>Source Files\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\platform\CCCommon.h">
+      <Filter>Source Files\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\platform\CCDevice.h">
+      <Filter>Source Files\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\platform\CCFileUtils.h">
+      <Filter>Source Files\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\platform\CCGL.h">
+      <Filter>Source Files\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\platform\CCGLView.h">
+      <Filter>Source Files\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\platform\CCImage.h">
+      <Filter>Source Files\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\platform\CCPlatformConfig.h">
+      <Filter>Source Files\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\platform\CCPlatformDefine.h">
+      <Filter>Source Files\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\platform\CCPlatformMacros.h">
+      <Filter>Source Files\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\platform\CCSAXParser.h">
+      <Filter>Source Files\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\platform\CCStdC.h">
+      <Filter>Source Files\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\platform\CCFileStream.h">
+      <Filter>Source Files\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\physics\CCPhysicsContact.h">
+      <Filter>Source Files\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\physics\CCPhysicsWorld.h">
+      <Filter>Source Files\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\physics\CCPhysicsBody.h">
+      <Filter>Source Files\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\physics\cpCompat62.h">
+      <Filter>Source Files\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\physics\CCPhysicsShape.h">
+      <Filter>Source Files\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\physics\CCPhysicsHelper.h">
+      <Filter>Source Files\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\physics\CCPhysicsJoint.h">
+      <Filter>Source Files\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\physics3d\CCPhysics3DConstraint.h">
+      <Filter>Source Files\physics3d</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\physics3d\CCPhysics3DShape.h">
+      <Filter>Source Files\physics3d</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\physics3d\CCPhysics3D.h">
+      <Filter>Source Files\physics3d</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\physics3d\CCPhysics3DWorld.h">
+      <Filter>Source Files\physics3d</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\physics3d\CCPhysicsSprite3D.h">
+      <Filter>Source Files\physics3d</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\physics3d\CCPhysics3DObject.h">
+      <Filter>Source Files\physics3d</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\physics3d\CCPhysics3DComponent.h">
+      <Filter>Source Files\physics3d</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\physics3d\CCPhysics3DDebugDrawer.h">
+      <Filter>Source Files\physics3d</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\math\Vec2.h">
+      <Filter>Source Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\math\Mat3.h">
+      <Filter>Source Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\math\Mat4.h">
+      <Filter>Source Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\math\Quaternion.h">
+      <Filter>Source Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\math\TransformUtils.h">
+      <Filter>Source Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\math\Vec4.h">
+      <Filter>Source Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\math\CCAffineTransform.h">
+      <Filter>Source Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\math\CCGeometry.h">
+      <Filter>Source Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\math\CCVertex.h">
+      <Filter>Source Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\math\Vec3.h">
+      <Filter>Source Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\math\CCMathBase.h">
+      <Filter>Source Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\math\MathUtil.h">
+      <Filter>Source Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\math\CCMath.h">
+      <Filter>Source Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\navmesh\CCNavMeshAgent.h">
+      <Filter>Source Files\navmesh</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\navmesh\CCNavMeshObstacle.h">
+      <Filter>Source Files\navmesh</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\navmesh\CCNavMeshUtils.h">
+      <Filter>Source Files\navmesh</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\navmesh\CCNavMeshDebugDraw.h">
+      <Filter>Source Files\navmesh</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\navmesh\CCNavMesh.h">
+      <Filter>Source Files\navmesh</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\renderer\CCCallbackCommand.h">
+      <Filter>Source Files\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\renderer\CCCustomCommand.h">
+      <Filter>Source Files\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\renderer\CCGroupCommand.h">
+      <Filter>Source Files\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\renderer\CCMaterial.h">
+      <Filter>Source Files\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\renderer\CCMeshCommand.h">
+      <Filter>Source Files\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\renderer\CCPass.h">
+      <Filter>Source Files\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\renderer\CCPipelineDescriptor.h">
+      <Filter>Source Files\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\renderer\CCQuadCommand.h">
+      <Filter>Source Files\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\renderer\CCRenderCommand.h">
+      <Filter>Source Files\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\renderer\CCRenderCommandPool.h">
+      <Filter>Source Files\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\renderer\CCRenderState.h">
+      <Filter>Source Files\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\renderer\CCRenderer.h">
+      <Filter>Source Files\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\renderer\CCTechnique.h">
+      <Filter>Source Files\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\renderer\CCTexture2D.h">
+      <Filter>Source Files\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\renderer\CCTextureAtlas.h">
+      <Filter>Source Files\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\renderer\CCTextureCache.h">
+      <Filter>Source Files\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\renderer\CCTextureCube.h">
+      <Filter>Source Files\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\renderer\CCTrianglesCommand.h">
+      <Filter>Source Files\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\renderer\ccShaders.h">
+      <Filter>Source Files\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\renderer\backend\Backend.h">
+      <Filter>Source Files\renderer\backend</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\renderer\backend\Buffer.h">
+      <Filter>Source Files\renderer\backend</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\renderer\backend\CommandBuffer.h">
+      <Filter>Source Files\renderer\backend</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\renderer\backend\DepthStencilState.h">
+      <Filter>Source Files\renderer\backend</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\renderer\backend\Device.h">
+      <Filter>Source Files\renderer\backend</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\renderer\backend\Program.h">
+      <Filter>Source Files\renderer\backend</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\renderer\backend\ProgramCache.h">
+      <Filter>Source Files\renderer\backend</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\renderer\backend\Macros.h">
+      <Filter>Source Files\renderer\backend</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\renderer\backend\RenderPassDescriptor.h">
+      <Filter>Source Files\renderer\backend</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\renderer\backend\RenderPipeline.h">
+      <Filter>Source Files\renderer\backend</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\renderer\backend\ShaderModule.h">
+      <Filter>Source Files\renderer\backend</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\renderer\backend\Texture.h">
+      <Filter>Source Files\renderer\backend</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\renderer\backend\TextureUtils.h">
+      <Filter>Source Files\renderer\backend</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\renderer\backend\Types.h">
+      <Filter>Source Files\renderer\backend</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\renderer\backend\VertexLayout.h">
+      <Filter>Source Files\renderer\backend</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\renderer\backend\ProgramState.h">
+      <Filter>Source Files\renderer\backend</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\renderer\backend\ProgramStateRegistry.h">
+      <Filter>Source Files\renderer\backend</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\renderer\backend\ShaderCache.h">
+      <Filter>Source Files\renderer\backend</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\renderer\backend\DeviceInfo.h">
+      <Filter>Source Files\renderer\backend</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\renderer\backend\opengl\BufferGL.h">
+      <Filter>Source Files\renderer\backend\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\renderer\backend\opengl\CommandBufferGL.h">
+      <Filter>Source Files\renderer\backend\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\renderer\backend\opengl\DepthStencilStateGL.h">
+      <Filter>Source Files\renderer\backend\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\renderer\backend\opengl\DeviceGL.h">
+      <Filter>Source Files\renderer\backend\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\renderer\backend\opengl\ProgramGL.h">
+      <Filter>Source Files\renderer\backend\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\renderer\backend\opengl\RenderPipelineGL.h">
+      <Filter>Source Files\renderer\backend\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\renderer\backend\opengl\ShaderModuleGL.h">
+      <Filter>Source Files\renderer\backend\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\renderer\backend\opengl\TextureGL.h">
+      <Filter>Source Files\renderer\backend\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\renderer\backend\opengl\UtilsGL.h">
+      <Filter>Source Files\renderer\backend\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\renderer\backend\opengl\DeviceInfoGL.h">
+      <Filter>Source Files\renderer\backend\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\renderer\backend\opengl\RenderTargetGL.h">
+      <Filter>Source Files\renderer\backend\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\base\astc.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\base\pvr.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\base\CCValue.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\base\CCEventListenerMouse.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\base\atitc.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\base\utlist.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\base\CCEventTouch.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\base\CCData.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\base\ccMacros.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\base\CCEventAcceleration.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\base\CCEventListenerKeyboard.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\base\CCController.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\base\CCTouch.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\base\base64.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\base\CCEventListenerController.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\base\s3tc.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\base\etc1.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\base\etc2.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\base\CCGameController.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\base\CCConsole.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\base\ccConstants.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\base\CCEvent.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\base\ccTypes.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\base\CCAsyncTaskPool.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\base\ccRandom.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\base\CCRef.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\base\CCProfiling.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\base\ObjectFactory.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\base\CCProperties.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\base\CCVector.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\base\CCEventCustom.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\base\CCEventKeyboard.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\base\CCNinePatchImageParser.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\base\CCEventListenerCustom.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\base\CCEventDispatcher.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\base\uthash.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\base\ccUtils.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\base\CCEventController.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\base\CCRefPtr.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\base\CCDirector.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\base\CCEventListenerFocus.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\base\CCUserDefault.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\base\ccConfig.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\base\ccFPSImages.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\base\ZipUtils.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\base\CCMap.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\base\ccUTF8.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\base\CCScriptSupport.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\base\CCEventFocus.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\base\CCConfiguration.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\base\CCProtocols.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\base\TGAlib.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\base\CCEventMouse.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\base\CCIMEDelegate.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\base\CCNS.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\base\CCAutoreleasePool.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\base\CCStencilStateManager.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\base\CCEventListenerTouch.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\base\CCEventListenerAcceleration.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\base\firePngData.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\base\ccCArray.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\base\CCEventListener.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\base\CCScheduler.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\base\CCEventType.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\base\CCIMEDispatcher.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\audio\include\alconfig.h">
+      <Filter>Source Files\audio\include</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\audio\include\AudioEngine.h">
+      <Filter>Source Files\audio\include</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\audio\include\AudioMacros.h">
+      <Filter>Source Files\audio\include</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\audio\include\AudioDecoderManager.h">
+      <Filter>Source Files\audio\include</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\audio\include\AudioDecoder.h">
+      <Filter>Source Files\audio\include</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\audio\include\AudioDecoderOgg.h">
+      <Filter>Source Files\audio\include</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\audio\include\AudioPlayer.h">
+      <Filter>Source Files\audio\include</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\audio\include\AudioCache.h">
+      <Filter>Source Files\audio\include</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\audio\include\AudioEngineImpl.h">
+      <Filter>Source Files\audio\include</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\audio\include\AudioDecoderMp3.h">
+      <Filter>Source Files\audio\include</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\audio\include\AudioDecoderWav.h">
+      <Filter>Source Files\audio\include</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\ui\UIEditBox\UIEditBoxImpl-win32.h">
+      <Filter>Source Files\ui\UIEditBox</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\ui\CocosGUI.h">
+      <Filter>Source Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\ui\GUIDefine.h">
+      <Filter>Source Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\ui\GUIExport.h">
+      <Filter>Source Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\ui\UIAbstractCheckButton.h">
+      <Filter>Source Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\ui\UIButton.h">
+      <Filter>Source Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\ui\UICheckBox.h">
+      <Filter>Source Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\ui\LayoutHelper.h">
+      <Filter>Source Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\ui\UIHBox.h">
+      <Filter>Source Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\ui\UIHelper.h">
+      <Filter>Source Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\ui\UIImageView.h">
+      <Filter>Source Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\ui\UILayout.h">
+      <Filter>Source Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\ui\UILayoutComponent.h">
+      <Filter>Source Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\ui\UILayoutManager.h">
+      <Filter>Source Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\ui\UILayoutParameter.h">
+      <Filter>Source Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\ui\UIListView.h">
+      <Filter>Source Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\ui\UILoadingBar.h">
+      <Filter>Source Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\ui\UIPageView.h">
+      <Filter>Source Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\ui\UIPageViewIndicator.h">
+      <Filter>Source Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\ui\UIRadioButton.h">
+      <Filter>Source Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\ui\UIRelativeBox.h">
+      <Filter>Source Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\ui\UIRichText.h">
+      <Filter>Source Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\ui\UIScale9Sprite.h">
+      <Filter>Source Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\ui\UIScrollView.h">
+      <Filter>Source Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\ui\UIScrollViewBar.h">
+      <Filter>Source Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\ui\UISlider.h">
+      <Filter>Source Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\ui\UITabControl.h">
+      <Filter>Source Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\ui\UIText.h">
+      <Filter>Source Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\ui\UITextAtlas.h">
+      <Filter>Source Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\ui\UITextBMFont.h">
+      <Filter>Source Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\ui\UITextField.h">
+      <Filter>Source Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\ui\UIVBox.h">
+      <Filter>Source Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\ui\UIWidget.h">
+      <Filter>Source Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\network\CCDownloader-curl.h">
+      <Filter>Source Files\network</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\network\CCIDownloaderImpl.h">
+      <Filter>Source Files\network</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\network\CCDownloader.h">
+      <Filter>Source Files\network</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\network\Uri.h">
+      <Filter>Source Files\network</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\network\HttpClient.h">
+      <Filter>Source Files\network</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\network\HttpResponse.h">
+      <Filter>Source Files\network</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\network\HttpRequest.h">
+      <Filter>Source Files\network</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\cocos\network\HttpCookie.h">
+      <Filter>Source Files\network</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\work\github\engine-x\cocos\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{A4BAD2AB-32A2-3B75-86A8-BB08949E87DB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\2d">
+      <UniqueIdentifier>{4D2B5D36-8A47-34E7-9619-91F69EDAF1B1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\3d">
+      <UniqueIdentifier>{B523B4B1-ACF4-343E-A361-D05EF4D6F85E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\audio">
+      <UniqueIdentifier>{0C6B1361-2202-3EC1-B8EC-2C9FE1F26BE4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\audio\include">
+      <UniqueIdentifier>{538F20E8-0066-3AD2-8341-DAEA4FC8FD10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\audio\src">
+      <UniqueIdentifier>{24118B4C-A7DD-35DD-96FB-A23AC3A81226}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\base">
+      <UniqueIdentifier>{4C839A69-3998-3534-9477-5E8E2C79C3F1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\math">
+      <UniqueIdentifier>{5F7070B9-CC18-3A0D-990D-1F4932727A70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\navmesh">
+      <UniqueIdentifier>{E0FC3D82-B489-3D7C-A441-7C11B8CAACA3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\network">
+      <UniqueIdentifier>{9509202D-8E49-34EA-A519-F02EC1CF61C1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\physics">
+      <UniqueIdentifier>{17D2152B-20DC-3F7B-AD77-85FFA97CFB08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\physics3d">
+      <UniqueIdentifier>{01FC773D-151C-3A48-9D50-140B1705D650}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\platform">
+      <UniqueIdentifier>{F12D6BBD-4677-366F-BBF3-2E2E917FA4F8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\platform\desktop">
+      <UniqueIdentifier>{8AB1700A-D6E3-3B95-9643-BFACEBAD207E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\platform\win32">
+      <UniqueIdentifier>{DBDE1765-59BB-3CC9-BC6B-AC55E81EEEF2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\platform\win32\compat">
+      <UniqueIdentifier>{BD9D4C86-3CE3-3841-99F5-33430342189A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\renderer">
+      <UniqueIdentifier>{EF34EA48-F29B-3326-BEAC-9BDC282F7903}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\renderer\backend">
+      <UniqueIdentifier>{3AD564A5-2A80-316B-94DC-9F23CF0892F8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\renderer\backend\opengl">
+      <UniqueIdentifier>{DE74A352-FA9D-3439-905A-C5DE557DF1FE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ui">
+      <UniqueIdentifier>{C9C6D513-A1C0-3C6A-AA4C-7EED799267D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ui\UIEditBox">
+      <UniqueIdentifier>{0790911E-6ACD-3FDD-AF84-B99A1DD58510}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

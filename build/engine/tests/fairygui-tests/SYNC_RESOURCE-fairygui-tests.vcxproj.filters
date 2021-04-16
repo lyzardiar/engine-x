@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="E:\work\github\engine-x\build\CMakeFiles\30486cfd0fbce3eeaefff61cbc77bcc6\SYNC_RESOURCE-fairygui-tests.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\work\github\engine-x\tests\fairygui-tests\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="E:\work\github\engine-x\build\engine\tests\fairygui-tests\CMakeFiles\SYNC_RESOURCE-fairygui-tests" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{69B6E742-7428-3439-86B0-8FBEF23B0523}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

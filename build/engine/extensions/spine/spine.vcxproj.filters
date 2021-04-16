@@ -1,0 +1,495 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\work\github\engine-x\extensions\spine\AttachmentVertices.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\spine\SkeletonAnimation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\spine\SkeletonBatch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\spine\SkeletonRenderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\spine\SkeletonTwoColorBatch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\spine\runtime\src\spine\Animation.cpp">
+      <Filter>Source Files\runtime\src\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\spine\runtime\src\spine\AnimationState.cpp">
+      <Filter>Source Files\runtime\src\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\spine\runtime\src\spine\AnimationStateData.cpp">
+      <Filter>Source Files\runtime\src\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\spine\runtime\src\spine\Atlas.cpp">
+      <Filter>Source Files\runtime\src\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\spine\runtime\src\spine\AtlasAttachmentLoader.cpp">
+      <Filter>Source Files\runtime\src\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\spine\runtime\src\spine\Attachment.cpp">
+      <Filter>Source Files\runtime\src\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\spine\runtime\src\spine\AttachmentLoader.cpp">
+      <Filter>Source Files\runtime\src\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\spine\runtime\src\spine\AttachmentTimeline.cpp">
+      <Filter>Source Files\runtime\src\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\spine\runtime\src\spine\Bone.cpp">
+      <Filter>Source Files\runtime\src\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\spine\runtime\src\spine\BoneData.cpp">
+      <Filter>Source Files\runtime\src\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\spine\runtime\src\spine\BoundingBoxAttachment.cpp">
+      <Filter>Source Files\runtime\src\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\spine\runtime\src\spine\ClippingAttachment.cpp">
+      <Filter>Source Files\runtime\src\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\spine\runtime\src\spine\ColorTimeline.cpp">
+      <Filter>Source Files\runtime\src\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\spine\runtime\src\spine\ConstraintData.cpp">
+      <Filter>Source Files\runtime\src\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\spine\runtime\src\spine\CurveTimeline.cpp">
+      <Filter>Source Files\runtime\src\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\spine\runtime\src\spine\DeformTimeline.cpp">
+      <Filter>Source Files\runtime\src\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\spine\runtime\src\spine\DrawOrderTimeline.cpp">
+      <Filter>Source Files\runtime\src\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\spine\runtime\src\spine\Event.cpp">
+      <Filter>Source Files\runtime\src\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\spine\runtime\src\spine\EventData.cpp">
+      <Filter>Source Files\runtime\src\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\spine\runtime\src\spine\EventTimeline.cpp">
+      <Filter>Source Files\runtime\src\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\spine\runtime\src\spine\Extension.cpp">
+      <Filter>Source Files\runtime\src\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\spine\runtime\src\spine\IkConstraint.cpp">
+      <Filter>Source Files\runtime\src\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\spine\runtime\src\spine\IkConstraintData.cpp">
+      <Filter>Source Files\runtime\src\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\spine\runtime\src\spine\IkConstraintTimeline.cpp">
+      <Filter>Source Files\runtime\src\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\spine\runtime\src\spine\Json.cpp">
+      <Filter>Source Files\runtime\src\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\spine\runtime\src\spine\LinkedMesh.cpp">
+      <Filter>Source Files\runtime\src\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\spine\runtime\src\spine\MathUtil.cpp">
+      <Filter>Source Files\runtime\src\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\spine\runtime\src\spine\MeshAttachment.cpp">
+      <Filter>Source Files\runtime\src\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\spine\runtime\src\spine\PathAttachment.cpp">
+      <Filter>Source Files\runtime\src\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\spine\runtime\src\spine\PathConstraint.cpp">
+      <Filter>Source Files\runtime\src\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\spine\runtime\src\spine\PathConstraintData.cpp">
+      <Filter>Source Files\runtime\src\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\spine\runtime\src\spine\PathConstraintMixTimeline.cpp">
+      <Filter>Source Files\runtime\src\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\spine\runtime\src\spine\PathConstraintPositionTimeline.cpp">
+      <Filter>Source Files\runtime\src\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\spine\runtime\src\spine\PathConstraintSpacingTimeline.cpp">
+      <Filter>Source Files\runtime\src\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\spine\runtime\src\spine\PointAttachment.cpp">
+      <Filter>Source Files\runtime\src\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\spine\runtime\src\spine\RTTI.cpp">
+      <Filter>Source Files\runtime\src\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\spine\runtime\src\spine\RegionAttachment.cpp">
+      <Filter>Source Files\runtime\src\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\spine\runtime\src\spine\RotateTimeline.cpp">
+      <Filter>Source Files\runtime\src\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\spine\runtime\src\spine\ScaleTimeline.cpp">
+      <Filter>Source Files\runtime\src\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\spine\runtime\src\spine\ShearTimeline.cpp">
+      <Filter>Source Files\runtime\src\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\spine\runtime\src\spine\Skeleton.cpp">
+      <Filter>Source Files\runtime\src\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\spine\runtime\src\spine\SkeletonBinary.cpp">
+      <Filter>Source Files\runtime\src\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\spine\runtime\src\spine\SkeletonBounds.cpp">
+      <Filter>Source Files\runtime\src\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\spine\runtime\src\spine\SkeletonClipping.cpp">
+      <Filter>Source Files\runtime\src\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\spine\runtime\src\spine\SkeletonData.cpp">
+      <Filter>Source Files\runtime\src\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\spine\runtime\src\spine\SkeletonJson.cpp">
+      <Filter>Source Files\runtime\src\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\spine\runtime\src\spine\Skin.cpp">
+      <Filter>Source Files\runtime\src\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\spine\runtime\src\spine\Slot.cpp">
+      <Filter>Source Files\runtime\src\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\spine\runtime\src\spine\SlotData.cpp">
+      <Filter>Source Files\runtime\src\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\spine\runtime\src\spine\SpineObject.cpp">
+      <Filter>Source Files\runtime\src\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\spine\runtime\src\spine\TextureLoader.cpp">
+      <Filter>Source Files\runtime\src\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\spine\runtime\src\spine\Timeline.cpp">
+      <Filter>Source Files\runtime\src\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\spine\runtime\src\spine\TransformConstraint.cpp">
+      <Filter>Source Files\runtime\src\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\spine\runtime\src\spine\TransformConstraintData.cpp">
+      <Filter>Source Files\runtime\src\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\spine\runtime\src\spine\TransformConstraintTimeline.cpp">
+      <Filter>Source Files\runtime\src\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\spine\runtime\src\spine\TranslateTimeline.cpp">
+      <Filter>Source Files\runtime\src\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\spine\runtime\src\spine\Triangulator.cpp">
+      <Filter>Source Files\runtime\src\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\spine\runtime\src\spine\TwoColorTimeline.cpp">
+      <Filter>Source Files\runtime\src\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\spine\runtime\src\spine\Updatable.cpp">
+      <Filter>Source Files\runtime\src\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\spine\runtime\src\spine\VertexAttachment.cpp">
+      <Filter>Source Files\runtime\src\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\spine\runtime\src\spine\VertexEffect.cpp">
+      <Filter>Source Files\runtime\src\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\spine\spine-cocos2dx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\precheader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\work\github\engine-x\extensions\spine\AttachmentVertices.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\spine\SkeletonAnimation.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\spine\SkeletonBatch.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\spine\SkeletonRenderer.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\spine\SkeletonTwoColorBatch.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\spine\runtime\include\spine\Animation.h">
+      <Filter>Source Files\runtime\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\spine\runtime\include\spine\AnimationState.h">
+      <Filter>Source Files\runtime\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\spine\runtime\include\spine\AnimationStateData.h">
+      <Filter>Source Files\runtime\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\spine\runtime\include\spine\Atlas.h">
+      <Filter>Source Files\runtime\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\spine\runtime\include\spine\AtlasAttachmentLoader.h">
+      <Filter>Source Files\runtime\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\spine\runtime\include\spine\Attachment.h">
+      <Filter>Source Files\runtime\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\spine\runtime\include\spine\AttachmentLoader.h">
+      <Filter>Source Files\runtime\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\spine\runtime\include\spine\AttachmentTimeline.h">
+      <Filter>Source Files\runtime\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\spine\runtime\include\spine\AttachmentType.h">
+      <Filter>Source Files\runtime\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\spine\runtime\include\spine\BlendMode.h">
+      <Filter>Source Files\runtime\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\spine\runtime\include\spine\Bone.h">
+      <Filter>Source Files\runtime\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\spine\runtime\include\spine\BoneData.h">
+      <Filter>Source Files\runtime\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\spine\runtime\include\spine\BoundingBoxAttachment.h">
+      <Filter>Source Files\runtime\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\spine\runtime\include\spine\ClippingAttachment.h">
+      <Filter>Source Files\runtime\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\spine\runtime\include\spine\Color.h">
+      <Filter>Source Files\runtime\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\spine\runtime\include\spine\ColorTimeline.h">
+      <Filter>Source Files\runtime\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\spine\runtime\include\spine\ConstraintData.h">
+      <Filter>Source Files\runtime\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\spine\runtime\include\spine\ContainerUtil.h">
+      <Filter>Source Files\runtime\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\spine\runtime\include\spine\CurveTimeline.h">
+      <Filter>Source Files\runtime\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\spine\runtime\include\spine\Debug.h">
+      <Filter>Source Files\runtime\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\spine\runtime\include\spine\DeformTimeline.h">
+      <Filter>Source Files\runtime\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\spine\runtime\include\spine\DrawOrderTimeline.h">
+      <Filter>Source Files\runtime\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\spine\runtime\include\spine\Event.h">
+      <Filter>Source Files\runtime\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\spine\runtime\include\spine\EventData.h">
+      <Filter>Source Files\runtime\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\spine\runtime\include\spine\EventTimeline.h">
+      <Filter>Source Files\runtime\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\spine\runtime\include\spine\Extension.h">
+      <Filter>Source Files\runtime\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\spine\runtime\include\spine\HasRendererObject.h">
+      <Filter>Source Files\runtime\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\spine\runtime\include\spine\HashMap.h">
+      <Filter>Source Files\runtime\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\spine\runtime\include\spine\IkConstraint.h">
+      <Filter>Source Files\runtime\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\spine\runtime\include\spine\IkConstraintData.h">
+      <Filter>Source Files\runtime\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\spine\runtime\include\spine\IkConstraintTimeline.h">
+      <Filter>Source Files\runtime\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\spine\runtime\include\spine\Json.h">
+      <Filter>Source Files\runtime\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\spine\runtime\include\spine\LinkedMesh.h">
+      <Filter>Source Files\runtime\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\spine\runtime\include\spine\MathUtil.h">
+      <Filter>Source Files\runtime\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\spine\runtime\include\spine\MeshAttachment.h">
+      <Filter>Source Files\runtime\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\spine\runtime\include\spine\MixBlend.h">
+      <Filter>Source Files\runtime\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\spine\runtime\include\spine\MixDirection.h">
+      <Filter>Source Files\runtime\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\spine\runtime\include\spine\PathAttachment.h">
+      <Filter>Source Files\runtime\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\spine\runtime\include\spine\PathConstraint.h">
+      <Filter>Source Files\runtime\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\spine\runtime\include\spine\PathConstraintData.h">
+      <Filter>Source Files\runtime\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\spine\runtime\include\spine\PathConstraintMixTimeline.h">
+      <Filter>Source Files\runtime\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\spine\runtime\include\spine\PathConstraintPositionTimeline.h">
+      <Filter>Source Files\runtime\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\spine\runtime\include\spine\PathConstraintSpacingTimeline.h">
+      <Filter>Source Files\runtime\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\spine\runtime\include\spine\PointAttachment.h">
+      <Filter>Source Files\runtime\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\spine\runtime\include\spine\Pool.h">
+      <Filter>Source Files\runtime\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\spine\runtime\include\spine\PositionMode.h">
+      <Filter>Source Files\runtime\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\spine\runtime\include\spine\RTTI.h">
+      <Filter>Source Files\runtime\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\spine\runtime\include\spine\RegionAttachment.h">
+      <Filter>Source Files\runtime\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\spine\runtime\include\spine\RotateMode.h">
+      <Filter>Source Files\runtime\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\spine\runtime\include\spine\RotateTimeline.h">
+      <Filter>Source Files\runtime\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\spine\runtime\include\spine\ScaleTimeline.h">
+      <Filter>Source Files\runtime\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\spine\runtime\include\spine\ShearTimeline.h">
+      <Filter>Source Files\runtime\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\spine\runtime\include\spine\Skeleton.h">
+      <Filter>Source Files\runtime\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\spine\runtime\include\spine\SkeletonBinary.h">
+      <Filter>Source Files\runtime\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\spine\runtime\include\spine\SkeletonBounds.h">
+      <Filter>Source Files\runtime\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\spine\runtime\include\spine\SkeletonClipping.h">
+      <Filter>Source Files\runtime\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\spine\runtime\include\spine\SkeletonData.h">
+      <Filter>Source Files\runtime\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\spine\runtime\include\spine\SkeletonJson.h">
+      <Filter>Source Files\runtime\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\spine\runtime\include\spine\Skin.h">
+      <Filter>Source Files\runtime\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\spine\runtime\include\spine\Slot.h">
+      <Filter>Source Files\runtime\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\spine\runtime\include\spine\SlotData.h">
+      <Filter>Source Files\runtime\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\spine\runtime\include\spine\SpacingMode.h">
+      <Filter>Source Files\runtime\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\spine\runtime\include\spine\SpineObject.h">
+      <Filter>Source Files\runtime\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\spine\runtime\include\spine\SpineString.h">
+      <Filter>Source Files\runtime\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\spine\runtime\include\spine\TextureLoader.h">
+      <Filter>Source Files\runtime\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\spine\runtime\include\spine\Timeline.h">
+      <Filter>Source Files\runtime\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\spine\runtime\include\spine\TimelineType.h">
+      <Filter>Source Files\runtime\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\spine\runtime\include\spine\TransformConstraint.h">
+      <Filter>Source Files\runtime\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\spine\runtime\include\spine\TransformConstraintData.h">
+      <Filter>Source Files\runtime\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\spine\runtime\include\spine\TransformConstraintTimeline.h">
+      <Filter>Source Files\runtime\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\spine\runtime\include\spine\TransformMode.h">
+      <Filter>Source Files\runtime\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\spine\runtime\include\spine\TranslateTimeline.h">
+      <Filter>Source Files\runtime\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\spine\runtime\include\spine\Triangulator.h">
+      <Filter>Source Files\runtime\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\spine\runtime\include\spine\TwoColorTimeline.h">
+      <Filter>Source Files\runtime\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\spine\runtime\include\spine\Updatable.h">
+      <Filter>Source Files\runtime\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\spine\runtime\include\spine\Vector.h">
+      <Filter>Source Files\runtime\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\spine\runtime\include\spine\VertexAttachment.h">
+      <Filter>Source Files\runtime\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\spine\runtime\include\spine\VertexEffect.h">
+      <Filter>Source Files\runtime\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\spine\runtime\include\spine\Vertices.h">
+      <Filter>Source Files\runtime\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\spine\runtime\include\spine\dll.h">
+      <Filter>Source Files\runtime\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\spine\runtime\include\spine\spine.h">
+      <Filter>Source Files\runtime\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\spine\spine-cocos2dx.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\work\github\engine-x\extensions\spine\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{A4BAD2AB-32A2-3B75-86A8-BB08949E87DB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\runtime">
+      <UniqueIdentifier>{5DB90648-4F19-322E-9644-21F7F9947F19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\runtime\include">
+      <UniqueIdentifier>{728FF4A1-651A-34AB-9F0C-6466639361F9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\runtime\include\spine">
+      <UniqueIdentifier>{7A0678AB-1725-3CE1-B102-5EC8EE157069}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\runtime\src">
+      <UniqueIdentifier>{6C7BA5EC-E301-399A-A749-11B96B332B27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\runtime\src\spine">
+      <UniqueIdentifier>{EE80839B-691E-36E5-9CCA-F85A13B86AD4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

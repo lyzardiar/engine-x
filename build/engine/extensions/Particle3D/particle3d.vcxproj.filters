@@ -1,0 +1,927 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUAffector.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUAffectorManager.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUAffectorTranslator.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUAlignAffector.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUAlignAffectorTranslator.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUBaseCollider.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUBaseColliderTranslator.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUBaseForceAffector.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUBaseForceAffectorTranslator.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUBeamRender.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUBehaviour.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUBehaviourManager.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUBehaviourTranslator.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUBillboardChain.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUBoxCollider.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUBoxColliderTranslator.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUBoxEmitter.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUBoxEmitterTranslator.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUCircleEmitter.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUCircleEmitterTranslator.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUCollisionAvoidanceAffector.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUCollisionAvoidanceAffectorTranslator.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUColorAffector.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUColorAffectorTranslator.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUDoAffectorEventHandler.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUDoAffectorEventHandlerTranslator.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUDoEnableComponentEventHandler.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUDoEnableComponentEventHandlerTranslator.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUDoExpireEventHandler.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUDoExpireEventHandlerTranslator.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUDoFreezeEventHandler.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUDoFreezeEventHandlerTranslator.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUDoPlacementParticleEventHandler.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUDoPlacementParticleEventHandlerTranslator.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUDoScaleEventHandler.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUDoScaleEventHandlerTranslator.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUDoStopSystemEventHandler.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUDoStopSystemEventHandlerTranslator.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUDynamicAttribute.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUDynamicAttributeTranslator.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUEmitter.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUEmitterManager.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUEmitterTranslator.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUEventHandler.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUEventHandlerManager.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUEventHandlerTranslator.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUFlockCenteringAffector.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUFlockCenteringAffectorTranslator.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUForceField.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUForceFieldAffector.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUForceFieldAffectorTranslator.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUGeometryRotator.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUGeometryRotatorTranslator.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUGravityAffector.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUGravityAffectorTranslator.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUInterParticleCollider.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUInterParticleColliderTranslator.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUJetAffector.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUJetAffectorTranslator.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPULineAffector.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPULineAffectorTranslator.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPULineEmitter.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPULineEmitterTranslator.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPULinearForceAffector.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPULinearForceAffectorTranslator.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUListener.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUMaterialManager.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUMaterialTranslator.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUMeshSurfaceEmitter.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUMeshSurfaceEmitterTranslator.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUNoise.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUObserver.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUObserverManager.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUObserverTranslator.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUOnClearObserver.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUOnClearObserverTranslator.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUOnCollisionObserver.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUOnCollisionObserverTranslator.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUOnCountObserver.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUOnCountObserverTranslator.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUOnEmissionObserver.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUOnEmissionObserverTranslator.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUOnEventFlagObserver.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUOnEventFlagObserverTranslator.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUOnExpireObserver.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUOnExpireObserverTranslator.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUOnPositionObserver.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUOnPositionObserverTranslator.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUOnQuotaObserver.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUOnQuotaObserverTranslator.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUOnRandomObserver.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUOnRandomObserverTranslator.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUOnTimeObserver.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUOnTimeObserverTranslator.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUOnVelocityObserver.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUOnVelocityObserverTranslator.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUParticleFollower.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUParticleFollowerTranslator.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUParticleSystem3D.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUParticleSystem3DTranslator.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUPathFollower.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUPathFollowerTranslator.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUPlane.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUPlaneCollider.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUPlaneColliderTranslator.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUPointEmitter.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUPointEmitterTranslator.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUPositionEmitter.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUPositionEmitterTranslator.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPURandomiser.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPURandomiserTranslator.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPURender.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPURendererTranslator.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPURibbonTrail.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPURibbonTrailRender.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUScaleAffector.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUScaleAffectorTranslator.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUScaleVelocityAffector.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUScaleVelocityAffectorTranslator.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUScriptCompiler.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUScriptLexer.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUScriptParser.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUScriptTranslator.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUSimpleSpline.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUSineForceAffector.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUSineForceAffectorTranslator.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUSlaveBehaviour.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUSlaveBehaviourTranslator.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUSlaveEmitter.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUSlaveEmitterTranslator.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUSphere.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUSphereCollider.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUSphereColliderTranslator.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUSphereSurfaceEmitter.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUSphereSurfaceEmitterTranslator.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUTechniqueTranslator.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUTextureAnimator.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUTextureAnimatorTranslator.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUTextureRotator.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUTextureRotatorTranslator.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUTranslateManager.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUUtil.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUVelocityMatchingAffector.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUVelocityMatchingAffectorTranslator.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUVertexEmitter.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUVortexAffector.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUVortexAffectorTranslator.cpp">
+      <Filter>Source Files\PU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\CCParticle3DAffector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\CCParticle3DEmitter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\CCParticle3DRender.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\CCParticleSystem3D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\precheader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUAffector.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUAffectorManager.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUAffectorTranslator.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUAlignAffector.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUAlignAffectorTranslator.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUBaseCollider.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUBaseColliderTranslator.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUBaseForceAffector.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUBaseForceAffectorTranslator.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUBeamRender.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUBehaviour.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUBehaviourManager.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUBehaviourTranslator.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUBillboardChain.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUBoxCollider.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUBoxColliderTranslator.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUBoxEmitter.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUBoxEmitterTranslator.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUCircleEmitter.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUCircleEmitterTranslator.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUCollisionAvoidanceAffector.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUCollisionAvoidanceAffectorTranslator.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUColorAffector.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUColorAffectorTranslator.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUDoAffectorEventHandler.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUDoAffectorEventHandlerTranslator.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUDoEnableComponentEventHandler.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUDoEnableComponentEventHandlerTranslator.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUDoExpireEventHandler.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUDoExpireEventHandlerTranslator.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUDoFreezeEventHandler.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUDoFreezeEventHandlerTranslator.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUDoPlacementParticleEventHandler.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUDoPlacementParticleEventHandlerTranslator.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUDoScaleEventHandler.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUDoScaleEventHandlerTranslator.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUDoStopSystemEventHandler.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUDoStopSystemEventHandlerTranslator.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUDynamicAttribute.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUDynamicAttributeTranslator.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUEmitter.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUEmitterManager.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUEmitterTranslator.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUEventHandler.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUEventHandlerManager.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUEventHandlerTranslator.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUFlockCenteringAffector.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUFlockCenteringAffectorTranslator.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUForceField.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUForceFieldAffector.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUForceFieldAffectorTranslator.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUGeometryRotator.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUGeometryRotatorTranslator.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUGravityAffector.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUGravityAffectorTranslator.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUInterParticleCollider.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUInterParticleColliderTranslator.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUJetAffector.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUJetAffectorTranslator.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPULineAffector.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPULineAffectorTranslator.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPULineEmitter.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPULineEmitterTranslator.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPULinearForceAffector.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPULinearForceAffectorTranslator.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUListener.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUMaterialManager.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUMaterialTranslator.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUMeshSurfaceEmitter.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUMeshSurfaceEmitterTranslator.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUNoise.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUObserver.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUObserverManager.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUObserverTranslator.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUOnClearObserver.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUOnClearObserverTranslator.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUOnCollisionObserver.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUOnCollisionObserverTranslator.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUOnCountObserver.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUOnCountObserverTranslator.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUOnEmissionObserver.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUOnEmissionObserverTranslator.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUOnEventFlagObserver.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUOnEventFlagObserverTranslator.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUOnExpireObserver.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUOnExpireObserverTranslator.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUOnPositionObserver.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUOnPositionObserverTranslator.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUOnQuotaObserver.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUOnQuotaObserverTranslator.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUOnRandomObserver.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUOnRandomObserverTranslator.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUOnTimeObserver.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUOnTimeObserverTranslator.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUOnVelocityObserver.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUOnVelocityObserverTranslator.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUParticleFollower.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUParticleFollowerTranslator.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUParticleSystem3D.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUParticleSystem3DTranslator.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUPathFollower.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUPathFollowerTranslator.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUPlane.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUPlaneCollider.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUPlaneColliderTranslator.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUPointEmitter.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUPointEmitterTranslator.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUPositionEmitter.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUPositionEmitterTranslator.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPURandomiser.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPURandomiserTranslator.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPURender.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPURendererTranslator.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPURibbonTrail.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPURibbonTrailRender.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUScaleAffector.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUScaleAffectorTranslator.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUScaleVelocityAffector.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUScaleVelocityAffectorTranslator.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUScriptCompiler.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUScriptLexer.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUScriptParser.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUScriptTranslator.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUSimpleSpline.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUSineForceAffector.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUSineForceAffectorTranslator.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUSlaveBehaviour.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUSlaveBehaviourTranslator.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUSlaveEmitter.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUSlaveEmitterTranslator.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUSphere.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUSphereCollider.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUSphereColliderTranslator.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUSphereSurfaceEmitter.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUSphereSurfaceEmitterTranslator.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUTechniqueTranslator.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUTextureAnimator.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUTextureAnimatorTranslator.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUTextureRotator.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUTextureRotatorTranslator.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUTranslateManager.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUUtil.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUVelocityMatchingAffector.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUVelocityMatchingAffectorTranslator.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUVertexEmitter.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUVortexAffector.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUVortexAffectorTranslator.h">
+      <Filter>Source Files\PU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\CCParticle3DAffector.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\CCParticle3DEmitter.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\CCParticle3DRender.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\CCParticleSystem3D.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\work\github\engine-x\extensions\Particle3D\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{A4BAD2AB-32A2-3B75-86A8-BB08949E87DB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PU">
+      <UniqueIdentifier>{5D20E49B-43E8-30BB-8809-61AB2B1F4464}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

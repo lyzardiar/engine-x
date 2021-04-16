@@ -1,0 +1,1003 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{3B772E50-3B80-3D53-89C9-3C095C545E90}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>cocos2d</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+    <Import Project="E:\work\github\engine-x\build\engine\cocos\core\cocos2d.dir\nasm.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\work\github\engine-x\build\lib\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">cocos2d.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">cocos2d</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\work\github\engine-x\build\lib\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">cocos2d.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">cocos2d</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\work\github\engine-x\build\lib\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">cocos2d.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">cocos2d</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\work\github\engine-x\build\lib\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">cocos2d.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">cocos2d</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\work\github\engine-x;E:\work\github\engine-x\external;E:\work\github\engine-x\extensions;E:\work\github\engine-x\cocos;E:\work\github\engine-x\cocos\platform;E:\work\github\engine-x\external\jpeg;E:\work\github\engine-x\build\engine\external\jpeg\inc;E:\work\github\engine-x\external\box2d\src\..\include;E:\work\github\engine-x\external\chipmunk\include;E:\work\github\engine-x\external\recast\..;E:\work\github\engine-x\external\fastlz\.;E:\work\github\engine-x\external\bullet\.;E:\work\github\engine-x\external\webp\src\webp;E:\work\github\engine-x\external\pugixml;E:\work\github\engine-x\external\lz4\.;E:\work\github\engine-x\external\clipper\.;E:\work\github\engine-x\external\edtaa3func\.;E:\work\github\engine-x\external\ConvertUTF\.;E:\work\github\engine-x\external\poly2tri\..;E:\work\github\engine-x\external\md5\..;E:\work\github\engine-x\external\astc\..;E:\work\github\engine-x\external\ogg\include;E:\work\github\engine-x\external\glad\include;E:\work\github\engine-x\external\png;E:\work\github\engine-x\external\unzip\.;E:\work\github\engine-x\external\freetype\include\win32;E:\work\github\engine-x\external\openssl\include\win32;E:\work\github\engine-x\external\curl\include\win32;E:\work\github\engine-x\external\openal\include;E:\work\github\engine-x\external\win32-specific\iconv\include;E:\work\github\engine-x\external\glfw3\include\win32;E:\work\github\engine-x\external\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ForcedIncludeFiles>precheader.h</ForcedIncludeFiles>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>precheader.h</PrecompiledHeaderFile>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;COCOS2D_DEBUG=1;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CC_STATIC;CP_USE_CGTYPES=0;CP_USE_DOUBLES=0;BT_USE_SSE_IN_API=1;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;COCOS2D_DEBUG=1;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CC_STATIC;CP_USE_CGTYPES=0;CP_USE_DOUBLES=0;BT_USE_SSE_IN_API=1;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\work\github\engine-x;E:\work\github\engine-x\external;E:\work\github\engine-x\extensions;E:\work\github\engine-x\cocos;E:\work\github\engine-x\cocos\platform;E:\work\github\engine-x\external\jpeg;E:\work\github\engine-x\build\engine\external\jpeg\inc;E:\work\github\engine-x\external\box2d\src\..\include;E:\work\github\engine-x\external\chipmunk\include;E:\work\github\engine-x\external\recast\..;E:\work\github\engine-x\external\fastlz\.;E:\work\github\engine-x\external\bullet\.;E:\work\github\engine-x\external\webp\src\webp;E:\work\github\engine-x\external\pugixml;E:\work\github\engine-x\external\lz4\.;E:\work\github\engine-x\external\clipper\.;E:\work\github\engine-x\external\edtaa3func\.;E:\work\github\engine-x\external\ConvertUTF\.;E:\work\github\engine-x\external\poly2tri\..;E:\work\github\engine-x\external\md5\..;E:\work\github\engine-x\external\astc\..;E:\work\github\engine-x\external\ogg\include;E:\work\github\engine-x\external\glad\include;E:\work\github\engine-x\external\png;E:\work\github\engine-x\external\unzip\.;E:\work\github\engine-x\external\freetype\include\win32;E:\work\github\engine-x\external\openssl\include\win32;E:\work\github\engine-x\external\curl\include\win32;E:\work\github\engine-x\external\openal\include;E:\work\github\engine-x\external\win32-specific\iconv\include;E:\work\github\engine-x\external\glfw3\include\win32;E:\work\github\engine-x\external\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <NASM>
+      <IncludePaths>E:\work\github\engine-x\;E:\work\github\engine-x\external\;E:\work\github\engine-x\extensions\;E:\work\github\engine-x\cocos\;E:\work\github\engine-x\cocos\platform\;E:\work\github\engine-x\external\jpeg\;E:\work\github\engine-x\build\engine\external\jpeg\inc\;E:\work\github\engine-x\external\box2d\src\..\include\;E:\work\github\engine-x\external\chipmunk\include\;E:\work\github\engine-x\external\recast\..\;E:\work\github\engine-x\external\fastlz\.\;E:\work\github\engine-x\external\bullet\.\;E:\work\github\engine-x\external\webp\src\webp\;E:\work\github\engine-x\external\pugixml\;E:\work\github\engine-x\external\lz4\.\;E:\work\github\engine-x\external\clipper\.\;E:\work\github\engine-x\external\edtaa3func\.\;E:\work\github\engine-x\external\ConvertUTF\.\;E:\work\github\engine-x\external\poly2tri\..\;E:\work\github\engine-x\external\md5\..\;E:\work\github\engine-x\external\astc\..\;E:\work\github\engine-x\external\ogg\include\;E:\work\github\engine-x\external\glad\include\;E:\work\github\engine-x\external\png\;E:\work\github\engine-x\external\unzip\.\;E:\work\github\engine-x\external\freetype\include\win32\;E:\work\github\engine-x\external\openssl\include\win32\;E:\work\github\engine-x\external\curl\include\win32\;E:\work\github\engine-x\external\openal\include\;E:\work\github\engine-x\external\win32-specific\iconv\include\;E:\work\github\engine-x\external\glfw3\include\win32\;E:\work\github\engine-x\external\zlib\include\;%(IncludePaths)</IncludePaths>
+      <Outputswitch>0</Outputswitch>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;COCOS2D_DEBUG=1;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CC_STATIC;CP_USE_CGTYPES=0;CP_USE_DOUBLES=0;BT_USE_SSE_IN_API=1;CMAKE_INTDIR="Debug";;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </NASM>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\work\github\engine-x;E:\work\github\engine-x\external;E:\work\github\engine-x\extensions;E:\work\github\engine-x\cocos;E:\work\github\engine-x\cocos\platform;E:\work\github\engine-x\external\jpeg;E:\work\github\engine-x\build\engine\external\jpeg\inc;E:\work\github\engine-x\external\box2d\src\..\include;E:\work\github\engine-x\external\chipmunk\include;E:\work\github\engine-x\external\recast\..;E:\work\github\engine-x\external\fastlz\.;E:\work\github\engine-x\external\bullet\.;E:\work\github\engine-x\external\webp\src\webp;E:\work\github\engine-x\external\pugixml;E:\work\github\engine-x\external\lz4\.;E:\work\github\engine-x\external\clipper\.;E:\work\github\engine-x\external\edtaa3func\.;E:\work\github\engine-x\external\ConvertUTF\.;E:\work\github\engine-x\external\poly2tri\..;E:\work\github\engine-x\external\md5\..;E:\work\github\engine-x\external\astc\..;E:\work\github\engine-x\external\ogg\include;E:\work\github\engine-x\external\glad\include;E:\work\github\engine-x\external\png;E:\work\github\engine-x\external\unzip\.;E:\work\github\engine-x\external\freetype\include\win32;E:\work\github\engine-x\external\openssl\include\win32;E:\work\github\engine-x\external\curl\include\win32;E:\work\github\engine-x\external\openal\include;E:\work\github\engine-x\external\win32-specific\iconv\include;E:\work\github\engine-x\external\glfw3\include\win32;E:\work\github\engine-x\external\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\work\github\engine-x;E:\work\github\engine-x\external;E:\work\github\engine-x\extensions;E:\work\github\engine-x\cocos;E:\work\github\engine-x\cocos\platform;E:\work\github\engine-x\external\jpeg;E:\work\github\engine-x\build\engine\external\jpeg\inc;E:\work\github\engine-x\external\box2d\src\..\include;E:\work\github\engine-x\external\chipmunk\include;E:\work\github\engine-x\external\recast\..;E:\work\github\engine-x\external\fastlz\.;E:\work\github\engine-x\external\bullet\.;E:\work\github\engine-x\external\webp\src\webp;E:\work\github\engine-x\external\pugixml;E:\work\github\engine-x\external\lz4\.;E:\work\github\engine-x\external\clipper\.;E:\work\github\engine-x\external\edtaa3func\.;E:\work\github\engine-x\external\ConvertUTF\.;E:\work\github\engine-x\external\poly2tri\..;E:\work\github\engine-x\external\md5\..;E:\work\github\engine-x\external\astc\..;E:\work\github\engine-x\external\ogg\include;E:\work\github\engine-x\external\glad\include;E:\work\github\engine-x\external\png;E:\work\github\engine-x\external\unzip\.;E:\work\github\engine-x\external\freetype\include\win32;E:\work\github\engine-x\external\openssl\include\win32;E:\work\github\engine-x\external\curl\include\win32;E:\work\github\engine-x\external\openal\include;E:\work\github\engine-x\external\win32-specific\iconv\include;E:\work\github\engine-x\external\glfw3\include\win32;E:\work\github\engine-x\external\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ForcedIncludeFiles>precheader.h</ForcedIncludeFiles>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>precheader.h</PrecompiledHeaderFile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CC_STATIC;CP_USE_CGTYPES=0;CP_USE_DOUBLES=0;BT_USE_SSE_IN_API=1;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CC_STATIC;CP_USE_CGTYPES=0;CP_USE_DOUBLES=0;BT_USE_SSE_IN_API=1;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\work\github\engine-x;E:\work\github\engine-x\external;E:\work\github\engine-x\extensions;E:\work\github\engine-x\cocos;E:\work\github\engine-x\cocos\platform;E:\work\github\engine-x\external\jpeg;E:\work\github\engine-x\build\engine\external\jpeg\inc;E:\work\github\engine-x\external\box2d\src\..\include;E:\work\github\engine-x\external\chipmunk\include;E:\work\github\engine-x\external\recast\..;E:\work\github\engine-x\external\fastlz\.;E:\work\github\engine-x\external\bullet\.;E:\work\github\engine-x\external\webp\src\webp;E:\work\github\engine-x\external\pugixml;E:\work\github\engine-x\external\lz4\.;E:\work\github\engine-x\external\clipper\.;E:\work\github\engine-x\external\edtaa3func\.;E:\work\github\engine-x\external\ConvertUTF\.;E:\work\github\engine-x\external\poly2tri\..;E:\work\github\engine-x\external\md5\..;E:\work\github\engine-x\external\astc\..;E:\work\github\engine-x\external\ogg\include;E:\work\github\engine-x\external\glad\include;E:\work\github\engine-x\external\png;E:\work\github\engine-x\external\unzip\.;E:\work\github\engine-x\external\freetype\include\win32;E:\work\github\engine-x\external\openssl\include\win32;E:\work\github\engine-x\external\curl\include\win32;E:\work\github\engine-x\external\openal\include;E:\work\github\engine-x\external\win32-specific\iconv\include;E:\work\github\engine-x\external\glfw3\include\win32;E:\work\github\engine-x\external\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <NASM>
+      <IncludePaths>E:\work\github\engine-x\;E:\work\github\engine-x\external\;E:\work\github\engine-x\extensions\;E:\work\github\engine-x\cocos\;E:\work\github\engine-x\cocos\platform\;E:\work\github\engine-x\external\jpeg\;E:\work\github\engine-x\build\engine\external\jpeg\inc\;E:\work\github\engine-x\external\box2d\src\..\include\;E:\work\github\engine-x\external\chipmunk\include\;E:\work\github\engine-x\external\recast\..\;E:\work\github\engine-x\external\fastlz\.\;E:\work\github\engine-x\external\bullet\.\;E:\work\github\engine-x\external\webp\src\webp\;E:\work\github\engine-x\external\pugixml\;E:\work\github\engine-x\external\lz4\.\;E:\work\github\engine-x\external\clipper\.\;E:\work\github\engine-x\external\edtaa3func\.\;E:\work\github\engine-x\external\ConvertUTF\.\;E:\work\github\engine-x\external\poly2tri\..\;E:\work\github\engine-x\external\md5\..\;E:\work\github\engine-x\external\astc\..\;E:\work\github\engine-x\external\ogg\include\;E:\work\github\engine-x\external\glad\include\;E:\work\github\engine-x\external\png\;E:\work\github\engine-x\external\unzip\.\;E:\work\github\engine-x\external\freetype\include\win32\;E:\work\github\engine-x\external\openssl\include\win32\;E:\work\github\engine-x\external\curl\include\win32\;E:\work\github\engine-x\external\openal\include\;E:\work\github\engine-x\external\win32-specific\iconv\include\;E:\work\github\engine-x\external\glfw3\include\win32\;E:\work\github\engine-x\external\zlib\include\;%(IncludePaths)</IncludePaths>
+      <Outputswitch>0</Outputswitch>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CC_STATIC;CP_USE_CGTYPES=0;CP_USE_DOUBLES=0;BT_USE_SSE_IN_API=1;CMAKE_INTDIR="Release";;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </NASM>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\work\github\engine-x;E:\work\github\engine-x\external;E:\work\github\engine-x\extensions;E:\work\github\engine-x\cocos;E:\work\github\engine-x\cocos\platform;E:\work\github\engine-x\external\jpeg;E:\work\github\engine-x\build\engine\external\jpeg\inc;E:\work\github\engine-x\external\box2d\src\..\include;E:\work\github\engine-x\external\chipmunk\include;E:\work\github\engine-x\external\recast\..;E:\work\github\engine-x\external\fastlz\.;E:\work\github\engine-x\external\bullet\.;E:\work\github\engine-x\external\webp\src\webp;E:\work\github\engine-x\external\pugixml;E:\work\github\engine-x\external\lz4\.;E:\work\github\engine-x\external\clipper\.;E:\work\github\engine-x\external\edtaa3func\.;E:\work\github\engine-x\external\ConvertUTF\.;E:\work\github\engine-x\external\poly2tri\..;E:\work\github\engine-x\external\md5\..;E:\work\github\engine-x\external\astc\..;E:\work\github\engine-x\external\ogg\include;E:\work\github\engine-x\external\glad\include;E:\work\github\engine-x\external\png;E:\work\github\engine-x\external\unzip\.;E:\work\github\engine-x\external\freetype\include\win32;E:\work\github\engine-x\external\openssl\include\win32;E:\work\github\engine-x\external\curl\include\win32;E:\work\github\engine-x\external\openal\include;E:\work\github\engine-x\external\win32-specific\iconv\include;E:\work\github\engine-x\external\glfw3\include\win32;E:\work\github\engine-x\external\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\work\github\engine-x;E:\work\github\engine-x\external;E:\work\github\engine-x\extensions;E:\work\github\engine-x\cocos;E:\work\github\engine-x\cocos\platform;E:\work\github\engine-x\external\jpeg;E:\work\github\engine-x\build\engine\external\jpeg\inc;E:\work\github\engine-x\external\box2d\src\..\include;E:\work\github\engine-x\external\chipmunk\include;E:\work\github\engine-x\external\recast\..;E:\work\github\engine-x\external\fastlz\.;E:\work\github\engine-x\external\bullet\.;E:\work\github\engine-x\external\webp\src\webp;E:\work\github\engine-x\external\pugixml;E:\work\github\engine-x\external\lz4\.;E:\work\github\engine-x\external\clipper\.;E:\work\github\engine-x\external\edtaa3func\.;E:\work\github\engine-x\external\ConvertUTF\.;E:\work\github\engine-x\external\poly2tri\..;E:\work\github\engine-x\external\md5\..;E:\work\github\engine-x\external\astc\..;E:\work\github\engine-x\external\ogg\include;E:\work\github\engine-x\external\glad\include;E:\work\github\engine-x\external\png;E:\work\github\engine-x\external\unzip\.;E:\work\github\engine-x\external\freetype\include\win32;E:\work\github\engine-x\external\openssl\include\win32;E:\work\github\engine-x\external\curl\include\win32;E:\work\github\engine-x\external\openal\include;E:\work\github\engine-x\external\win32-specific\iconv\include;E:\work\github\engine-x\external\glfw3\include\win32;E:\work\github\engine-x\external\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ForcedIncludeFiles>precheader.h</ForcedIncludeFiles>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>precheader.h</PrecompiledHeaderFile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CC_STATIC;CP_USE_CGTYPES=0;CP_USE_DOUBLES=0;BT_USE_SSE_IN_API=1;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CC_STATIC;CP_USE_CGTYPES=0;CP_USE_DOUBLES=0;BT_USE_SSE_IN_API=1;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\work\github\engine-x;E:\work\github\engine-x\external;E:\work\github\engine-x\extensions;E:\work\github\engine-x\cocos;E:\work\github\engine-x\cocos\platform;E:\work\github\engine-x\external\jpeg;E:\work\github\engine-x\build\engine\external\jpeg\inc;E:\work\github\engine-x\external\box2d\src\..\include;E:\work\github\engine-x\external\chipmunk\include;E:\work\github\engine-x\external\recast\..;E:\work\github\engine-x\external\fastlz\.;E:\work\github\engine-x\external\bullet\.;E:\work\github\engine-x\external\webp\src\webp;E:\work\github\engine-x\external\pugixml;E:\work\github\engine-x\external\lz4\.;E:\work\github\engine-x\external\clipper\.;E:\work\github\engine-x\external\edtaa3func\.;E:\work\github\engine-x\external\ConvertUTF\.;E:\work\github\engine-x\external\poly2tri\..;E:\work\github\engine-x\external\md5\..;E:\work\github\engine-x\external\astc\..;E:\work\github\engine-x\external\ogg\include;E:\work\github\engine-x\external\glad\include;E:\work\github\engine-x\external\png;E:\work\github\engine-x\external\unzip\.;E:\work\github\engine-x\external\freetype\include\win32;E:\work\github\engine-x\external\openssl\include\win32;E:\work\github\engine-x\external\curl\include\win32;E:\work\github\engine-x\external\openal\include;E:\work\github\engine-x\external\win32-specific\iconv\include;E:\work\github\engine-x\external\glfw3\include\win32;E:\work\github\engine-x\external\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <NASM>
+      <IncludePaths>E:\work\github\engine-x\;E:\work\github\engine-x\external\;E:\work\github\engine-x\extensions\;E:\work\github\engine-x\cocos\;E:\work\github\engine-x\cocos\platform\;E:\work\github\engine-x\external\jpeg\;E:\work\github\engine-x\build\engine\external\jpeg\inc\;E:\work\github\engine-x\external\box2d\src\..\include\;E:\work\github\engine-x\external\chipmunk\include\;E:\work\github\engine-x\external\recast\..\;E:\work\github\engine-x\external\fastlz\.\;E:\work\github\engine-x\external\bullet\.\;E:\work\github\engine-x\external\webp\src\webp\;E:\work\github\engine-x\external\pugixml\;E:\work\github\engine-x\external\lz4\.\;E:\work\github\engine-x\external\clipper\.\;E:\work\github\engine-x\external\edtaa3func\.\;E:\work\github\engine-x\external\ConvertUTF\.\;E:\work\github\engine-x\external\poly2tri\..\;E:\work\github\engine-x\external\md5\..\;E:\work\github\engine-x\external\astc\..\;E:\work\github\engine-x\external\ogg\include\;E:\work\github\engine-x\external\glad\include\;E:\work\github\engine-x\external\png\;E:\work\github\engine-x\external\unzip\.\;E:\work\github\engine-x\external\freetype\include\win32\;E:\work\github\engine-x\external\openssl\include\win32\;E:\work\github\engine-x\external\curl\include\win32\;E:\work\github\engine-x\external\openal\include\;E:\work\github\engine-x\external\win32-specific\iconv\include\;E:\work\github\engine-x\external\glfw3\include\win32\;E:\work\github\engine-x\external\zlib\include\;%(IncludePaths)</IncludePaths>
+      <Outputswitch>0</Outputswitch>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CC_STATIC;CP_USE_CGTYPES=0;CP_USE_DOUBLES=0;BT_USE_SSE_IN_API=1;CMAKE_INTDIR="MinSizeRel";;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </NASM>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\work\github\engine-x;E:\work\github\engine-x\external;E:\work\github\engine-x\extensions;E:\work\github\engine-x\cocos;E:\work\github\engine-x\cocos\platform;E:\work\github\engine-x\external\jpeg;E:\work\github\engine-x\build\engine\external\jpeg\inc;E:\work\github\engine-x\external\box2d\src\..\include;E:\work\github\engine-x\external\chipmunk\include;E:\work\github\engine-x\external\recast\..;E:\work\github\engine-x\external\fastlz\.;E:\work\github\engine-x\external\bullet\.;E:\work\github\engine-x\external\webp\src\webp;E:\work\github\engine-x\external\pugixml;E:\work\github\engine-x\external\lz4\.;E:\work\github\engine-x\external\clipper\.;E:\work\github\engine-x\external\edtaa3func\.;E:\work\github\engine-x\external\ConvertUTF\.;E:\work\github\engine-x\external\poly2tri\..;E:\work\github\engine-x\external\md5\..;E:\work\github\engine-x\external\astc\..;E:\work\github\engine-x\external\ogg\include;E:\work\github\engine-x\external\glad\include;E:\work\github\engine-x\external\png;E:\work\github\engine-x\external\unzip\.;E:\work\github\engine-x\external\freetype\include\win32;E:\work\github\engine-x\external\openssl\include\win32;E:\work\github\engine-x\external\curl\include\win32;E:\work\github\engine-x\external\openal\include;E:\work\github\engine-x\external\win32-specific\iconv\include;E:\work\github\engine-x\external\glfw3\include\win32;E:\work\github\engine-x\external\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\work\github\engine-x;E:\work\github\engine-x\external;E:\work\github\engine-x\extensions;E:\work\github\engine-x\cocos;E:\work\github\engine-x\cocos\platform;E:\work\github\engine-x\external\jpeg;E:\work\github\engine-x\build\engine\external\jpeg\inc;E:\work\github\engine-x\external\box2d\src\..\include;E:\work\github\engine-x\external\chipmunk\include;E:\work\github\engine-x\external\recast\..;E:\work\github\engine-x\external\fastlz\.;E:\work\github\engine-x\external\bullet\.;E:\work\github\engine-x\external\webp\src\webp;E:\work\github\engine-x\external\pugixml;E:\work\github\engine-x\external\lz4\.;E:\work\github\engine-x\external\clipper\.;E:\work\github\engine-x\external\edtaa3func\.;E:\work\github\engine-x\external\ConvertUTF\.;E:\work\github\engine-x\external\poly2tri\..;E:\work\github\engine-x\external\md5\..;E:\work\github\engine-x\external\astc\..;E:\work\github\engine-x\external\ogg\include;E:\work\github\engine-x\external\glad\include;E:\work\github\engine-x\external\png;E:\work\github\engine-x\external\unzip\.;E:\work\github\engine-x\external\freetype\include\win32;E:\work\github\engine-x\external\openssl\include\win32;E:\work\github\engine-x\external\curl\include\win32;E:\work\github\engine-x\external\openal\include;E:\work\github\engine-x\external\win32-specific\iconv\include;E:\work\github\engine-x\external\glfw3\include\win32;E:\work\github\engine-x\external\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ForcedIncludeFiles>precheader.h</ForcedIncludeFiles>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>precheader.h</PrecompiledHeaderFile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CC_STATIC;CP_USE_CGTYPES=0;CP_USE_DOUBLES=0;BT_USE_SSE_IN_API=1;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CC_STATIC;CP_USE_CGTYPES=0;CP_USE_DOUBLES=0;BT_USE_SSE_IN_API=1;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\work\github\engine-x;E:\work\github\engine-x\external;E:\work\github\engine-x\extensions;E:\work\github\engine-x\cocos;E:\work\github\engine-x\cocos\platform;E:\work\github\engine-x\external\jpeg;E:\work\github\engine-x\build\engine\external\jpeg\inc;E:\work\github\engine-x\external\box2d\src\..\include;E:\work\github\engine-x\external\chipmunk\include;E:\work\github\engine-x\external\recast\..;E:\work\github\engine-x\external\fastlz\.;E:\work\github\engine-x\external\bullet\.;E:\work\github\engine-x\external\webp\src\webp;E:\work\github\engine-x\external\pugixml;E:\work\github\engine-x\external\lz4\.;E:\work\github\engine-x\external\clipper\.;E:\work\github\engine-x\external\edtaa3func\.;E:\work\github\engine-x\external\ConvertUTF\.;E:\work\github\engine-x\external\poly2tri\..;E:\work\github\engine-x\external\md5\..;E:\work\github\engine-x\external\astc\..;E:\work\github\engine-x\external\ogg\include;E:\work\github\engine-x\external\glad\include;E:\work\github\engine-x\external\png;E:\work\github\engine-x\external\unzip\.;E:\work\github\engine-x\external\freetype\include\win32;E:\work\github\engine-x\external\openssl\include\win32;E:\work\github\engine-x\external\curl\include\win32;E:\work\github\engine-x\external\openal\include;E:\work\github\engine-x\external\win32-specific\iconv\include;E:\work\github\engine-x\external\glfw3\include\win32;E:\work\github\engine-x\external\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <NASM>
+      <IncludePaths>E:\work\github\engine-x\;E:\work\github\engine-x\external\;E:\work\github\engine-x\extensions\;E:\work\github\engine-x\cocos\;E:\work\github\engine-x\cocos\platform\;E:\work\github\engine-x\external\jpeg\;E:\work\github\engine-x\build\engine\external\jpeg\inc\;E:\work\github\engine-x\external\box2d\src\..\include\;E:\work\github\engine-x\external\chipmunk\include\;E:\work\github\engine-x\external\recast\..\;E:\work\github\engine-x\external\fastlz\.\;E:\work\github\engine-x\external\bullet\.\;E:\work\github\engine-x\external\webp\src\webp\;E:\work\github\engine-x\external\pugixml\;E:\work\github\engine-x\external\lz4\.\;E:\work\github\engine-x\external\clipper\.\;E:\work\github\engine-x\external\edtaa3func\.\;E:\work\github\engine-x\external\ConvertUTF\.\;E:\work\github\engine-x\external\poly2tri\..\;E:\work\github\engine-x\external\md5\..\;E:\work\github\engine-x\external\astc\..\;E:\work\github\engine-x\external\ogg\include\;E:\work\github\engine-x\external\glad\include\;E:\work\github\engine-x\external\png\;E:\work\github\engine-x\external\unzip\.\;E:\work\github\engine-x\external\freetype\include\win32\;E:\work\github\engine-x\external\openssl\include\win32\;E:\work\github\engine-x\external\curl\include\win32\;E:\work\github\engine-x\external\openal\include\;E:\work\github\engine-x\external\win32-specific\iconv\include\;E:\work\github\engine-x\external\glfw3\include\win32\;E:\work\github\engine-x\external\zlib\include\;%(IncludePaths)</IncludePaths>
+      <Outputswitch>0</Outputswitch>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CC_STATIC;CP_USE_CGTYPES=0;CP_USE_DOUBLES=0;BT_USE_SSE_IN_API=1;CMAKE_INTDIR="RelWithDebInfo";;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </NASM>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\work\github\engine-x;E:\work\github\engine-x\external;E:\work\github\engine-x\extensions;E:\work\github\engine-x\cocos;E:\work\github\engine-x\cocos\platform;E:\work\github\engine-x\external\jpeg;E:\work\github\engine-x\build\engine\external\jpeg\inc;E:\work\github\engine-x\external\box2d\src\..\include;E:\work\github\engine-x\external\chipmunk\include;E:\work\github\engine-x\external\recast\..;E:\work\github\engine-x\external\fastlz\.;E:\work\github\engine-x\external\bullet\.;E:\work\github\engine-x\external\webp\src\webp;E:\work\github\engine-x\external\pugixml;E:\work\github\engine-x\external\lz4\.;E:\work\github\engine-x\external\clipper\.;E:\work\github\engine-x\external\edtaa3func\.;E:\work\github\engine-x\external\ConvertUTF\.;E:\work\github\engine-x\external\poly2tri\..;E:\work\github\engine-x\external\md5\..;E:\work\github\engine-x\external\astc\..;E:\work\github\engine-x\external\ogg\include;E:\work\github\engine-x\external\glad\include;E:\work\github\engine-x\external\png;E:\work\github\engine-x\external\unzip\.;E:\work\github\engine-x\external\freetype\include\win32;E:\work\github\engine-x\external\openssl\include\win32;E:\work\github\engine-x\external\curl\include\win32;E:\work\github\engine-x\external\openal\include;E:\work\github\engine-x\external\win32-specific\iconv\include;E:\work\github\engine-x\external\glfw3\include\win32;E:\work\github\engine-x\external\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\work\github\engine-x\cocos\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule E:/work/github/engine-x/cocos/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -SE:/work/github/engine-x -BE:/work/github/engine-x/build --check-stamp-file E:/work/github/engine-x/build/engine/cocos/core/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Program Files (x86)\CMake\share\cmake-3.16\Templates\MSBuild\nasm.props.in;E:\work\github\engine-x\cocos\2d\CMakeLists.txt;E:\work\github\engine-x\cocos\3d\CMakeLists.txt;E:\work\github\engine-x\cocos\audio\CMakeLists.txt;E:\work\github\engine-x\cocos\base\CMakeLists.txt;E:\work\github\engine-x\cocos\math\CMakeLists.txt;E:\work\github\engine-x\cocos\navmesh\CMakeLists.txt;E:\work\github\engine-x\cocos\network\CMakeLists.txt;E:\work\github\engine-x\cocos\physics\CMakeLists.txt;E:\work\github\engine-x\cocos\physics3d\CMakeLists.txt;E:\work\github\engine-x\cocos\platform\CMakeLists.txt;E:\work\github\engine-x\cocos\renderer\CMakeLists.txt;E:\work\github\engine-x\cocos\ui\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\work\github\engine-x\build\engine\cocos\core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule E:/work/github/engine-x/cocos/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -SE:/work/github/engine-x -BE:/work/github/engine-x/build --check-stamp-file E:/work/github/engine-x/build/engine/cocos/core/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Program Files (x86)\CMake\share\cmake-3.16\Templates\MSBuild\nasm.props.in;E:\work\github\engine-x\cocos\2d\CMakeLists.txt;E:\work\github\engine-x\cocos\3d\CMakeLists.txt;E:\work\github\engine-x\cocos\audio\CMakeLists.txt;E:\work\github\engine-x\cocos\base\CMakeLists.txt;E:\work\github\engine-x\cocos\math\CMakeLists.txt;E:\work\github\engine-x\cocos\navmesh\CMakeLists.txt;E:\work\github\engine-x\cocos\network\CMakeLists.txt;E:\work\github\engine-x\cocos\physics\CMakeLists.txt;E:\work\github\engine-x\cocos\physics3d\CMakeLists.txt;E:\work\github\engine-x\cocos\platform\CMakeLists.txt;E:\work\github\engine-x\cocos\renderer\CMakeLists.txt;E:\work\github\engine-x\cocos\ui\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\work\github\engine-x\build\engine\cocos\core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule E:/work/github/engine-x/cocos/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -SE:/work/github/engine-x -BE:/work/github/engine-x/build --check-stamp-file E:/work/github/engine-x/build/engine/cocos/core/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Program Files (x86)\CMake\share\cmake-3.16\Templates\MSBuild\nasm.props.in;E:\work\github\engine-x\cocos\2d\CMakeLists.txt;E:\work\github\engine-x\cocos\3d\CMakeLists.txt;E:\work\github\engine-x\cocos\audio\CMakeLists.txt;E:\work\github\engine-x\cocos\base\CMakeLists.txt;E:\work\github\engine-x\cocos\math\CMakeLists.txt;E:\work\github\engine-x\cocos\navmesh\CMakeLists.txt;E:\work\github\engine-x\cocos\network\CMakeLists.txt;E:\work\github\engine-x\cocos\physics\CMakeLists.txt;E:\work\github\engine-x\cocos\physics3d\CMakeLists.txt;E:\work\github\engine-x\cocos\platform\CMakeLists.txt;E:\work\github\engine-x\cocos\renderer\CMakeLists.txt;E:\work\github\engine-x\cocos\ui\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\work\github\engine-x\build\engine\cocos\core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule E:/work/github/engine-x/cocos/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -SE:/work/github/engine-x -BE:/work/github/engine-x/build --check-stamp-file E:/work/github/engine-x/build/engine/cocos/core/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Program Files (x86)\CMake\share\cmake-3.16\Templates\MSBuild\nasm.props.in;E:\work\github\engine-x\cocos\2d\CMakeLists.txt;E:\work\github\engine-x\cocos\3d\CMakeLists.txt;E:\work\github\engine-x\cocos\audio\CMakeLists.txt;E:\work\github\engine-x\cocos\base\CMakeLists.txt;E:\work\github\engine-x\cocos\math\CMakeLists.txt;E:\work\github\engine-x\cocos\navmesh\CMakeLists.txt;E:\work\github\engine-x\cocos\network\CMakeLists.txt;E:\work\github\engine-x\cocos\physics\CMakeLists.txt;E:\work\github\engine-x\cocos\physics3d\CMakeLists.txt;E:\work\github\engine-x\cocos\platform\CMakeLists.txt;E:\work\github\engine-x\cocos\renderer\CMakeLists.txt;E:\work\github\engine-x\cocos\ui\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\work\github\engine-x\build\engine\cocos\core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="E:\work\github\engine-x\cocos\cocos2d.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\2d\CCActionCamera.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\2d\CCActionCatmullRom.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\2d\CCAction.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\2d\CCActionEase.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\2d\CCActionGrid3D.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\2d\CCActionGrid.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\2d\CCActionInstant.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\2d\CCActionInterval.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\2d\CCActionManager.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\2d\CCActionPageTurn3D.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\2d\CCActionProgressTimer.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\2d\CCActionTiledGrid.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\2d\CCActionTween.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\2d\CCAnimationCache.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\2d\CCAnimation.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\2d\CCAtlasNode.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\2d\CCCamera.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\2d\CCCameraBackgroundBrush.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\2d\CCClippingNode.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\2d\CCClippingRectangleNode.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\2d\CCComponentContainer.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\2d\CCComponent.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\2d\CCDrawNode.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\2d\CCFastTMXLayer.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\2d\CCFastTMXTiledMap.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\2d\CCFontAtlasCache.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\2d\CCFontAtlas.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\2d\CCFontCharMap.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\2d\CCFont.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\2d\CCFontFNT.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\2d\CCFontFreeType.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\2d\CCGrid.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\2d\CCLabelAtlas.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\2d\CCLabel.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\2d\CCLabelTextFormatter.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\2d\CCLayer.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\2d\CCLight.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\2d\CCMenu.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\2d\CCMenuItem.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\2d\CCMotionStreak.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\2d\CCNode.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\2d\CCNodeGrid.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\2d\CCParallaxNode.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\2d\CCParticleBatchNode.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\2d\CCParticleExamples.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\2d\CCParticleSystem.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\2d\CCParticleSystemQuad.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\2d\CCProgressTimer.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\2d\CCProtectedNode.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\2d\CCRenderTexture.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\2d\CCScene.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\2d\CCSpriteBatchNode.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\2d\CCSprite.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\2d\CCSpriteFrameCache.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\2d\CCSpriteFrame.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\2d\CCAutoPolygon.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\2d\CCTextFieldTTF.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\2d\CCTileMapAtlas.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\2d\CCTMXObjectGroup.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\2d\CCTMXXMLParser.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\2d\CCTransition.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\2d\CCTransitionPageTurn.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\2d\CCTransitionProgress.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\2d\CCTweenFunction.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\3d\CCAABB.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\3d\CCAnimate3D.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\3d\CCAnimation3D.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\3d\CCAttachNode.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\3d\CCBillBoard.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\3d\CCBundle3D.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\3d\CCBundle3DData.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\3d\CCBundleReader.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\3d\CCFrustum.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\3d\CCMesh.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\3d\CCMeshSkin.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\3d\CCMeshVertexIndexData.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\3d\CCMotionStreak3D.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\3d\CCOBB.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\3d\CCObjLoader.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\3d\CCPlane.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\3d\CCRay.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\3d\CCSkeleton3D.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\3d\CCSkybox.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\3d\CCSprite3D.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\3d\CCSprite3DMaterial.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\3d\CCTerrain.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\3d\CCVertexAttribBinding.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\3d\CC3DProgramInfo.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\platform\win32\CCStdC-win32.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\platform\win32\CCFileUtils-win32.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\platform\win32\CCCommon-win32.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\platform\win32\CCApplication-win32.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\platform\win32\CCDevice-win32.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\platform\win32\inet_pton_mingw.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\platform\desktop\CCGLViewImpl-desktop.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\platform\CCSAXParser.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\platform\CCGLView.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\platform\CCFileUtils.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\platform\CCImage.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\platform\CCFileStream.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\physics\CCPhysicsBody.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\physics\CCPhysicsContact.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\physics\CCPhysicsJoint.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\physics\CCPhysicsShape.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\physics\CCPhysicsWorld.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\physics3d\CCPhysics3D.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\physics3d\CCPhysics3DComponent.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\physics3d\CCPhysics3DConstraint.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\physics3d\CCPhysics3DDebugDrawer.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\physics3d\CCPhysics3DObject.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\physics3d\CCPhysics3DShape.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\physics3d\CCPhysics3DWorld.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\physics3d\CCPhysicsSprite3D.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\math\CCAffineTransform.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\math\CCGeometry.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\math\CCVertex.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\math\Mat3.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\math\Mat4.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\math\MathUtil.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\math\Quaternion.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\math\TransformUtils.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\math\Vec2.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\math\Vec3.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\math\Vec4.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\navmesh\CCNavMesh.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\navmesh\CCNavMeshAgent.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\navmesh\CCNavMeshDebugDraw.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\navmesh\CCNavMeshObstacle.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\navmesh\CCNavMeshUtils.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\renderer\CCCallbackCommand.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\renderer\CCCustomCommand.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\renderer\CCGroupCommand.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\renderer\CCMaterial.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\renderer\CCMeshCommand.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\renderer\CCPass.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\renderer\CCQuadCommand.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\renderer\CCRenderCommand.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\renderer\CCRenderState.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\renderer\CCRenderer.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\renderer\CCTechnique.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\renderer\CCTexture2D.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\renderer\CCTextureAtlas.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\renderer\CCTextureCache.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\renderer\CCTextureCube.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\renderer\CCTrianglesCommand.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\renderer\ccShaders.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\renderer\CCColorizer.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\renderer\backend\CommandBuffer.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\renderer\backend\DepthStencilState.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\renderer\backend\Device.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\renderer\backend\ShaderModule.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\renderer\backend\Texture.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\renderer\backend\TextureUtils.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\renderer\backend\Types.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\renderer\backend\VertexLayout.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\renderer\backend\ProgramCache.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\renderer\backend\Program.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\renderer\backend\ProgramState.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\renderer\backend\ProgramStateRegistry.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\renderer\backend\ShaderCache.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\renderer\backend\RenderPassDescriptor.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\renderer\backend\opengl\BufferGL.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\renderer\backend\opengl\CommandBufferGL.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\renderer\backend\opengl\DepthStencilStateGL.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\renderer\backend\opengl\DeviceGL.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\renderer\backend\opengl\ProgramGL.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\renderer\backend\opengl\RenderPipelineGL.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\renderer\backend\opengl\ShaderModuleGL.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\renderer\backend\opengl\TextureGL.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\renderer\backend\opengl\UtilsGL.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\renderer\backend\opengl\DeviceInfoGL.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\renderer\backend\opengl\RenderTargetGL.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\base\CCAsyncTaskPool.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\base\CCAutoreleasePool.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\base\CCConfiguration.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\base\CCConsole.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\base\CCController.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\base\CCData.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\base\CCNinePatchImageParser.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\base\CCDirector.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\base\CCEvent.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\base\CCEventAcceleration.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\base\CCEventController.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\base\CCEventCustom.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\base\CCEventDispatcher.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\base\CCEventFocus.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\base\CCEventKeyboard.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\base\CCEventListener.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\base\CCEventListenerAcceleration.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\base\CCEventListenerController.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\base\CCEventListenerCustom.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\base\CCEventListenerFocus.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\base\CCEventListenerKeyboard.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\base\CCEventListenerMouse.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\base\CCEventListenerTouch.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\base\CCEventMouse.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\base\CCEventTouch.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\base\CCIMEDispatcher.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\base\CCNS.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\base\CCProfiling.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\base\CCProperties.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\base\CCRef.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\base\CCScheduler.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\base\CCScriptSupport.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\base\CCTouch.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\base\CCUserDefault.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\base\CCValue.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\base\ObjectFactory.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\base\CCStencilStateManager.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\base\TGAlib.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\base\ZipUtils.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\base\atitc.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\base\base64.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\base\ccCArray.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\base\ccFPSImages.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CompileAsCpp</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CompileAsCpp</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">CompileAsCpp</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">CompileAsCpp</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\base\ccRandom.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\base\ccTypes.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\base\ccUTF8.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\base\ccUtils.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\base\SimpleTimer.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\base\etc1.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\base\etc2.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\base\pvr.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\base\s3tc.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\base\astc.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\base\CCController-linux-win32.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\audio\src\AudioEngine.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\audio\src\AudioDecoderManager.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\audio\src\AudioDecoder.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\audio\src\AudioDecoderOgg.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\audio\src\AudioPlayer.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\audio\src\AudioCache.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\audio\src\AudioEngineImpl.mm" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\audio\src\AudioDecoderMp3.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\audio\src\AudioDecoderWav.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\ui\UIEditBox\UIEditBoxImpl-win32.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\ui\CocosGUI.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\ui\UIButton.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\ui\UIAbstractCheckButton.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\ui\UICheckBox.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\ui\UIRadioButton.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\ui\LayoutHelper.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\ui\UIHBox.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\ui\UIHelper.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\ui\UIImageView.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\ui\UILayout.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\ui\UILayoutManager.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\ui\UILayoutParameter.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\ui\UIListView.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\ui\UILoadingBar.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\ui\UIPageView.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\ui\UIPageViewIndicator.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\ui\UIRelativeBox.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\ui\UIRichText.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\ui\UIScale9Sprite.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\ui\UIScrollView.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\ui\UIScrollViewBar.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\ui\UISlider.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\ui\UIText.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\ui\UITextAtlas.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\ui\UITextBMFont.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\ui\UITextField.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\ui\UIVBox.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\ui\UIWidget.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\ui\UIEditBox\UIEditBox.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\ui\UILayoutComponent.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\ui\UIEditBox\UIEditBoxImpl-common.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\ui\UITabControl.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\ui\UITextFieldEx.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\network\HttpClient.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\network\CCDownloader.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\network\CCDownloader-curl.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\network\HttpCookie.cpp" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\network\Uri.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\cocos2d.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\2d\CCActionPageTurn3D.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\2d\CCActionTween.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\2d\CCGrid.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\2d\CCSpriteFrameCache.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\2d\CCLayer.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\2d\CCActionCamera.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\2d\CCParticleExamples.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\2d\CCSprite.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\2d\CCNode.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\2d\CCComponentContainer.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\2d\CCActionProgressTimer.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\2d\CCTweenFunction.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\2d\CCLight.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\2d\CCAutoPolygon.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\2d\CCFontAtlas.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\2d\CCAtlasNode.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\2d\CCClippingNode.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\2d\CCRenderTexture.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\2d\CCActionInterval.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\2d\CCTMXXMLParser.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\2d\CCActionInstant.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\2d\CCLabel.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\2d\CCComponent.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\2d\CCLabelAtlas.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\2d\CCActionCatmullRom.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\2d\CCActionGrid.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\2d\CCParticleBatchNode.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\2d\CCClippingRectangleNode.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\2d\CCActionEase.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\2d\CCScene.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\2d\CCProtectedNode.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\2d\CCTextFieldTTF.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\2d\CCAnimationCache.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\2d\CCFastTMXLayer.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\2d\CCFontAtlasCache.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\2d\CCFont.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\2d\CCParticleSystemQuad.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\2d\CCActionGrid3D.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\2d\CCCameraBackgroundBrush.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\2d\CCFastTMXTiledMap.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\2d\CCLabelTextFormatter.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\2d\CCMenuItem.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\2d\CCFontFNT.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\2d\CCSpriteBatchNode.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\2d\CCTransitionProgress.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\2d\CCSpriteFrame.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\2d\CCTMXObjectGroup.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\2d\CCAnimation.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\2d\CCNodeGrid.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\2d\CCFontFreeType.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\2d\CCAction.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\2d\CCTransition.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\2d\CCTransitionPageTurn.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\2d\CCFontCharMap.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\2d\CCParticleSystem.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\2d\CCProgressTimer.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\2d\CCTileMapAtlas.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\2d\CCActionTiledGrid.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\2d\CCActionManager.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\2d\CCMotionStreak.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\2d\CCMenu.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\2d\CCDrawNode.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\2d\CCCamera.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\2d\CCParallaxNode.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\3d\CCBillBoard.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\3d\CCFrustum.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\3d\CCSprite3DMaterial.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\3d\CCMeshVertexIndexData.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\3d\CCPlane.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\3d\CCRay.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\3d\CCMesh.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\3d\CCAnimate3D.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\3d\CCTerrain.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\3d\CCAnimationCurve.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\3d\CCSprite3D.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\3d\CCOBB.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\3d\CCAnimation3D.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\3d\CCMotionStreak3D.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\3d\CCSkybox.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\3d\CCMeshSkin.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\3d\cocos3d.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\3d\CCAABB.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\3d\CCBundle3D.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\3d\CCObjLoader.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\3d\CCBundle3DData.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\3d\CCSkeleton3D.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\3d\CCBundleReader.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\3d\CCAttachNode.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\3d\CCVertexAttribBinding.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\3d\CC3DProgramInfo.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\platform\win32\compat\stdint.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\platform\win32\CCApplication-win32.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\platform\win32\inet_pton_mingw.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\platform\win32\CCGL-win32.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\platform\win32\CCFileUtils-win32.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\platform\win32\CCStdC-win32.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\platform\win32\CCPlatformDefine-win32.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\platform\desktop\CCGLViewImpl-desktop.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\platform\CCApplication.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\platform\CCApplicationProtocol.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\platform\CCCommon.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\platform\CCDevice.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\platform\CCFileUtils.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\platform\CCGL.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\platform\CCGLView.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\platform\CCImage.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\platform\CCPlatformConfig.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\platform\CCPlatformDefine.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\platform\CCPlatformMacros.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\platform\CCSAXParser.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\platform\CCStdC.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\platform\CCFileStream.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\physics\CCPhysicsContact.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\physics\CCPhysicsWorld.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\physics\CCPhysicsBody.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\physics\cpCompat62.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\physics\CCPhysicsShape.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\physics\CCPhysicsHelper.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\physics\CCPhysicsJoint.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\physics3d\CCPhysics3DConstraint.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\physics3d\CCPhysics3DShape.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\physics3d\CCPhysics3D.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\physics3d\CCPhysics3DWorld.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\physics3d\CCPhysicsSprite3D.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\physics3d\CCPhysics3DObject.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\physics3d\CCPhysics3DComponent.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\physics3d\CCPhysics3DDebugDrawer.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\math\Vec2.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\math\Mat3.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\math\Mat4.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\math\Quaternion.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\math\TransformUtils.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\math\Vec4.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\math\CCAffineTransform.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\math\CCGeometry.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\math\CCVertex.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\math\Vec3.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\math\CCMathBase.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\math\MathUtil.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\math\CCMath.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\navmesh\CCNavMeshAgent.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\navmesh\CCNavMeshObstacle.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\navmesh\CCNavMeshUtils.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\navmesh\CCNavMeshDebugDraw.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\navmesh\CCNavMesh.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\renderer\CCCallbackCommand.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\renderer\CCCustomCommand.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\renderer\CCGroupCommand.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\renderer\CCMaterial.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\renderer\CCMeshCommand.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\renderer\CCPass.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\renderer\CCPipelineDescriptor.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\renderer\CCQuadCommand.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\renderer\CCRenderCommand.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\renderer\CCRenderCommandPool.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\renderer\CCRenderState.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\renderer\CCRenderer.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\renderer\CCTechnique.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\renderer\CCTexture2D.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\renderer\CCTextureAtlas.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\renderer\CCTextureCache.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\renderer\CCTextureCube.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\renderer\CCTrianglesCommand.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\renderer\ccShaders.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\renderer\backend\Backend.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\renderer\backend\Buffer.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\renderer\backend\CommandBuffer.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\renderer\backend\DepthStencilState.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\renderer\backend\Device.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\renderer\backend\Program.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\renderer\backend\ProgramCache.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\renderer\backend\Macros.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\renderer\backend\RenderPassDescriptor.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\renderer\backend\RenderPipeline.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\renderer\backend\ShaderModule.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\renderer\backend\Texture.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\renderer\backend\TextureUtils.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\renderer\backend\Types.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\renderer\backend\VertexLayout.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\renderer\backend\ProgramState.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\renderer\backend\ProgramStateRegistry.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\renderer\backend\ShaderCache.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\renderer\backend\DeviceInfo.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\renderer\backend\opengl\BufferGL.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\renderer\backend\opengl\CommandBufferGL.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\renderer\backend\opengl\DepthStencilStateGL.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\renderer\backend\opengl\DeviceGL.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\renderer\backend\opengl\ProgramGL.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\renderer\backend\opengl\RenderPipelineGL.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\renderer\backend\opengl\ShaderModuleGL.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\renderer\backend\opengl\TextureGL.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\renderer\backend\opengl\UtilsGL.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\renderer\backend\opengl\DeviceInfoGL.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\renderer\backend\opengl\RenderTargetGL.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\base\astc.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\base\pvr.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\base\CCValue.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\base\CCEventListenerMouse.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\base\atitc.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\base\utlist.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\base\CCEventTouch.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\base\CCData.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\base\ccMacros.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\base\CCEventAcceleration.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\base\CCEventListenerKeyboard.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\base\CCController.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\base\CCTouch.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\base\base64.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\base\CCEventListenerController.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\base\s3tc.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\base\etc1.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\base\etc2.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\base\CCGameController.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\base\CCConsole.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\base\ccConstants.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\base\CCEvent.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\base\ccTypes.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\base\CCAsyncTaskPool.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\base\ccRandom.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\base\CCRef.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\base\CCProfiling.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\base\ObjectFactory.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\base\CCProperties.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\base\CCVector.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\base\CCEventCustom.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\base\CCEventKeyboard.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\base\CCNinePatchImageParser.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\base\CCEventListenerCustom.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\base\CCEventDispatcher.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\base\uthash.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\base\ccUtils.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\base\CCEventController.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\base\CCRefPtr.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\base\CCDirector.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\base\CCEventListenerFocus.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\base\CCUserDefault.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\base\ccConfig.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\base\ccFPSImages.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\base\ZipUtils.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\base\CCMap.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\base\ccUTF8.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\base\CCScriptSupport.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\base\CCEventFocus.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\base\CCConfiguration.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\base\CCProtocols.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\base\TGAlib.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\base\CCEventMouse.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\base\CCIMEDelegate.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\base\CCNS.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\base\CCAutoreleasePool.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\base\CCStencilStateManager.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\base\CCEventListenerTouch.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\base\CCEventListenerAcceleration.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\base\firePngData.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\base\ccCArray.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\base\CCEventListener.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\base\CCScheduler.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\base\CCEventType.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\base\CCIMEDispatcher.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\audio\include\alconfig.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\audio\include\AudioEngine.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\audio\include\AudioMacros.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\audio\include\AudioDecoderManager.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\audio\include\AudioDecoder.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\audio\include\AudioDecoderOgg.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\audio\include\AudioPlayer.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\audio\include\AudioCache.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\audio\include\AudioEngineImpl.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\audio\include\AudioDecoderMp3.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\audio\include\AudioDecoderWav.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\ui\UIEditBox\UIEditBoxImpl-win32.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\ui\CocosGUI.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\ui\GUIDefine.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\ui\GUIExport.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\ui\UIAbstractCheckButton.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\ui\UIButton.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\ui\UICheckBox.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\ui\LayoutHelper.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\ui\UIHBox.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\ui\UIHelper.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\ui\UIImageView.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\ui\UILayout.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\ui\UILayoutComponent.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\ui\UILayoutManager.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\ui\UILayoutParameter.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\ui\UIListView.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\ui\UILoadingBar.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\ui\UIPageView.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\ui\UIPageViewIndicator.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\ui\UIRadioButton.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\ui\UIRelativeBox.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\ui\UIRichText.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\ui\UIScale9Sprite.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\ui\UIScrollView.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\ui\UIScrollViewBar.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\ui\UISlider.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\ui\UITabControl.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\ui\UIText.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\ui\UITextAtlas.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\ui\UITextBMFont.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\ui\UITextField.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\ui\UIVBox.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\ui\UIWidget.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\network\CCDownloader-curl.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\network\CCIDownloaderImpl.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\network\CCDownloader.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\network\Uri.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\network\HttpClient.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\network\HttpResponse.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\network\HttpRequest.h" />
+    <ClInclude Include="E:\work\github\engine-x\cocos\network\HttpCookie.h" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\precheader.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">precheader.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">precheader.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">precheader.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">precheader.h</PrecompiledHeaderFile>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\work\github\engine-x\build\ZERO_CHECK.vcxproj">
+      <Project>{EC8FFA69-D228-30C9-96F1-FCEA69E0155E}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\work\github\engine-x\build\engine\external\astc\astc.vcxproj">
+      <Project>{59EAB49E-BE24-37F0-8B45-D1604791EC95}</Project>
+      <Name>astc</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\work\github\engine-x\build\engine\external\box2d\src\box2d.vcxproj">
+      <Project>{4E1DCD9C-167D-3134-81ED-CFB76B38F19F}</Project>
+      <Name>box2d</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\work\github\engine-x\build\engine\external\bullet\bullet.vcxproj">
+      <Project>{BF811F3F-E890-36D0-B300-A5D0F30D93C0}</Project>
+      <Name>bullet</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\work\github\engine-x\build\engine\external\chipmunk\src\chipmunk.vcxproj">
+      <Project>{49DC4A70-21A1-3D35-9C3C-7B1D14F20DF5}</Project>
+      <Name>chipmunk</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\work\github\engine-x\build\engine\external\clipper\clipper.vcxproj">
+      <Project>{F87E9C4A-43A7-3803-9C06-2846B37258A9}</Project>
+      <Name>clipper</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\work\github\engine-x\build\engine\external\ConvertUTF\convertUTF.vcxproj">
+      <Project>{69A60D9F-5F31-37A3-BC04-A2774F8CDE5C}</Project>
+      <Name>convertUTF</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\work\github\engine-x\build\engine\external\edtaa3func\edtaa3func.vcxproj">
+      <Project>{351F3D43-E53D-3D2B-8804-306402EA83F1}</Project>
+      <Name>edtaa3func</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\work\github\engine-x\build\engine\external\external.vcxproj">
+      <Project>{ACCCDAF8-82CA-3657-8565-882D7E42C1EF}</Project>
+      <Name>external</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\work\github\engine-x\build\engine\external\fastlz\fastlz.vcxproj">
+      <Project>{9E50A72C-1E76-3F97-AF81-4928D6AF509F}</Project>
+      <Name>fastlz</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\work\github\engine-x\build\engine\external\glad\glad.vcxproj">
+      <Project>{2E02A3C6-29FE-3328-889B-7D34E68AAC41}</Project>
+      <Name>glad</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\work\github\engine-x\build\engine\external\jpeg\jpeg.vcxproj">
+      <Project>{81802F3F-C0E3-3A45-AA05-7E4AEA630B66}</Project>
+      <Name>jpeg</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\work\github\engine-x\build\engine\external\lz4\lz4.vcxproj">
+      <Project>{A216F884-CA1B-3D29-B27C-3533D62C5A00}</Project>
+      <Name>lz4</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\work\github\engine-x\build\engine\external\md5\md5.vcxproj">
+      <Project>{9A066789-F14D-3C42-9412-21B9685871E1}</Project>
+      <Name>md5</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\work\github\engine-x\build\engine\external\ogg\ogg.vcxproj">
+      <Project>{E62F0D77-B1DD-3CA1-A7F0-B8D16358BB91}</Project>
+      <Name>ogg</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\work\github\engine-x\build\engine\external\png\png.vcxproj">
+      <Project>{CA9C11A8-4CD9-364D-A932-D6079E20F196}</Project>
+      <Name>png</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\work\github\engine-x\build\engine\external\poly2tri\poly2tri.vcxproj">
+      <Project>{7FC8E97B-6F97-331A-826B-BB3C87D1345D}</Project>
+      <Name>poly2tri</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\work\github\engine-x\build\engine\external\pugixml\pugixml.vcxproj">
+      <Project>{81C5ABF4-84BD-31E0-B609-147E4A9AC6EA}</Project>
+      <Name>pugixml</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\work\github\engine-x\build\engine\external\recast\recast.vcxproj">
+      <Project>{E41E567B-A4CC-318E-B7CD-25F291E74DC7}</Project>
+      <Name>recast</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\work\github\engine-x\build\engine\external\unzip\unzip.vcxproj">
+      <Project>{A9C8F58D-CF37-3EAE-836F-4B8346CD8D27}</Project>
+      <Name>unzip</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\work\github\engine-x\build\engine\external\webp\webp.vcxproj">
+      <Project>{455BEC1C-0378-3650-BFA8-E8F587F7B01F}</Project>
+      <Name>webp</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="C:\Program Files (x86)\CMake\share\cmake-3.16\Templates\MSBuild\nasm.targets" />
+  </ImportGroup>
+</Project>

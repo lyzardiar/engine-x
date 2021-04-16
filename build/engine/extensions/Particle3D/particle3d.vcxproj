@@ -1,0 +1,700 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{43D00EE2-FF1E-3C7B-A53D-1A2CA35B9A16}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>particle3d</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+    <Import Project="E:\work\github\engine-x\build\engine\extensions\Particle3D\particle3d.dir\nasm.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\work\github\engine-x\build\lib\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">particle3d.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">particle3d</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\work\github\engine-x\build\lib\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">particle3d.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">particle3d</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\work\github\engine-x\build\lib\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">particle3d.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">particle3d</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\work\github\engine-x\build\lib\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">particle3d.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">particle3d</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\work\github\engine-x;E:\work\github\engine-x\external;E:\work\github\engine-x\extensions;E:\work\github\engine-x\cocos;E:\work\github\engine-x\cocos\platform;E:\work\github\engine-x\cocos\base;E:\work\github\engine-x\cocos\audio\include;E:\work\github\engine-x\cocos\platform\win32;E:\work\github\engine-x\external\jpeg;E:\work\github\engine-x\build\engine\external\jpeg\inc;E:\work\github\engine-x\external\box2d\src\..\include;E:\work\github\engine-x\external\chipmunk\include;E:\work\github\engine-x\external\recast\..;E:\work\github\engine-x\external\fastlz\.;E:\work\github\engine-x\external\bullet\.;E:\work\github\engine-x\external\webp\src\webp;E:\work\github\engine-x\external\pugixml;E:\work\github\engine-x\external\lz4\.;E:\work\github\engine-x\external\clipper\.;E:\work\github\engine-x\external\edtaa3func\.;E:\work\github\engine-x\external\ConvertUTF\.;E:\work\github\engine-x\external\poly2tri\..;E:\work\github\engine-x\external\md5\..;E:\work\github\engine-x\external\astc\..;E:\work\github\engine-x\external\ogg\include;E:\work\github\engine-x\external\glad\include;E:\work\github\engine-x\external\png;E:\work\github\engine-x\external\unzip\.;E:\work\github\engine-x\external\freetype\include\win32;E:\work\github\engine-x\external\openssl\include\win32;E:\work\github\engine-x\external\curl\include\win32;E:\work\github\engine-x\external\openal\include;E:\work\github\engine-x\external\win32-specific\iconv\include;E:\work\github\engine-x\external\glfw3\include\win32;E:\work\github\engine-x\external\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;COCOS2D_DEBUG=1;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CC_STATIC;CP_USE_CGTYPES=0;CP_USE_DOUBLES=0;BT_USE_SSE_IN_API=1;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;COCOS2D_DEBUG=1;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CC_STATIC;CP_USE_CGTYPES=0;CP_USE_DOUBLES=0;BT_USE_SSE_IN_API=1;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\work\github\engine-x;E:\work\github\engine-x\external;E:\work\github\engine-x\extensions;E:\work\github\engine-x\cocos;E:\work\github\engine-x\cocos\platform;E:\work\github\engine-x\cocos\base;E:\work\github\engine-x\cocos\audio\include;E:\work\github\engine-x\cocos\platform\win32;E:\work\github\engine-x\external\jpeg;E:\work\github\engine-x\build\engine\external\jpeg\inc;E:\work\github\engine-x\external\box2d\src\..\include;E:\work\github\engine-x\external\chipmunk\include;E:\work\github\engine-x\external\recast\..;E:\work\github\engine-x\external\fastlz\.;E:\work\github\engine-x\external\bullet\.;E:\work\github\engine-x\external\webp\src\webp;E:\work\github\engine-x\external\pugixml;E:\work\github\engine-x\external\lz4\.;E:\work\github\engine-x\external\clipper\.;E:\work\github\engine-x\external\edtaa3func\.;E:\work\github\engine-x\external\ConvertUTF\.;E:\work\github\engine-x\external\poly2tri\..;E:\work\github\engine-x\external\md5\..;E:\work\github\engine-x\external\astc\..;E:\work\github\engine-x\external\ogg\include;E:\work\github\engine-x\external\glad\include;E:\work\github\engine-x\external\png;E:\work\github\engine-x\external\unzip\.;E:\work\github\engine-x\external\freetype\include\win32;E:\work\github\engine-x\external\openssl\include\win32;E:\work\github\engine-x\external\curl\include\win32;E:\work\github\engine-x\external\openal\include;E:\work\github\engine-x\external\win32-specific\iconv\include;E:\work\github\engine-x\external\glfw3\include\win32;E:\work\github\engine-x\external\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <NASM>
+      <IncludePaths>E:\work\github\engine-x\;E:\work\github\engine-x\external\;E:\work\github\engine-x\extensions\;E:\work\github\engine-x\cocos\;E:\work\github\engine-x\cocos\platform\;E:\work\github\engine-x\cocos\base\;E:\work\github\engine-x\cocos\audio\include\;E:\work\github\engine-x\cocos\platform\win32\;E:\work\github\engine-x\external\jpeg\;E:\work\github\engine-x\build\engine\external\jpeg\inc\;E:\work\github\engine-x\external\box2d\src\..\include\;E:\work\github\engine-x\external\chipmunk\include\;E:\work\github\engine-x\external\recast\..\;E:\work\github\engine-x\external\fastlz\.\;E:\work\github\engine-x\external\bullet\.\;E:\work\github\engine-x\external\webp\src\webp\;E:\work\github\engine-x\external\pugixml\;E:\work\github\engine-x\external\lz4\.\;E:\work\github\engine-x\external\clipper\.\;E:\work\github\engine-x\external\edtaa3func\.\;E:\work\github\engine-x\external\ConvertUTF\.\;E:\work\github\engine-x\external\poly2tri\..\;E:\work\github\engine-x\external\md5\..\;E:\work\github\engine-x\external\astc\..\;E:\work\github\engine-x\external\ogg\include\;E:\work\github\engine-x\external\glad\include\;E:\work\github\engine-x\external\png\;E:\work\github\engine-x\external\unzip\.\;E:\work\github\engine-x\external\freetype\include\win32\;E:\work\github\engine-x\external\openssl\include\win32\;E:\work\github\engine-x\external\curl\include\win32\;E:\work\github\engine-x\external\openal\include\;E:\work\github\engine-x\external\win32-specific\iconv\include\;E:\work\github\engine-x\external\glfw3\include\win32\;E:\work\github\engine-x\external\zlib\include\;%(IncludePaths)</IncludePaths>
+      <Outputswitch>0</Outputswitch>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;COCOS2D_DEBUG=1;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CC_STATIC;CP_USE_CGTYPES=0;CP_USE_DOUBLES=0;BT_USE_SSE_IN_API=1;CMAKE_INTDIR="Debug";;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </NASM>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\work\github\engine-x;E:\work\github\engine-x\external;E:\work\github\engine-x\extensions;E:\work\github\engine-x\cocos;E:\work\github\engine-x\cocos\platform;E:\work\github\engine-x\cocos\base;E:\work\github\engine-x\cocos\audio\include;E:\work\github\engine-x\cocos\platform\win32;E:\work\github\engine-x\external\jpeg;E:\work\github\engine-x\build\engine\external\jpeg\inc;E:\work\github\engine-x\external\box2d\src\..\include;E:\work\github\engine-x\external\chipmunk\include;E:\work\github\engine-x\external\recast\..;E:\work\github\engine-x\external\fastlz\.;E:\work\github\engine-x\external\bullet\.;E:\work\github\engine-x\external\webp\src\webp;E:\work\github\engine-x\external\pugixml;E:\work\github\engine-x\external\lz4\.;E:\work\github\engine-x\external\clipper\.;E:\work\github\engine-x\external\edtaa3func\.;E:\work\github\engine-x\external\ConvertUTF\.;E:\work\github\engine-x\external\poly2tri\..;E:\work\github\engine-x\external\md5\..;E:\work\github\engine-x\external\astc\..;E:\work\github\engine-x\external\ogg\include;E:\work\github\engine-x\external\glad\include;E:\work\github\engine-x\external\png;E:\work\github\engine-x\external\unzip\.;E:\work\github\engine-x\external\freetype\include\win32;E:\work\github\engine-x\external\openssl\include\win32;E:\work\github\engine-x\external\curl\include\win32;E:\work\github\engine-x\external\openal\include;E:\work\github\engine-x\external\win32-specific\iconv\include;E:\work\github\engine-x\external\glfw3\include\win32;E:\work\github\engine-x\external\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\work\github\engine-x;E:\work\github\engine-x\external;E:\work\github\engine-x\extensions;E:\work\github\engine-x\cocos;E:\work\github\engine-x\cocos\platform;E:\work\github\engine-x\cocos\base;E:\work\github\engine-x\cocos\audio\include;E:\work\github\engine-x\cocos\platform\win32;E:\work\github\engine-x\external\jpeg;E:\work\github\engine-x\build\engine\external\jpeg\inc;E:\work\github\engine-x\external\box2d\src\..\include;E:\work\github\engine-x\external\chipmunk\include;E:\work\github\engine-x\external\recast\..;E:\work\github\engine-x\external\fastlz\.;E:\work\github\engine-x\external\bullet\.;E:\work\github\engine-x\external\webp\src\webp;E:\work\github\engine-x\external\pugixml;E:\work\github\engine-x\external\lz4\.;E:\work\github\engine-x\external\clipper\.;E:\work\github\engine-x\external\edtaa3func\.;E:\work\github\engine-x\external\ConvertUTF\.;E:\work\github\engine-x\external\poly2tri\..;E:\work\github\engine-x\external\md5\..;E:\work\github\engine-x\external\astc\..;E:\work\github\engine-x\external\ogg\include;E:\work\github\engine-x\external\glad\include;E:\work\github\engine-x\external\png;E:\work\github\engine-x\external\unzip\.;E:\work\github\engine-x\external\freetype\include\win32;E:\work\github\engine-x\external\openssl\include\win32;E:\work\github\engine-x\external\curl\include\win32;E:\work\github\engine-x\external\openal\include;E:\work\github\engine-x\external\win32-specific\iconv\include;E:\work\github\engine-x\external\glfw3\include\win32;E:\work\github\engine-x\external\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CC_STATIC;CP_USE_CGTYPES=0;CP_USE_DOUBLES=0;BT_USE_SSE_IN_API=1;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CC_STATIC;CP_USE_CGTYPES=0;CP_USE_DOUBLES=0;BT_USE_SSE_IN_API=1;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\work\github\engine-x;E:\work\github\engine-x\external;E:\work\github\engine-x\extensions;E:\work\github\engine-x\cocos;E:\work\github\engine-x\cocos\platform;E:\work\github\engine-x\cocos\base;E:\work\github\engine-x\cocos\audio\include;E:\work\github\engine-x\cocos\platform\win32;E:\work\github\engine-x\external\jpeg;E:\work\github\engine-x\build\engine\external\jpeg\inc;E:\work\github\engine-x\external\box2d\src\..\include;E:\work\github\engine-x\external\chipmunk\include;E:\work\github\engine-x\external\recast\..;E:\work\github\engine-x\external\fastlz\.;E:\work\github\engine-x\external\bullet\.;E:\work\github\engine-x\external\webp\src\webp;E:\work\github\engine-x\external\pugixml;E:\work\github\engine-x\external\lz4\.;E:\work\github\engine-x\external\clipper\.;E:\work\github\engine-x\external\edtaa3func\.;E:\work\github\engine-x\external\ConvertUTF\.;E:\work\github\engine-x\external\poly2tri\..;E:\work\github\engine-x\external\md5\..;E:\work\github\engine-x\external\astc\..;E:\work\github\engine-x\external\ogg\include;E:\work\github\engine-x\external\glad\include;E:\work\github\engine-x\external\png;E:\work\github\engine-x\external\unzip\.;E:\work\github\engine-x\external\freetype\include\win32;E:\work\github\engine-x\external\openssl\include\win32;E:\work\github\engine-x\external\curl\include\win32;E:\work\github\engine-x\external\openal\include;E:\work\github\engine-x\external\win32-specific\iconv\include;E:\work\github\engine-x\external\glfw3\include\win32;E:\work\github\engine-x\external\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <NASM>
+      <IncludePaths>E:\work\github\engine-x\;E:\work\github\engine-x\external\;E:\work\github\engine-x\extensions\;E:\work\github\engine-x\cocos\;E:\work\github\engine-x\cocos\platform\;E:\work\github\engine-x\cocos\base\;E:\work\github\engine-x\cocos\audio\include\;E:\work\github\engine-x\cocos\platform\win32\;E:\work\github\engine-x\external\jpeg\;E:\work\github\engine-x\build\engine\external\jpeg\inc\;E:\work\github\engine-x\external\box2d\src\..\include\;E:\work\github\engine-x\external\chipmunk\include\;E:\work\github\engine-x\external\recast\..\;E:\work\github\engine-x\external\fastlz\.\;E:\work\github\engine-x\external\bullet\.\;E:\work\github\engine-x\external\webp\src\webp\;E:\work\github\engine-x\external\pugixml\;E:\work\github\engine-x\external\lz4\.\;E:\work\github\engine-x\external\clipper\.\;E:\work\github\engine-x\external\edtaa3func\.\;E:\work\github\engine-x\external\ConvertUTF\.\;E:\work\github\engine-x\external\poly2tri\..\;E:\work\github\engine-x\external\md5\..\;E:\work\github\engine-x\external\astc\..\;E:\work\github\engine-x\external\ogg\include\;E:\work\github\engine-x\external\glad\include\;E:\work\github\engine-x\external\png\;E:\work\github\engine-x\external\unzip\.\;E:\work\github\engine-x\external\freetype\include\win32\;E:\work\github\engine-x\external\openssl\include\win32\;E:\work\github\engine-x\external\curl\include\win32\;E:\work\github\engine-x\external\openal\include\;E:\work\github\engine-x\external\win32-specific\iconv\include\;E:\work\github\engine-x\external\glfw3\include\win32\;E:\work\github\engine-x\external\zlib\include\;%(IncludePaths)</IncludePaths>
+      <Outputswitch>0</Outputswitch>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CC_STATIC;CP_USE_CGTYPES=0;CP_USE_DOUBLES=0;BT_USE_SSE_IN_API=1;CMAKE_INTDIR="Release";;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </NASM>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\work\github\engine-x;E:\work\github\engine-x\external;E:\work\github\engine-x\extensions;E:\work\github\engine-x\cocos;E:\work\github\engine-x\cocos\platform;E:\work\github\engine-x\cocos\base;E:\work\github\engine-x\cocos\audio\include;E:\work\github\engine-x\cocos\platform\win32;E:\work\github\engine-x\external\jpeg;E:\work\github\engine-x\build\engine\external\jpeg\inc;E:\work\github\engine-x\external\box2d\src\..\include;E:\work\github\engine-x\external\chipmunk\include;E:\work\github\engine-x\external\recast\..;E:\work\github\engine-x\external\fastlz\.;E:\work\github\engine-x\external\bullet\.;E:\work\github\engine-x\external\webp\src\webp;E:\work\github\engine-x\external\pugixml;E:\work\github\engine-x\external\lz4\.;E:\work\github\engine-x\external\clipper\.;E:\work\github\engine-x\external\edtaa3func\.;E:\work\github\engine-x\external\ConvertUTF\.;E:\work\github\engine-x\external\poly2tri\..;E:\work\github\engine-x\external\md5\..;E:\work\github\engine-x\external\astc\..;E:\work\github\engine-x\external\ogg\include;E:\work\github\engine-x\external\glad\include;E:\work\github\engine-x\external\png;E:\work\github\engine-x\external\unzip\.;E:\work\github\engine-x\external\freetype\include\win32;E:\work\github\engine-x\external\openssl\include\win32;E:\work\github\engine-x\external\curl\include\win32;E:\work\github\engine-x\external\openal\include;E:\work\github\engine-x\external\win32-specific\iconv\include;E:\work\github\engine-x\external\glfw3\include\win32;E:\work\github\engine-x\external\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\work\github\engine-x;E:\work\github\engine-x\external;E:\work\github\engine-x\extensions;E:\work\github\engine-x\cocos;E:\work\github\engine-x\cocos\platform;E:\work\github\engine-x\cocos\base;E:\work\github\engine-x\cocos\audio\include;E:\work\github\engine-x\cocos\platform\win32;E:\work\github\engine-x\external\jpeg;E:\work\github\engine-x\build\engine\external\jpeg\inc;E:\work\github\engine-x\external\box2d\src\..\include;E:\work\github\engine-x\external\chipmunk\include;E:\work\github\engine-x\external\recast\..;E:\work\github\engine-x\external\fastlz\.;E:\work\github\engine-x\external\bullet\.;E:\work\github\engine-x\external\webp\src\webp;E:\work\github\engine-x\external\pugixml;E:\work\github\engine-x\external\lz4\.;E:\work\github\engine-x\external\clipper\.;E:\work\github\engine-x\external\edtaa3func\.;E:\work\github\engine-x\external\ConvertUTF\.;E:\work\github\engine-x\external\poly2tri\..;E:\work\github\engine-x\external\md5\..;E:\work\github\engine-x\external\astc\..;E:\work\github\engine-x\external\ogg\include;E:\work\github\engine-x\external\glad\include;E:\work\github\engine-x\external\png;E:\work\github\engine-x\external\unzip\.;E:\work\github\engine-x\external\freetype\include\win32;E:\work\github\engine-x\external\openssl\include\win32;E:\work\github\engine-x\external\curl\include\win32;E:\work\github\engine-x\external\openal\include;E:\work\github\engine-x\external\win32-specific\iconv\include;E:\work\github\engine-x\external\glfw3\include\win32;E:\work\github\engine-x\external\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CC_STATIC;CP_USE_CGTYPES=0;CP_USE_DOUBLES=0;BT_USE_SSE_IN_API=1;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CC_STATIC;CP_USE_CGTYPES=0;CP_USE_DOUBLES=0;BT_USE_SSE_IN_API=1;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\work\github\engine-x;E:\work\github\engine-x\external;E:\work\github\engine-x\extensions;E:\work\github\engine-x\cocos;E:\work\github\engine-x\cocos\platform;E:\work\github\engine-x\cocos\base;E:\work\github\engine-x\cocos\audio\include;E:\work\github\engine-x\cocos\platform\win32;E:\work\github\engine-x\external\jpeg;E:\work\github\engine-x\build\engine\external\jpeg\inc;E:\work\github\engine-x\external\box2d\src\..\include;E:\work\github\engine-x\external\chipmunk\include;E:\work\github\engine-x\external\recast\..;E:\work\github\engine-x\external\fastlz\.;E:\work\github\engine-x\external\bullet\.;E:\work\github\engine-x\external\webp\src\webp;E:\work\github\engine-x\external\pugixml;E:\work\github\engine-x\external\lz4\.;E:\work\github\engine-x\external\clipper\.;E:\work\github\engine-x\external\edtaa3func\.;E:\work\github\engine-x\external\ConvertUTF\.;E:\work\github\engine-x\external\poly2tri\..;E:\work\github\engine-x\external\md5\..;E:\work\github\engine-x\external\astc\..;E:\work\github\engine-x\external\ogg\include;E:\work\github\engine-x\external\glad\include;E:\work\github\engine-x\external\png;E:\work\github\engine-x\external\unzip\.;E:\work\github\engine-x\external\freetype\include\win32;E:\work\github\engine-x\external\openssl\include\win32;E:\work\github\engine-x\external\curl\include\win32;E:\work\github\engine-x\external\openal\include;E:\work\github\engine-x\external\win32-specific\iconv\include;E:\work\github\engine-x\external\glfw3\include\win32;E:\work\github\engine-x\external\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <NASM>
+      <IncludePaths>E:\work\github\engine-x\;E:\work\github\engine-x\external\;E:\work\github\engine-x\extensions\;E:\work\github\engine-x\cocos\;E:\work\github\engine-x\cocos\platform\;E:\work\github\engine-x\cocos\base\;E:\work\github\engine-x\cocos\audio\include\;E:\work\github\engine-x\cocos\platform\win32\;E:\work\github\engine-x\external\jpeg\;E:\work\github\engine-x\build\engine\external\jpeg\inc\;E:\work\github\engine-x\external\box2d\src\..\include\;E:\work\github\engine-x\external\chipmunk\include\;E:\work\github\engine-x\external\recast\..\;E:\work\github\engine-x\external\fastlz\.\;E:\work\github\engine-x\external\bullet\.\;E:\work\github\engine-x\external\webp\src\webp\;E:\work\github\engine-x\external\pugixml\;E:\work\github\engine-x\external\lz4\.\;E:\work\github\engine-x\external\clipper\.\;E:\work\github\engine-x\external\edtaa3func\.\;E:\work\github\engine-x\external\ConvertUTF\.\;E:\work\github\engine-x\external\poly2tri\..\;E:\work\github\engine-x\external\md5\..\;E:\work\github\engine-x\external\astc\..\;E:\work\github\engine-x\external\ogg\include\;E:\work\github\engine-x\external\glad\include\;E:\work\github\engine-x\external\png\;E:\work\github\engine-x\external\unzip\.\;E:\work\github\engine-x\external\freetype\include\win32\;E:\work\github\engine-x\external\openssl\include\win32\;E:\work\github\engine-x\external\curl\include\win32\;E:\work\github\engine-x\external\openal\include\;E:\work\github\engine-x\external\win32-specific\iconv\include\;E:\work\github\engine-x\external\glfw3\include\win32\;E:\work\github\engine-x\external\zlib\include\;%(IncludePaths)</IncludePaths>
+      <Outputswitch>0</Outputswitch>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CC_STATIC;CP_USE_CGTYPES=0;CP_USE_DOUBLES=0;BT_USE_SSE_IN_API=1;CMAKE_INTDIR="MinSizeRel";;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </NASM>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\work\github\engine-x;E:\work\github\engine-x\external;E:\work\github\engine-x\extensions;E:\work\github\engine-x\cocos;E:\work\github\engine-x\cocos\platform;E:\work\github\engine-x\cocos\base;E:\work\github\engine-x\cocos\audio\include;E:\work\github\engine-x\cocos\platform\win32;E:\work\github\engine-x\external\jpeg;E:\work\github\engine-x\build\engine\external\jpeg\inc;E:\work\github\engine-x\external\box2d\src\..\include;E:\work\github\engine-x\external\chipmunk\include;E:\work\github\engine-x\external\recast\..;E:\work\github\engine-x\external\fastlz\.;E:\work\github\engine-x\external\bullet\.;E:\work\github\engine-x\external\webp\src\webp;E:\work\github\engine-x\external\pugixml;E:\work\github\engine-x\external\lz4\.;E:\work\github\engine-x\external\clipper\.;E:\work\github\engine-x\external\edtaa3func\.;E:\work\github\engine-x\external\ConvertUTF\.;E:\work\github\engine-x\external\poly2tri\..;E:\work\github\engine-x\external\md5\..;E:\work\github\engine-x\external\astc\..;E:\work\github\engine-x\external\ogg\include;E:\work\github\engine-x\external\glad\include;E:\work\github\engine-x\external\png;E:\work\github\engine-x\external\unzip\.;E:\work\github\engine-x\external\freetype\include\win32;E:\work\github\engine-x\external\openssl\include\win32;E:\work\github\engine-x\external\curl\include\win32;E:\work\github\engine-x\external\openal\include;E:\work\github\engine-x\external\win32-specific\iconv\include;E:\work\github\engine-x\external\glfw3\include\win32;E:\work\github\engine-x\external\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\work\github\engine-x;E:\work\github\engine-x\external;E:\work\github\engine-x\extensions;E:\work\github\engine-x\cocos;E:\work\github\engine-x\cocos\platform;E:\work\github\engine-x\cocos\base;E:\work\github\engine-x\cocos\audio\include;E:\work\github\engine-x\cocos\platform\win32;E:\work\github\engine-x\external\jpeg;E:\work\github\engine-x\build\engine\external\jpeg\inc;E:\work\github\engine-x\external\box2d\src\..\include;E:\work\github\engine-x\external\chipmunk\include;E:\work\github\engine-x\external\recast\..;E:\work\github\engine-x\external\fastlz\.;E:\work\github\engine-x\external\bullet\.;E:\work\github\engine-x\external\webp\src\webp;E:\work\github\engine-x\external\pugixml;E:\work\github\engine-x\external\lz4\.;E:\work\github\engine-x\external\clipper\.;E:\work\github\engine-x\external\edtaa3func\.;E:\work\github\engine-x\external\ConvertUTF\.;E:\work\github\engine-x\external\poly2tri\..;E:\work\github\engine-x\external\md5\..;E:\work\github\engine-x\external\astc\..;E:\work\github\engine-x\external\ogg\include;E:\work\github\engine-x\external\glad\include;E:\work\github\engine-x\external\png;E:\work\github\engine-x\external\unzip\.;E:\work\github\engine-x\external\freetype\include\win32;E:\work\github\engine-x\external\openssl\include\win32;E:\work\github\engine-x\external\curl\include\win32;E:\work\github\engine-x\external\openal\include;E:\work\github\engine-x\external\win32-specific\iconv\include;E:\work\github\engine-x\external\glfw3\include\win32;E:\work\github\engine-x\external\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CC_STATIC;CP_USE_CGTYPES=0;CP_USE_DOUBLES=0;BT_USE_SSE_IN_API=1;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CC_STATIC;CP_USE_CGTYPES=0;CP_USE_DOUBLES=0;BT_USE_SSE_IN_API=1;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\work\github\engine-x;E:\work\github\engine-x\external;E:\work\github\engine-x\extensions;E:\work\github\engine-x\cocos;E:\work\github\engine-x\cocos\platform;E:\work\github\engine-x\cocos\base;E:\work\github\engine-x\cocos\audio\include;E:\work\github\engine-x\cocos\platform\win32;E:\work\github\engine-x\external\jpeg;E:\work\github\engine-x\build\engine\external\jpeg\inc;E:\work\github\engine-x\external\box2d\src\..\include;E:\work\github\engine-x\external\chipmunk\include;E:\work\github\engine-x\external\recast\..;E:\work\github\engine-x\external\fastlz\.;E:\work\github\engine-x\external\bullet\.;E:\work\github\engine-x\external\webp\src\webp;E:\work\github\engine-x\external\pugixml;E:\work\github\engine-x\external\lz4\.;E:\work\github\engine-x\external\clipper\.;E:\work\github\engine-x\external\edtaa3func\.;E:\work\github\engine-x\external\ConvertUTF\.;E:\work\github\engine-x\external\poly2tri\..;E:\work\github\engine-x\external\md5\..;E:\work\github\engine-x\external\astc\..;E:\work\github\engine-x\external\ogg\include;E:\work\github\engine-x\external\glad\include;E:\work\github\engine-x\external\png;E:\work\github\engine-x\external\unzip\.;E:\work\github\engine-x\external\freetype\include\win32;E:\work\github\engine-x\external\openssl\include\win32;E:\work\github\engine-x\external\curl\include\win32;E:\work\github\engine-x\external\openal\include;E:\work\github\engine-x\external\win32-specific\iconv\include;E:\work\github\engine-x\external\glfw3\include\win32;E:\work\github\engine-x\external\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <NASM>
+      <IncludePaths>E:\work\github\engine-x\;E:\work\github\engine-x\external\;E:\work\github\engine-x\extensions\;E:\work\github\engine-x\cocos\;E:\work\github\engine-x\cocos\platform\;E:\work\github\engine-x\cocos\base\;E:\work\github\engine-x\cocos\audio\include\;E:\work\github\engine-x\cocos\platform\win32\;E:\work\github\engine-x\external\jpeg\;E:\work\github\engine-x\build\engine\external\jpeg\inc\;E:\work\github\engine-x\external\box2d\src\..\include\;E:\work\github\engine-x\external\chipmunk\include\;E:\work\github\engine-x\external\recast\..\;E:\work\github\engine-x\external\fastlz\.\;E:\work\github\engine-x\external\bullet\.\;E:\work\github\engine-x\external\webp\src\webp\;E:\work\github\engine-x\external\pugixml\;E:\work\github\engine-x\external\lz4\.\;E:\work\github\engine-x\external\clipper\.\;E:\work\github\engine-x\external\edtaa3func\.\;E:\work\github\engine-x\external\ConvertUTF\.\;E:\work\github\engine-x\external\poly2tri\..\;E:\work\github\engine-x\external\md5\..\;E:\work\github\engine-x\external\astc\..\;E:\work\github\engine-x\external\ogg\include\;E:\work\github\engine-x\external\glad\include\;E:\work\github\engine-x\external\png\;E:\work\github\engine-x\external\unzip\.\;E:\work\github\engine-x\external\freetype\include\win32\;E:\work\github\engine-x\external\openssl\include\win32\;E:\work\github\engine-x\external\curl\include\win32\;E:\work\github\engine-x\external\openal\include\;E:\work\github\engine-x\external\win32-specific\iconv\include\;E:\work\github\engine-x\external\glfw3\include\win32\;E:\work\github\engine-x\external\zlib\include\;%(IncludePaths)</IncludePaths>
+      <Outputswitch>0</Outputswitch>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CC_STATIC;CP_USE_CGTYPES=0;CP_USE_DOUBLES=0;BT_USE_SSE_IN_API=1;CMAKE_INTDIR="RelWithDebInfo";;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </NASM>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\work\github\engine-x;E:\work\github\engine-x\external;E:\work\github\engine-x\extensions;E:\work\github\engine-x\cocos;E:\work\github\engine-x\cocos\platform;E:\work\github\engine-x\cocos\base;E:\work\github\engine-x\cocos\audio\include;E:\work\github\engine-x\cocos\platform\win32;E:\work\github\engine-x\external\jpeg;E:\work\github\engine-x\build\engine\external\jpeg\inc;E:\work\github\engine-x\external\box2d\src\..\include;E:\work\github\engine-x\external\chipmunk\include;E:\work\github\engine-x\external\recast\..;E:\work\github\engine-x\external\fastlz\.;E:\work\github\engine-x\external\bullet\.;E:\work\github\engine-x\external\webp\src\webp;E:\work\github\engine-x\external\pugixml;E:\work\github\engine-x\external\lz4\.;E:\work\github\engine-x\external\clipper\.;E:\work\github\engine-x\external\edtaa3func\.;E:\work\github\engine-x\external\ConvertUTF\.;E:\work\github\engine-x\external\poly2tri\..;E:\work\github\engine-x\external\md5\..;E:\work\github\engine-x\external\astc\..;E:\work\github\engine-x\external\ogg\include;E:\work\github\engine-x\external\glad\include;E:\work\github\engine-x\external\png;E:\work\github\engine-x\external\unzip\.;E:\work\github\engine-x\external\freetype\include\win32;E:\work\github\engine-x\external\openssl\include\win32;E:\work\github\engine-x\external\curl\include\win32;E:\work\github\engine-x\external\openal\include;E:\work\github\engine-x\external\win32-specific\iconv\include;E:\work\github\engine-x\external\glfw3\include\win32;E:\work\github\engine-x\external\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\work\github\engine-x\extensions\Particle3D\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule E:/work/github/engine-x/extensions/Particle3D/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -SE:/work/github/engine-x -BE:/work/github/engine-x/build --check-stamp-file E:/work/github/engine-x/build/engine/extensions/Particle3D/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Program Files (x86)\CMake\share\cmake-3.16\Templates\MSBuild\nasm.props.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\work\github\engine-x\build\engine\extensions\Particle3D\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule E:/work/github/engine-x/extensions/Particle3D/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -SE:/work/github/engine-x -BE:/work/github/engine-x/build --check-stamp-file E:/work/github/engine-x/build/engine/extensions/Particle3D/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Program Files (x86)\CMake\share\cmake-3.16\Templates\MSBuild\nasm.props.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\work\github\engine-x\build\engine\extensions\Particle3D\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule E:/work/github/engine-x/extensions/Particle3D/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -SE:/work/github/engine-x -BE:/work/github/engine-x/build --check-stamp-file E:/work/github/engine-x/build/engine/extensions/Particle3D/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Program Files (x86)\CMake\share\cmake-3.16\Templates\MSBuild\nasm.props.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\work\github\engine-x\build\engine\extensions\Particle3D\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule E:/work/github/engine-x/extensions/Particle3D/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -SE:/work/github/engine-x -BE:/work/github/engine-x/build --check-stamp-file E:/work/github/engine-x/build/engine/extensions/Particle3D/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Program Files (x86)\CMake\share\cmake-3.16\Templates\MSBuild\nasm.props.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\work\github\engine-x\build\engine\extensions\Particle3D\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUAffector.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUAffector.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUAffectorManager.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUAffectorManager.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUAffectorTranslator.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUAffectorTranslator.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUAlignAffector.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUAlignAffector.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUAlignAffectorTranslator.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUAlignAffectorTranslator.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUBaseCollider.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUBaseCollider.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUBaseColliderTranslator.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUBaseColliderTranslator.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUBaseForceAffector.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUBaseForceAffector.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUBaseForceAffectorTranslator.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUBaseForceAffectorTranslator.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUBeamRender.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUBeamRender.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUBehaviour.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUBehaviour.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUBehaviourManager.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUBehaviourManager.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUBehaviourTranslator.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUBehaviourTranslator.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUBillboardChain.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUBillboardChain.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUBoxCollider.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUBoxCollider.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUBoxColliderTranslator.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUBoxColliderTranslator.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUBoxEmitter.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUBoxEmitter.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUBoxEmitterTranslator.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUBoxEmitterTranslator.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUCircleEmitter.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUCircleEmitter.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUCircleEmitterTranslator.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUCircleEmitterTranslator.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUCollisionAvoidanceAffector.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUCollisionAvoidanceAffector.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUCollisionAvoidanceAffectorTranslator.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUCollisionAvoidanceAffectorTranslator.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUColorAffector.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUColorAffector.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUColorAffectorTranslator.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUColorAffectorTranslator.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUDoAffectorEventHandler.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUDoAffectorEventHandler.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUDoAffectorEventHandlerTranslator.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUDoAffectorEventHandlerTranslator.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUDoEnableComponentEventHandler.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUDoEnableComponentEventHandler.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUDoEnableComponentEventHandlerTranslator.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUDoEnableComponentEventHandlerTranslator.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUDoExpireEventHandler.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUDoExpireEventHandler.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUDoExpireEventHandlerTranslator.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUDoExpireEventHandlerTranslator.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUDoFreezeEventHandler.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUDoFreezeEventHandler.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUDoFreezeEventHandlerTranslator.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUDoFreezeEventHandlerTranslator.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUDoPlacementParticleEventHandler.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUDoPlacementParticleEventHandler.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUDoPlacementParticleEventHandlerTranslator.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUDoPlacementParticleEventHandlerTranslator.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUDoScaleEventHandler.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUDoScaleEventHandler.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUDoScaleEventHandlerTranslator.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUDoScaleEventHandlerTranslator.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUDoStopSystemEventHandler.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUDoStopSystemEventHandler.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUDoStopSystemEventHandlerTranslator.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUDoStopSystemEventHandlerTranslator.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUDynamicAttribute.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUDynamicAttribute.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUDynamicAttributeTranslator.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUDynamicAttributeTranslator.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUEmitter.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUEmitter.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUEmitterManager.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUEmitterManager.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUEmitterTranslator.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUEmitterTranslator.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUEventHandler.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUEventHandler.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUEventHandlerManager.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUEventHandlerManager.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUEventHandlerTranslator.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUEventHandlerTranslator.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUFlockCenteringAffector.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUFlockCenteringAffector.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUFlockCenteringAffectorTranslator.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUFlockCenteringAffectorTranslator.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUForceField.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUForceField.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUForceFieldAffector.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUForceFieldAffector.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUForceFieldAffectorTranslator.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUForceFieldAffectorTranslator.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUGeometryRotator.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUGeometryRotator.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUGeometryRotatorTranslator.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUGeometryRotatorTranslator.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUGravityAffector.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUGravityAffector.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUGravityAffectorTranslator.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUGravityAffectorTranslator.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUInterParticleCollider.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUInterParticleCollider.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUInterParticleColliderTranslator.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUInterParticleColliderTranslator.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUJetAffector.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUJetAffector.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUJetAffectorTranslator.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUJetAffectorTranslator.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPULineAffector.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPULineAffector.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPULineAffectorTranslator.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPULineAffectorTranslator.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPULineEmitter.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPULineEmitter.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPULineEmitterTranslator.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPULineEmitterTranslator.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPULinearForceAffector.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPULinearForceAffector.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPULinearForceAffectorTranslator.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPULinearForceAffectorTranslator.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUListener.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUListener.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUMaterialManager.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUMaterialManager.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUMaterialTranslator.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUMaterialTranslator.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUMeshSurfaceEmitter.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUMeshSurfaceEmitter.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUMeshSurfaceEmitterTranslator.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUMeshSurfaceEmitterTranslator.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUNoise.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUNoise.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUObserver.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUObserver.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUObserverManager.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUObserverManager.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUObserverTranslator.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUObserverTranslator.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUOnClearObserver.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUOnClearObserver.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUOnClearObserverTranslator.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUOnClearObserverTranslator.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUOnCollisionObserver.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUOnCollisionObserver.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUOnCollisionObserverTranslator.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUOnCollisionObserverTranslator.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUOnCountObserver.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUOnCountObserver.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUOnCountObserverTranslator.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUOnCountObserverTranslator.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUOnEmissionObserver.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUOnEmissionObserver.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUOnEmissionObserverTranslator.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUOnEmissionObserverTranslator.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUOnEventFlagObserver.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUOnEventFlagObserver.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUOnEventFlagObserverTranslator.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUOnEventFlagObserverTranslator.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUOnExpireObserver.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUOnExpireObserver.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUOnExpireObserverTranslator.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUOnExpireObserverTranslator.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUOnPositionObserver.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUOnPositionObserver.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUOnPositionObserverTranslator.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUOnPositionObserverTranslator.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUOnQuotaObserver.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUOnQuotaObserver.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUOnQuotaObserverTranslator.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUOnQuotaObserverTranslator.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUOnRandomObserver.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUOnRandomObserver.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUOnRandomObserverTranslator.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUOnRandomObserverTranslator.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUOnTimeObserver.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUOnTimeObserver.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUOnTimeObserverTranslator.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUOnTimeObserverTranslator.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUOnVelocityObserver.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUOnVelocityObserver.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUOnVelocityObserverTranslator.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUOnVelocityObserverTranslator.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUParticleFollower.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUParticleFollower.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUParticleFollowerTranslator.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUParticleFollowerTranslator.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUParticleSystem3D.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUParticleSystem3D.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUParticleSystem3DTranslator.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUParticleSystem3DTranslator.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUPathFollower.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUPathFollower.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUPathFollowerTranslator.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUPathFollowerTranslator.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUPlane.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUPlane.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUPlaneCollider.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUPlaneCollider.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUPlaneColliderTranslator.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUPlaneColliderTranslator.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUPointEmitter.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUPointEmitter.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUPointEmitterTranslator.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUPointEmitterTranslator.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUPositionEmitter.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUPositionEmitter.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUPositionEmitterTranslator.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUPositionEmitterTranslator.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPURandomiser.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPURandomiser.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPURandomiserTranslator.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPURandomiserTranslator.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPURender.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPURender.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPURendererTranslator.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPURendererTranslator.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPURibbonTrail.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPURibbonTrail.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPURibbonTrailRender.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPURibbonTrailRender.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUScaleAffector.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUScaleAffector.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUScaleAffectorTranslator.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUScaleAffectorTranslator.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUScaleVelocityAffector.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUScaleVelocityAffector.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUScaleVelocityAffectorTranslator.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUScaleVelocityAffectorTranslator.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUScriptCompiler.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUScriptCompiler.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUScriptLexer.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUScriptLexer.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUScriptParser.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUScriptParser.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUScriptTranslator.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUScriptTranslator.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUSimpleSpline.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUSimpleSpline.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUSineForceAffector.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUSineForceAffector.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUSineForceAffectorTranslator.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUSineForceAffectorTranslator.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUSlaveBehaviour.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUSlaveBehaviour.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUSlaveBehaviourTranslator.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUSlaveBehaviourTranslator.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUSlaveEmitter.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUSlaveEmitter.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUSlaveEmitterTranslator.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUSlaveEmitterTranslator.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUSphere.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUSphere.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUSphereCollider.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUSphereCollider.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUSphereColliderTranslator.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUSphereColliderTranslator.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUSphereSurfaceEmitter.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUSphereSurfaceEmitter.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUSphereSurfaceEmitterTranslator.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUSphereSurfaceEmitterTranslator.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUTechniqueTranslator.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUTechniqueTranslator.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUTextureAnimator.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUTextureAnimator.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUTextureAnimatorTranslator.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUTextureAnimatorTranslator.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUTextureRotator.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUTextureRotator.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUTextureRotatorTranslator.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUTextureRotatorTranslator.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUTranslateManager.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUTranslateManager.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUUtil.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUUtil.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUVelocityMatchingAffector.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUVelocityMatchingAffector.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUVelocityMatchingAffectorTranslator.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUVelocityMatchingAffectorTranslator.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUVertexEmitter.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUVertexEmitter.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUVortexAffector.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUVortexAffector.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUVortexAffectorTranslator.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\PU\CCPUVortexAffectorTranslator.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\CCParticle3DAffector.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\CCParticle3DAffector.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\CCParticle3DEmitter.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\CCParticle3DEmitter.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\CCParticle3DRender.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\CCParticle3DRender.h" />
+    <ClCompile Include="E:\work\github\engine-x\extensions\Particle3D\CCParticleSystem3D.cpp" />
+    <ClInclude Include="E:\work\github\engine-x\extensions\Particle3D\CCParticleSystem3D.h" />
+    <ClCompile Include="E:\work\github\engine-x\cocos\precheader.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\work\github\engine-x\build\ZERO_CHECK.vcxproj">
+      <Project>{EC8FFA69-D228-30C9-96F1-FCEA69E0155E}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\work\github\engine-x\build\engine\external\astc\astc.vcxproj">
+      <Project>{59EAB49E-BE24-37F0-8B45-D1604791EC95}</Project>
+      <Name>astc</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\work\github\engine-x\build\engine\external\box2d\src\box2d.vcxproj">
+      <Project>{4E1DCD9C-167D-3134-81ED-CFB76B38F19F}</Project>
+      <Name>box2d</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\work\github\engine-x\build\engine\external\bullet\bullet.vcxproj">
+      <Project>{BF811F3F-E890-36D0-B300-A5D0F30D93C0}</Project>
+      <Name>bullet</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\work\github\engine-x\build\engine\external\chipmunk\src\chipmunk.vcxproj">
+      <Project>{49DC4A70-21A1-3D35-9C3C-7B1D14F20DF5}</Project>
+      <Name>chipmunk</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\work\github\engine-x\build\engine\external\clipper\clipper.vcxproj">
+      <Project>{F87E9C4A-43A7-3803-9C06-2846B37258A9}</Project>
+      <Name>clipper</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\work\github\engine-x\build\engine\cocos\core\cocos2d.vcxproj">
+      <Project>{3B772E50-3B80-3D53-89C9-3C095C545E90}</Project>
+      <Name>cocos2d</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\work\github\engine-x\build\engine\external\ConvertUTF\convertUTF.vcxproj">
+      <Project>{69A60D9F-5F31-37A3-BC04-A2774F8CDE5C}</Project>
+      <Name>convertUTF</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\work\github\engine-x\build\engine\external\edtaa3func\edtaa3func.vcxproj">
+      <Project>{351F3D43-E53D-3D2B-8804-306402EA83F1}</Project>
+      <Name>edtaa3func</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\work\github\engine-x\build\engine\external\external.vcxproj">
+      <Project>{ACCCDAF8-82CA-3657-8565-882D7E42C1EF}</Project>
+      <Name>external</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\work\github\engine-x\build\engine\external\fastlz\fastlz.vcxproj">
+      <Project>{9E50A72C-1E76-3F97-AF81-4928D6AF509F}</Project>
+      <Name>fastlz</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\work\github\engine-x\build\engine\external\glad\glad.vcxproj">
+      <Project>{2E02A3C6-29FE-3328-889B-7D34E68AAC41}</Project>
+      <Name>glad</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\work\github\engine-x\build\engine\external\jpeg\jpeg.vcxproj">
+      <Project>{81802F3F-C0E3-3A45-AA05-7E4AEA630B66}</Project>
+      <Name>jpeg</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\work\github\engine-x\build\engine\external\lz4\lz4.vcxproj">
+      <Project>{A216F884-CA1B-3D29-B27C-3533D62C5A00}</Project>
+      <Name>lz4</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\work\github\engine-x\build\engine\external\md5\md5.vcxproj">
+      <Project>{9A066789-F14D-3C42-9412-21B9685871E1}</Project>
+      <Name>md5</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\work\github\engine-x\build\engine\external\ogg\ogg.vcxproj">
+      <Project>{E62F0D77-B1DD-3CA1-A7F0-B8D16358BB91}</Project>
+      <Name>ogg</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\work\github\engine-x\build\engine\external\png\png.vcxproj">
+      <Project>{CA9C11A8-4CD9-364D-A932-D6079E20F196}</Project>
+      <Name>png</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\work\github\engine-x\build\engine\external\poly2tri\poly2tri.vcxproj">
+      <Project>{7FC8E97B-6F97-331A-826B-BB3C87D1345D}</Project>
+      <Name>poly2tri</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\work\github\engine-x\build\engine\external\pugixml\pugixml.vcxproj">
+      <Project>{81C5ABF4-84BD-31E0-B609-147E4A9AC6EA}</Project>
+      <Name>pugixml</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\work\github\engine-x\build\engine\external\recast\recast.vcxproj">
+      <Project>{E41E567B-A4CC-318E-B7CD-25F291E74DC7}</Project>
+      <Name>recast</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\work\github\engine-x\build\engine\external\unzip\unzip.vcxproj">
+      <Project>{A9C8F58D-CF37-3EAE-836F-4B8346CD8D27}</Project>
+      <Name>unzip</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\work\github\engine-x\build\engine\external\webp\webp.vcxproj">
+      <Project>{455BEC1C-0378-3650-BFA8-E8F587F7B01F}</Project>
+      <Name>webp</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="C:\Program Files (x86)\CMake\share\cmake-3.16\Templates\MSBuild\nasm.targets" />
+  </ImportGroup>
+</Project>

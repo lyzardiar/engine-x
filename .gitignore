@@ -107,7 +107,7 @@ tags
 /build/linux-build
 
 # ignore all build
-/build
+/build2
 
 /build_*
 

@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\work\github\engine-x\tests\cpp-empty-test\Classes\AppDelegate.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\tests\cpp-empty-test\Classes\HelloWorldScene.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\tests\cpp-empty-test\proj.win32\main.cpp">
+      <Filter>Source Files\proj.win32</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\precheader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\work\github\engine-x\tests\cpp-empty-test\Classes\AppMacros.h">
+      <Filter>Source Files\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\cpp-empty-test\Classes\HelloWorldScene.h">
+      <Filter>Source Files\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\cpp-empty-test\Classes\AppDelegate.h">
+      <Filter>Source Files\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\cpp-empty-test\proj.win32\main.h">
+      <Filter>Source Files\proj.win32</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\cpp-empty-test\Resources\.gitignore">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\cpp-empty-test\Resources\bang.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\cpp-empty-test\Resources\fonts\Marker Felt.ttf">
+      <Filter>Resources\fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\cpp-empty-test\Resources\fonts\arial.ttf">
+      <Filter>Resources\fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\cpp-empty-test\Resources\icons\Icon-20.png">
+      <Filter>Resources\icons</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\cpp-empty-test\Resources\icons\Icon-20@2x.png">
+      <Filter>Resources\icons</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\cpp-empty-test\Resources\icons\Icon-20@3x.png">
+      <Filter>Resources\icons</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\cpp-empty-test\Resources\icons\Icon-29.png">
+      <Filter>Resources\icons</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\cpp-empty-test\Resources\icons\Icon-29@2x.png">
+      <Filter>Resources\icons</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\cpp-empty-test\Resources\icons\Icon-29@3x.png">
+      <Filter>Resources\icons</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\cpp-empty-test\Resources\icons\Icon-40.png">
+      <Filter>Resources\icons</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\cpp-empty-test\Resources\icons\Icon-40@2x.png">
+      <Filter>Resources\icons</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\cpp-empty-test\Resources\icons\Icon-40@3x.png">
+      <Filter>Resources\icons</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\cpp-empty-test\Resources\icons\Icon-50.png">
+      <Filter>Resources\icons</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\cpp-empty-test\Resources\icons\Icon-50@2x.png">
+      <Filter>Resources\icons</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\cpp-empty-test\Resources\icons\Icon-57.png">
+      <Filter>Resources\icons</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\cpp-empty-test\Resources\icons\Icon-57@2x.png">
+      <Filter>Resources\icons</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\cpp-empty-test\Resources\icons\Icon-60@2x.png">
+      <Filter>Resources\icons</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\cpp-empty-test\Resources\icons\Icon-60@3x.png">
+      <Filter>Resources\icons</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\cpp-empty-test\Resources\icons\Icon-72.png">
+      <Filter>Resources\icons</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\cpp-empty-test\Resources\icons\Icon-72@2x.png">
+      <Filter>Resources\icons</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\cpp-empty-test\Resources\icons\Icon-76.png">
+      <Filter>Resources\icons</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\cpp-empty-test\Resources\icons\Icon-76@2x.png">
+      <Filter>Resources\icons</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\cpp-empty-test\Resources\icons\Icon-83.5@2x.png">
+      <Filter>Resources\icons</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\cpp-empty-test\Resources\ipad\CloseNormal.png">
+      <Filter>Resources\ipad</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\cpp-empty-test\Resources\ipad\CloseSelected.png">
+      <Filter>Resources\ipad</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\cpp-empty-test\Resources\ipad\HelloWorld.png">
+      <Filter>Resources\ipad</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\cpp-empty-test\Resources\ipad\grossini.png">
+      <Filter>Resources\ipad</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\cpp-empty-test\Resources\ipad\uv_checker_01.jpg">
+      <Filter>Resources\ipad</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\cpp-empty-test\Resources\ipadhd\CloseNormal.png">
+      <Filter>Resources\ipadhd</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\cpp-empty-test\Resources\ipadhd\CloseSelected.png">
+      <Filter>Resources\ipadhd</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\cpp-empty-test\Resources\ipadhd\HelloWorld.png">
+      <Filter>Resources\ipadhd</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\cpp-empty-test\Resources\iphone\CloseNormal.png">
+      <Filter>Resources\iphone</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\cpp-empty-test\Resources\iphone\CloseSelected.png">
+      <Filter>Resources\iphone</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\cpp-empty-test\Resources\iphone\HelloWorld.png">
+      <Filter>Resources\iphone</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\work\github\engine-x\tests\cpp-empty-test\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{8205ABB5-516F-33B4-8C5F-40F56E7A1F65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\fonts">
+      <UniqueIdentifier>{E6B71328-871F-3455-97C9-A08BD6164B8B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\icons">
+      <UniqueIdentifier>{62EB474D-9DF6-321D-A31F-6F6336C7EF2C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\ipad">
+      <UniqueIdentifier>{6909DF6A-2BA2-3958-A199-81ADEBC3E62E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\ipadhd">
+      <UniqueIdentifier>{7725F690-96AB-3645-92BF-712CE4417516}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\iphone">
+      <UniqueIdentifier>{D3A7FA65-C41B-3DF4-9CF9-F58D646ED80F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{A4BAD2AB-32A2-3B75-86A8-BB08949E87DB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Classes">
+      <UniqueIdentifier>{9FD2EFCF-3E02-3C01-A57E-F14FDE68000E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\proj.win32">
+      <UniqueIdentifier>{71EFFC7A-0AF7-3FCF-8AC5-62A69A335FDA}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

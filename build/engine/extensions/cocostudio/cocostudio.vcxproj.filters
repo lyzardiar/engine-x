@@ -1,0 +1,690 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\work\github\engine-x\extensions\cocostudio\ActionTimeline\CCActionTimeline.cpp">
+      <Filter>Source Files\ActionTimeline</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\cocostudio\ActionTimeline\CCActionTimelineCache.cpp">
+      <Filter>Source Files\ActionTimeline</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\cocostudio\ActionTimeline\CCActionTimelineData.cpp">
+      <Filter>Source Files\ActionTimeline</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\cocostudio\ActionTimeline\CCActionTimelineNode.cpp">
+      <Filter>Source Files\ActionTimeline</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\cocostudio\ActionTimeline\CCBoneNode.cpp">
+      <Filter>Source Files\ActionTimeline</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\cocostudio\ActionTimeline\CCFrame.cpp">
+      <Filter>Source Files\ActionTimeline</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\cocostudio\ActionTimeline\CCSkeletonNode.cpp">
+      <Filter>Source Files\ActionTimeline</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\cocostudio\ActionTimeline\CCSkinNode.cpp">
+      <Filter>Source Files\ActionTimeline</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\cocostudio\ActionTimeline\CCTimeLine.cpp">
+      <Filter>Source Files\ActionTimeline</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\cocostudio\ActionTimeline\CSLoader.cpp">
+      <Filter>Source Files\ActionTimeline</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\cocostudio\CCActionFrame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\cocostudio\CCActionFrameEasing.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\cocostudio\CCActionManagerEx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\cocostudio\CCActionNode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\cocostudio\CCActionObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\cocostudio\CCArmature.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\cocostudio\CCArmatureAnimation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\cocostudio\CCArmatureDataManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\cocostudio\CCArmatureDefine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\cocostudio\CCBatchNode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\cocostudio\CCBone.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\cocostudio\CCColliderDetector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\cocostudio\CCComAttribute.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\cocostudio\CCComAudio.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\cocostudio\CCComController.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\cocostudio\CCComExtensionData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\cocostudio\CCComRender.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\cocostudio\CCDataReaderHelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\cocostudio\CCDatas.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\cocostudio\CCDecorativeDisplay.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\cocostudio\CCDisplayFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\cocostudio\CCDisplayManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\cocostudio\CCInputDelegate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\cocostudio\CCProcessBase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\cocostudio\CCSGUIReader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\cocostudio\CCSSceneReader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\cocostudio\CCSkin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\cocostudio\CCSpriteFrameCacheHelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\cocostudio\CCTransformHelp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\cocostudio\CCTween.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\cocostudio\CCUtilMath.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\cocostudio\CocoLoader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\cocostudio\CocoStudio.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\cocostudio\CocosStudioExtension.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\cocostudio\DictionaryHelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\cocostudio\FlatBuffersSerialize.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\cocostudio\LocalizationManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\cocostudio\SpineSkeletonDataCache.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\cocostudio\TriggerBase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\cocostudio\TriggerMng.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\cocostudio\TriggerObj.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\cocostudio\WidgetCallBackHandlerProtocol.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\cocostudio\WidgetReader\ArmatureNodeReader\ArmatureNodeReader.cpp">
+      <Filter>Source Files\WidgetReader\ArmatureNodeReader</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\cocostudio\WidgetReader\ButtonReader\ButtonReader.cpp">
+      <Filter>Source Files\WidgetReader\ButtonReader</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\cocostudio\WidgetReader\CheckBoxReader\CheckBoxReader.cpp">
+      <Filter>Source Files\WidgetReader\CheckBoxReader</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\cocostudio\WidgetReader\ComAudioReader\ComAudioReader.cpp">
+      <Filter>Source Files\WidgetReader\ComAudioReader</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\cocostudio\WidgetReader\GameMapReader\GameMapReader.cpp">
+      <Filter>Source Files\WidgetReader\GameMapReader</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\cocostudio\WidgetReader\GameNode3DReader\GameNode3DReader.cpp">
+      <Filter>Source Files\WidgetReader\GameNode3DReader</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\cocostudio\WidgetReader\ImageViewReader\ImageViewReader.cpp">
+      <Filter>Source Files\WidgetReader\ImageViewReader</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\cocostudio\WidgetReader\LayoutReader\LayoutReader.cpp">
+      <Filter>Source Files\WidgetReader\LayoutReader</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\cocostudio\WidgetReader\Light3DReader\Light3DReader.cpp">
+      <Filter>Source Files\WidgetReader\Light3DReader</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\cocostudio\WidgetReader\ListViewReader\ListViewReader.cpp">
+      <Filter>Source Files\WidgetReader\ListViewReader</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\cocostudio\WidgetReader\LoadingBarReader\LoadingBarReader.cpp">
+      <Filter>Source Files\WidgetReader\LoadingBarReader</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\cocostudio\WidgetReader\Node3DReader\Node3DReader.cpp">
+      <Filter>Source Files\WidgetReader\Node3DReader</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\cocostudio\WidgetReader\NodeReader\NodeReader.cpp">
+      <Filter>Source Files\WidgetReader\NodeReader</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\cocostudio\WidgetReader\NodeReaderProtocol.cpp">
+      <Filter>Source Files\WidgetReader</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\cocostudio\WidgetReader\PageViewReader\PageViewReader.cpp">
+      <Filter>Source Files\WidgetReader\PageViewReader</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\cocostudio\WidgetReader\Particle3DReader\Particle3DReader.cpp">
+      <Filter>Source Files\WidgetReader\Particle3DReader</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\cocostudio\WidgetReader\ParticleReader\ParticleReader.cpp">
+      <Filter>Source Files\WidgetReader\ParticleReader</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\cocostudio\WidgetReader\ProjectNodeReader\ProjectNodeReader.cpp">
+      <Filter>Source Files\WidgetReader\ProjectNodeReader</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\cocostudio\WidgetReader\RadioButtonReader\RadioButtonGroupReader.cpp">
+      <Filter>Source Files\WidgetReader\RadioButtonReader</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\cocostudio\WidgetReader\RadioButtonReader\RadioButtonReader.cpp">
+      <Filter>Source Files\WidgetReader\RadioButtonReader</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\cocostudio\WidgetReader\RichTextReader\RichTextReader.cpp">
+      <Filter>Source Files\WidgetReader\RichTextReader</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\cocostudio\WidgetReader\ScrollViewReader\ScrollViewReader.cpp">
+      <Filter>Source Files\WidgetReader\ScrollViewReader</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\cocostudio\WidgetReader\SingleNodeReader\SingleNodeReader.cpp">
+      <Filter>Source Files\WidgetReader\SingleNodeReader</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\cocostudio\WidgetReader\SkeletonReader\BoneNodeReader.cpp">
+      <Filter>Source Files\WidgetReader\SkeletonReader</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\cocostudio\WidgetReader\SkeletonReader\SkeletonNodeReader.cpp">
+      <Filter>Source Files\WidgetReader\SkeletonReader</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\cocostudio\WidgetReader\SliderReader\SliderReader.cpp">
+      <Filter>Source Files\WidgetReader\SliderReader</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\cocostudio\WidgetReader\SpineSkeletonReader\SpineSkeletonReader.cpp">
+      <Filter>Source Files\WidgetReader\SpineSkeletonReader</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\cocostudio\WidgetReader\Sprite3DReader\Sprite3DReader.cpp">
+      <Filter>Source Files\WidgetReader\Sprite3DReader</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\cocostudio\WidgetReader\SpriteReader\SpriteReader.cpp">
+      <Filter>Source Files\WidgetReader\SpriteReader</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\cocostudio\WidgetReader\TabControlReader\TabControlReader.cpp">
+      <Filter>Source Files\WidgetReader\TabControlReader</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\cocostudio\WidgetReader\TextAtlasReader\TextAtlasReader.cpp">
+      <Filter>Source Files\WidgetReader\TextAtlasReader</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\cocostudio\WidgetReader\TextBMFontReader\TextBMFontReader.cpp">
+      <Filter>Source Files\WidgetReader\TextBMFontReader</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\cocostudio\WidgetReader\TextFieldReader\TextFieldExReader.cpp">
+      <Filter>Source Files\WidgetReader\TextFieldReader</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\cocostudio\WidgetReader\TextFieldReader\TextFieldReader.cpp">
+      <Filter>Source Files\WidgetReader\TextFieldReader</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\cocostudio\WidgetReader\TextReader\TextReader.cpp">
+      <Filter>Source Files\WidgetReader\TextReader</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\cocostudio\WidgetReader\UserCameraReader\UserCameraReader.cpp">
+      <Filter>Source Files\WidgetReader\UserCameraReader</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\cocostudio\WidgetReader\WidgetReader.cpp">
+      <Filter>Source Files\WidgetReader</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\cocostudio\WidgetReader\WidgetReaderProtocol.cpp">
+      <Filter>Source Files\WidgetReader</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\precheader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\work\github\engine-x\extensions\cocostudio\ActionTimeline\CCActionTimeline.h">
+      <Filter>Source Files\ActionTimeline</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\cocostudio\ActionTimeline\CCActionTimelineCache.h">
+      <Filter>Source Files\ActionTimeline</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\cocostudio\ActionTimeline\CCActionTimelineData.h">
+      <Filter>Source Files\ActionTimeline</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\cocostudio\ActionTimeline\CCActionTimelineNode.h">
+      <Filter>Source Files\ActionTimeline</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\cocostudio\ActionTimeline\CCBoneNode.h">
+      <Filter>Source Files\ActionTimeline</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\cocostudio\ActionTimeline\CCFrame.h">
+      <Filter>Source Files\ActionTimeline</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\cocostudio\ActionTimeline\CCSkeletonNode.h">
+      <Filter>Source Files\ActionTimeline</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\cocostudio\ActionTimeline\CCSkinNode.h">
+      <Filter>Source Files\ActionTimeline</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\cocostudio\ActionTimeline\CCTimeLine.h">
+      <Filter>Source Files\ActionTimeline</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\cocostudio\ActionTimeline\CCTimelineMacro.h">
+      <Filter>Source Files\ActionTimeline</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\cocostudio\ActionTimeline\CSLoader.h">
+      <Filter>Source Files\ActionTimeline</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\cocostudio\CCActionFrame.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\cocostudio\CCActionFrameEasing.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\cocostudio\CCActionManagerEx.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\cocostudio\CCActionNode.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\cocostudio\CCActionObject.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\cocostudio\CCArmature.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\cocostudio\CCArmatureAnimation.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\cocostudio\CCArmatureDataManager.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\cocostudio\CCArmatureDefine.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\cocostudio\CCBatchNode.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\cocostudio\CCBone.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\cocostudio\CCColliderDetector.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\cocostudio\CCComAttribute.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\cocostudio\CCComAudio.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\cocostudio\CCComBase.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\cocostudio\CCComController.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\cocostudio\CCComExtensionData.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\cocostudio\CCComRender.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\cocostudio\CCDataReaderHelper.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\cocostudio\CCDatas.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\cocostudio\CCDecorativeDisplay.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\cocostudio\CCDisplayFactory.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\cocostudio\CCDisplayManager.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\cocostudio\CCInputDelegate.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\cocostudio\CCProcessBase.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\cocostudio\CCSGUIReader.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\cocostudio\CCSSceneReader.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\cocostudio\CCSkin.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\cocostudio\CCSpriteFrameCacheHelper.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\cocostudio\CCTransformHelp.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\cocostudio\CCTween.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\cocostudio\CCUtilMath.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\cocostudio\CSLanguageDataBinary_generated.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\cocostudio\CSParse3DBinary_generated.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\cocostudio\CSParseBinary_generated.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\cocostudio\CocoLoader.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\cocostudio\CocoStudio.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\cocostudio\CocosStudioExport.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\cocostudio\CocosStudioExtension.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\cocostudio\DictionaryHelper.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\cocostudio\FlatBuffersSerialize.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\cocostudio\LocalizationManager.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\cocostudio\SpineSkeletonDataCache.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\cocostudio\TriggerBase.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\cocostudio\TriggerMng.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\cocostudio\TriggerObj.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\cocostudio\WidgetCallBackHandlerProtocol.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\cocostudio\WidgetReader\ArmatureNodeReader\ArmatureNodeReader.h">
+      <Filter>Source Files\WidgetReader\ArmatureNodeReader</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\cocostudio\WidgetReader\ArmatureNodeReader\CSArmatureNode_generated.h">
+      <Filter>Source Files\WidgetReader\ArmatureNodeReader</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\cocostudio\WidgetReader\ButtonReader\ButtonReader.h">
+      <Filter>Source Files\WidgetReader\ButtonReader</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\cocostudio\WidgetReader\CheckBoxReader\CheckBoxReader.h">
+      <Filter>Source Files\WidgetReader\CheckBoxReader</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\cocostudio\WidgetReader\ComAudioReader\ComAudioReader.h">
+      <Filter>Source Files\WidgetReader\ComAudioReader</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\cocostudio\WidgetReader\GameMapReader\GameMapReader.h">
+      <Filter>Source Files\WidgetReader\GameMapReader</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\cocostudio\WidgetReader\GameNode3DReader\GameNode3DReader.h">
+      <Filter>Source Files\WidgetReader\GameNode3DReader</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\cocostudio\WidgetReader\ImageViewReader\ImageViewReader.h">
+      <Filter>Source Files\WidgetReader\ImageViewReader</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\cocostudio\WidgetReader\LayoutReader\LayoutReader.h">
+      <Filter>Source Files\WidgetReader\LayoutReader</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\cocostudio\WidgetReader\Light3DReader\Light3DReader.h">
+      <Filter>Source Files\WidgetReader\Light3DReader</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\cocostudio\WidgetReader\ListViewReader\ListViewReader.h">
+      <Filter>Source Files\WidgetReader\ListViewReader</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\cocostudio\WidgetReader\LoadingBarReader\LoadingBarReader.h">
+      <Filter>Source Files\WidgetReader\LoadingBarReader</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\cocostudio\WidgetReader\Node3DReader\Node3DReader.h">
+      <Filter>Source Files\WidgetReader\Node3DReader</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\cocostudio\WidgetReader\NodeReader\NodeReader.h">
+      <Filter>Source Files\WidgetReader\NodeReader</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\cocostudio\WidgetReader\NodeReaderDefine.h">
+      <Filter>Source Files\WidgetReader</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\cocostudio\WidgetReader\NodeReaderProtocol.h">
+      <Filter>Source Files\WidgetReader</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\cocostudio\WidgetReader\PageViewReader\PageViewReader.h">
+      <Filter>Source Files\WidgetReader\PageViewReader</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\cocostudio\WidgetReader\Particle3DReader\Particle3DReader.h">
+      <Filter>Source Files\WidgetReader\Particle3DReader</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\cocostudio\WidgetReader\ParticleReader\ParticleReader.h">
+      <Filter>Source Files\WidgetReader\ParticleReader</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\cocostudio\WidgetReader\ProjectNodeReader\ProjectNodeReader.h">
+      <Filter>Source Files\WidgetReader\ProjectNodeReader</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\cocostudio\WidgetReader\RadioButtonReader\RadioButtonGroupReader.h">
+      <Filter>Source Files\WidgetReader\RadioButtonReader</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\cocostudio\WidgetReader\RadioButtonReader\RadioButtonReader.h">
+      <Filter>Source Files\WidgetReader\RadioButtonReader</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\cocostudio\WidgetReader\RichTextReader\RichTextReader.h">
+      <Filter>Source Files\WidgetReader\RichTextReader</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\cocostudio\WidgetReader\ScrollViewReader\ScrollViewReader.h">
+      <Filter>Source Files\WidgetReader\ScrollViewReader</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\cocostudio\WidgetReader\SingleNodeReader\SingleNodeReader.h">
+      <Filter>Source Files\WidgetReader\SingleNodeReader</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\cocostudio\WidgetReader\SkeletonReader\BoneNodeReader.h">
+      <Filter>Source Files\WidgetReader\SkeletonReader</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\cocostudio\WidgetReader\SkeletonReader\CSBoneBinary_generated.h">
+      <Filter>Source Files\WidgetReader\SkeletonReader</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\cocostudio\WidgetReader\SkeletonReader\SkeletonNodeReader.h">
+      <Filter>Source Files\WidgetReader\SkeletonReader</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\cocostudio\WidgetReader\SliderReader\SliderReader.h">
+      <Filter>Source Files\WidgetReader\SliderReader</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\cocostudio\WidgetReader\SpineSkeletonReader\SpineSkeletonReader.h">
+      <Filter>Source Files\WidgetReader\SpineSkeletonReader</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\cocostudio\WidgetReader\Sprite3DReader\Sprite3DReader.h">
+      <Filter>Source Files\WidgetReader\Sprite3DReader</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\cocostudio\WidgetReader\SpriteReader\SpriteReader.h">
+      <Filter>Source Files\WidgetReader\SpriteReader</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\cocostudio\WidgetReader\TabControlReader\CSTabControl_generated.h">
+      <Filter>Source Files\WidgetReader\TabControlReader</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\cocostudio\WidgetReader\TabControlReader\TabControlReader.h">
+      <Filter>Source Files\WidgetReader\TabControlReader</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\cocostudio\WidgetReader\TextAtlasReader\TextAtlasReader.h">
+      <Filter>Source Files\WidgetReader\TextAtlasReader</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\cocostudio\WidgetReader\TextBMFontReader\TextBMFontReader.h">
+      <Filter>Source Files\WidgetReader\TextBMFontReader</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\cocostudio\WidgetReader\TextFieldReader\TextFieldExReader.h">
+      <Filter>Source Files\WidgetReader\TextFieldReader</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\cocostudio\WidgetReader\TextFieldReader\TextFieldReader.h">
+      <Filter>Source Files\WidgetReader\TextFieldReader</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\cocostudio\WidgetReader\TextReader\TextReader.h">
+      <Filter>Source Files\WidgetReader\TextReader</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\cocostudio\WidgetReader\UserCameraReader\UserCameraReader.h">
+      <Filter>Source Files\WidgetReader\UserCameraReader</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\cocostudio\WidgetReader\WidgetReader.h">
+      <Filter>Source Files\WidgetReader</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\cocostudio\WidgetReader\WidgetReaderProtocol.h">
+      <Filter>Source Files\WidgetReader</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\work\github\engine-x\extensions\cocostudio\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{A4BAD2AB-32A2-3B75-86A8-BB08949E87DB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ActionTimeline">
+      <UniqueIdentifier>{F7EFD521-5428-3B00-A559-DD75161C3CD0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WidgetReader">
+      <UniqueIdentifier>{9A472210-B4BB-347C-9BDD-9B8F4C42D3F2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WidgetReader\ArmatureNodeReader">
+      <UniqueIdentifier>{8C6247E3-96DE-3B39-A652-F3D3A0AB4D16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WidgetReader\ButtonReader">
+      <UniqueIdentifier>{97643278-9750-3841-A008-E4C2703067D9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WidgetReader\CheckBoxReader">
+      <UniqueIdentifier>{1B06DFAA-CFFB-3BFF-8F8D-20EFACEE92EA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WidgetReader\ComAudioReader">
+      <UniqueIdentifier>{27514E4B-6999-33C4-AA63-9313E731F424}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WidgetReader\GameMapReader">
+      <UniqueIdentifier>{15F1823F-484E-3E85-9397-AFE1A5A1A25A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WidgetReader\GameNode3DReader">
+      <UniqueIdentifier>{A43C1E92-D1DE-3B1D-820F-4FE12996D3A8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WidgetReader\ImageViewReader">
+      <UniqueIdentifier>{76962D39-490E-3A88-A243-A16A56EB50D0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WidgetReader\LayoutReader">
+      <UniqueIdentifier>{FA4658E3-A704-335D-92BB-9D52A9FDB75E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WidgetReader\Light3DReader">
+      <UniqueIdentifier>{48BB47D9-0629-3AC6-85AC-CC77FDC2A3AF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WidgetReader\ListViewReader">
+      <UniqueIdentifier>{5E82A2B0-BEDA-3DA2-8EFD-AB3CD9F7282D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WidgetReader\LoadingBarReader">
+      <UniqueIdentifier>{BFDFE334-9390-31EC-B026-493698F0B58F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WidgetReader\Node3DReader">
+      <UniqueIdentifier>{0F924F8F-1DEB-3532-9F44-7FD4336B0C17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WidgetReader\NodeReader">
+      <UniqueIdentifier>{9BAA4D63-637A-397B-B86A-BFE253146904}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WidgetReader\PageViewReader">
+      <UniqueIdentifier>{934973A8-6C5B-38F3-895C-81E46F80E224}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WidgetReader\Particle3DReader">
+      <UniqueIdentifier>{E45C87E4-1988-35D4-A906-8FEF343B33F3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WidgetReader\ParticleReader">
+      <UniqueIdentifier>{E5638630-A777-3140-884E-4DCE558CD4DF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WidgetReader\ProjectNodeReader">
+      <UniqueIdentifier>{C31E5304-F02D-366D-94B7-8900BD033C8A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WidgetReader\RadioButtonReader">
+      <UniqueIdentifier>{DCB3AFBB-9D78-302C-9434-ED77560C5268}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WidgetReader\RichTextReader">
+      <UniqueIdentifier>{83829692-1EC9-3278-B4FF-71BEFF9AF47B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WidgetReader\ScrollViewReader">
+      <UniqueIdentifier>{F51194DA-2B37-39BC-A7E5-EC1C69E78C76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WidgetReader\SingleNodeReader">
+      <UniqueIdentifier>{5552B54D-B850-333B-A7D9-85C95E9850F5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WidgetReader\SkeletonReader">
+      <UniqueIdentifier>{F62D65EA-3D8F-3734-BA25-3FD715D69AA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WidgetReader\SliderReader">
+      <UniqueIdentifier>{755B4E2C-2C13-3161-9098-F7184AC24A56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WidgetReader\SpineSkeletonReader">
+      <UniqueIdentifier>{31066217-3D2F-32D9-A11D-35E3ABE1E09C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WidgetReader\Sprite3DReader">
+      <UniqueIdentifier>{F027FFC5-91C5-37B5-8A90-2F7D01238A9A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WidgetReader\SpriteReader">
+      <UniqueIdentifier>{0F353F83-C7A1-3956-A779-B78968CACBA0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WidgetReader\TabControlReader">
+      <UniqueIdentifier>{87558CCE-202E-3C07-9010-AEB9EC9315E1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WidgetReader\TextAtlasReader">
+      <UniqueIdentifier>{9453B159-AD42-394A-8F43-45D7E66A29F2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WidgetReader\TextBMFontReader">
+      <UniqueIdentifier>{D782B11F-E9F8-33F2-89A6-572482DAE47E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WidgetReader\TextFieldReader">
+      <UniqueIdentifier>{BDA8AD29-2938-38DA-B795-1D326E271131}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WidgetReader\TextReader">
+      <UniqueIdentifier>{9D544D0A-7835-391E-8D3D-73A2B1171955}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WidgetReader\UserCameraReader">
+      <UniqueIdentifier>{0D2A965A-FFF2-31C1-BC02-46BC3D38CBFB}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

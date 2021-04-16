@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\work\github\engine-x\extensions\ImGuiEXT\CCImGuiEXT.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\ImGuiEXT\imgui_impl_cocos2dx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\ImGuiEXT\imgui\imgui.cpp">
+      <Filter>Source Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\ImGuiEXT\imgui\imgui_demo.cpp">
+      <Filter>Source Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\ImGuiEXT\imgui\imgui_draw.cpp">
+      <Filter>Source Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\ImGuiEXT\imgui\imgui_widgets.cpp">
+      <Filter>Source Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\extensions\ImGuiEXT\imgui\misc\cpp\imgui_stdlib.cpp">
+      <Filter>Source Files\imgui\misc\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\precheader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\work\github\engine-x\extensions\ImGuiEXT\CCImGuiEXT.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\ImGuiEXT\imgui_impl_cocos2dx.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\ImGuiEXT\imgui\imconfig.h">
+      <Filter>Source Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\ImGuiEXT\imgui\imgui.h">
+      <Filter>Source Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\ImGuiEXT\imgui\imgui_internal.h">
+      <Filter>Source Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\ImGuiEXT\imgui\imstb_rectpack.h">
+      <Filter>Source Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\ImGuiEXT\imgui\imstb_textedit.h">
+      <Filter>Source Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\ImGuiEXT\imgui\imstb_truetype.h">
+      <Filter>Source Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\ImGuiEXT\imgui\misc\cpp\imgui_stdlib.h">
+      <Filter>Source Files\imgui\misc\cpp</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\work\github\engine-x\extensions\ImGuiEXT\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{A4BAD2AB-32A2-3B75-86A8-BB08949E87DB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\imgui">
+      <UniqueIdentifier>{B1321976-C727-36E8-96C9-A09A1176FE3E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\imgui\misc">
+      <UniqueIdentifier>{06897C31-AB6F-387A-8220-188447C275AA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\imgui\misc\cpp">
+      <UniqueIdentifier>{45EED888-E3B1-348F-BD5B-163A278AC16F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

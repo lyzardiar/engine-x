@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\work\github\engine-x\tests\lua-empty-test\project\Classes\AppDelegate.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\tests\lua-empty-test\project\proj.win32\main.cpp">
+      <Filter>Source Files\proj.win32</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\precheader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\work\github\engine-x\tests\lua-empty-test\project\Classes\AppDelegate.h">
+      <Filter>Source Files\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\lua-empty-test\project\proj.win32\main.h">
+      <Filter>Source Files\proj.win32</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\lua-empty-test\res\.gitignore">
+      <Filter>Resources\res</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\lua-empty-test\res\background.caf">
+      <Filter>Resources\res</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\lua-empty-test\res\background.mp3">
+      <Filter>Resources\res</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\lua-empty-test\res\background.ogg">
+      <Filter>Resources\res</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\lua-empty-test\res\crop.png">
+      <Filter>Resources\res</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\lua-empty-test\res\dog.png">
+      <Filter>Resources\res</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\lua-empty-test\res\effect1.wav">
+      <Filter>Resources\res</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\lua-empty-test\res\farm.jpg">
+      <Filter>Resources\res</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\lua-empty-test\res\fonts\Marker Felt.ttf">
+      <Filter>Resources\res\fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\lua-empty-test\res\land.png">
+      <Filter>Resources\res</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\lua-empty-test\res\menu1.png">
+      <Filter>Resources\res</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\lua-empty-test\res\menu2.png">
+      <Filter>Resources\res</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\lua-empty-test\src\hello.lua">
+      <Filter>Resources\src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\lua-empty-test\src\hello2.lua">
+      <Filter>Resources\src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\lua-empty-test\src\mobdebug.lua">
+      <Filter>Resources\src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\scripting\lua-bindings\script\3d\3dConstants.lua">
+      <Filter>Resources\src\cocos\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\scripting\lua-bindings\script\cocos2d\Cocos2d.lua">
+      <Filter>Resources\src\cocos\cocos2d</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\scripting\lua-bindings\script\cocos2d\Cocos2dConstants.lua">
+      <Filter>Resources\src\cocos\cocos2d</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\scripting\lua-bindings\script\cocos2d\DeprecatedCocos2dClass.lua">
+      <Filter>Resources\src\cocos\cocos2d</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\scripting\lua-bindings\script\cocos2d\DeprecatedCocos2dEnum.lua">
+      <Filter>Resources\src\cocos\cocos2d</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\scripting\lua-bindings\script\cocos2d\DeprecatedCocos2dFunc.lua">
+      <Filter>Resources\src\cocos\cocos2d</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\scripting\lua-bindings\script\cocos2d\DrawPrimitives.lua">
+      <Filter>Resources\src\cocos\cocos2d</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\scripting\lua-bindings\script\cocos2d\bitExtend.lua">
+      <Filter>Resources\src\cocos\cocos2d</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\scripting\lua-bindings\script\cocos2d\deprecated.lua">
+      <Filter>Resources\src\cocos\cocos2d</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\scripting\lua-bindings\script\cocos2d\functions.lua">
+      <Filter>Resources\src\cocos\cocos2d</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\scripting\lua-bindings\script\cocos2d\luaj.lua">
+      <Filter>Resources\src\cocos\cocos2d</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\scripting\lua-bindings\script\cocos2d\luaoc.lua">
+      <Filter>Resources\src\cocos\cocos2d</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\scripting\lua-bindings\script\cocosdenshion\AudioEngine.lua">
+      <Filter>Resources\src\cocos\cocosdenshion</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\scripting\lua-bindings\script\cocostudio\CocoStudio.lua">
+      <Filter>Resources\src\cocos\cocostudio</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\scripting\lua-bindings\script\cocostudio\DeprecatedCocoStudioClass.lua">
+      <Filter>Resources\src\cocos\cocostudio</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\scripting\lua-bindings\script\cocostudio\DeprecatedCocoStudioFunc.lua">
+      <Filter>Resources\src\cocos\cocostudio</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\scripting\lua-bindings\script\cocostudio\StudioConstants.lua">
+      <Filter>Resources\src\cocos\cocostudio</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\scripting\lua-bindings\script\controller\ControllerConstants.lua">
+      <Filter>Resources\src\cocos\controller</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\scripting\lua-bindings\script\extension\DeprecatedExtensionClass.lua">
+      <Filter>Resources\src\cocos\extension</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\scripting\lua-bindings\script\extension\DeprecatedExtensionEnum.lua">
+      <Filter>Resources\src\cocos\extension</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\scripting\lua-bindings\script\extension\DeprecatedExtensionFunc.lua">
+      <Filter>Resources\src\cocos\extension</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\scripting\lua-bindings\script\extension\ExtensionConstants.lua">
+      <Filter>Resources\src\cocos\extension</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\scripting\lua-bindings\script\framework\components\event.lua">
+      <Filter>Resources\src\cocos\framework\components</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\scripting\lua-bindings\script\framework\device.lua">
+      <Filter>Resources\src\cocos\framework</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\scripting\lua-bindings\script\framework\display.lua">
+      <Filter>Resources\src\cocos\framework</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\scripting\lua-bindings\script\framework\extends\LayerEx.lua">
+      <Filter>Resources\src\cocos\framework\extends</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\scripting\lua-bindings\script\framework\extends\MenuEx.lua">
+      <Filter>Resources\src\cocos\framework\extends</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\scripting\lua-bindings\script\framework\extends\NodeEx.lua">
+      <Filter>Resources\src\cocos\framework\extends</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\scripting\lua-bindings\script\framework\extends\SpriteEx.lua">
+      <Filter>Resources\src\cocos\framework\extends</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\scripting\lua-bindings\script\framework\extends\UICheckBox.lua">
+      <Filter>Resources\src\cocos\framework\extends</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\scripting\lua-bindings\script\framework\extends\UIEditBox.lua">
+      <Filter>Resources\src\cocos\framework\extends</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\scripting\lua-bindings\script\framework\extends\UIListView.lua">
+      <Filter>Resources\src\cocos\framework\extends</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\scripting\lua-bindings\script\framework\extends\UIPageView.lua">
+      <Filter>Resources\src\cocos\framework\extends</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\scripting\lua-bindings\script\framework\extends\UIScrollView.lua">
+      <Filter>Resources\src\cocos\framework\extends</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\scripting\lua-bindings\script\framework\extends\UISlider.lua">
+      <Filter>Resources\src\cocos\framework\extends</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\scripting\lua-bindings\script\framework\extends\UITextField.lua">
+      <Filter>Resources\src\cocos\framework\extends</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\scripting\lua-bindings\script\framework\extends\UIWidget.lua">
+      <Filter>Resources\src\cocos\framework\extends</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\scripting\lua-bindings\script\framework\init.lua">
+      <Filter>Resources\src\cocos\framework</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\scripting\lua-bindings\script\framework\package_support.lua">
+      <Filter>Resources\src\cocos\framework</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\scripting\lua-bindings\script\framework\transition.lua">
+      <Filter>Resources\src\cocos\framework</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\scripting\lua-bindings\script\init.lua">
+      <Filter>Resources\src\cocos</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\scripting\lua-bindings\script\network\DeprecatedNetworkClass.lua">
+      <Filter>Resources\src\cocos\network</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\scripting\lua-bindings\script\network\DeprecatedNetworkEnum.lua">
+      <Filter>Resources\src\cocos\network</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\scripting\lua-bindings\script\network\DeprecatedNetworkFunc.lua">
+      <Filter>Resources\src\cocos\network</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\scripting\lua-bindings\script\network\NetworkConstants.lua">
+      <Filter>Resources\src\cocos\network</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\scripting\lua-bindings\script\physics3d\physics3d-constants.lua">
+      <Filter>Resources\src\cocos\physics3d</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\scripting\lua-bindings\script\spine\SpineConstants.lua">
+      <Filter>Resources\src\cocos\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\scripting\lua-bindings\script\ui\DeprecatedUIEnum.lua">
+      <Filter>Resources\src\cocos\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\scripting\lua-bindings\script\ui\DeprecatedUIFunc.lua">
+      <Filter>Resources\src\cocos\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\extensions\scripting\lua-bindings\script\ui\GuiConstants.lua">
+      <Filter>Resources\src\cocos\ui</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\work\github\engine-x\tests\lua-empty-test\project\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{8205ABB5-516F-33B4-8C5F-40F56E7A1F65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\res">
+      <UniqueIdentifier>{3F4400B3-2AAA-3AB4-B1DD-F67AC3BAD5A2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\res\fonts">
+      <UniqueIdentifier>{9A1F6AF3-8220-3ACC-A61F-BE04CA0C9DF0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\src">
+      <UniqueIdentifier>{52E324E7-9CC9-3301-A5F6-338557162472}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\src\cocos">
+      <UniqueIdentifier>{484454D0-82F1-31D1-9C31-6BDFD776A797}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\src\cocos\3d">
+      <UniqueIdentifier>{F9F1FBDC-9B04-3408-B237-E0C9014A8C34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\src\cocos\cocos2d">
+      <UniqueIdentifier>{4E4FF363-F317-3C87-AFF1-25EC6BEF806D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\src\cocos\cocosdenshion">
+      <UniqueIdentifier>{254C1FD5-B3B7-338A-A42B-BAE55C056372}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\src\cocos\cocostudio">
+      <UniqueIdentifier>{36C50058-B2EF-3EA4-8CB6-63F95C47E14E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\src\cocos\controller">
+      <UniqueIdentifier>{91809DF6-4D3C-37A6-8CD2-1FF1C7928AD4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\src\cocos\extension">
+      <UniqueIdentifier>{82D81B7B-FABE-32E9-A4D5-497B9FE79652}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\src\cocos\framework">
+      <UniqueIdentifier>{E36C33F3-8853-32F0-87E3-C3238C20B738}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\src\cocos\framework\components">
+      <UniqueIdentifier>{D6F52885-314E-3546-AFC7-A501FC4CFE1D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\src\cocos\framework\extends">
+      <UniqueIdentifier>{A37AA4F8-1C6B-3B9F-B861-9A7D8C8B5D13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\src\cocos\network">
+      <UniqueIdentifier>{6D9BE497-406D-3B9E-AEB5-80F5A047290A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\src\cocos\physics3d">
+      <UniqueIdentifier>{AF2DD815-3A39-30CE-8CA6-63B9C653DE25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\src\cocos\spine">
+      <UniqueIdentifier>{E971B98E-D258-3BD5-A924-16628DB6A75D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\src\cocos\ui">
+      <UniqueIdentifier>{E01AD0A0-F5D2-38FB-8657-C3EC82EA5DA4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{A4BAD2AB-32A2-3B75-86A8-BB08949E87DB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Classes">
+      <UniqueIdentifier>{9FD2EFCF-3E02-3C01-A57E-F14FDE68000E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\proj.win32">
+      <UniqueIdentifier>{71EFFC7A-0AF7-3FCF-8AC5-62A69A335FDA}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

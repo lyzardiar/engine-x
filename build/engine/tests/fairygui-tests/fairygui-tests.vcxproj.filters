@@ -1,0 +1,351 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\work\github\engine-x\tests\fairygui-tests\Classes\AppDelegate.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\tests\fairygui-tests\Classes\BagScene.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\tests\fairygui-tests\Classes\BagWindow.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\tests\fairygui-tests\Classes\BasicsScene.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\tests\fairygui-tests\Classes\ChatScene.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\tests\fairygui-tests\Classes\CooldownScene.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\tests\fairygui-tests\Classes\DemoScene.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\tests\fairygui-tests\Classes\EmojiParser.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\tests\fairygui-tests\Classes\GuideScene.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\tests\fairygui-tests\Classes\HitTestScene.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\tests\fairygui-tests\Classes\JoystickModule.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\tests\fairygui-tests\Classes\JoystickScene.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\tests\fairygui-tests\Classes\ListEffectScene.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\tests\fairygui-tests\Classes\LoopListScene.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\tests\fairygui-tests\Classes\MailItem.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\tests\fairygui-tests\Classes\MenuScene.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\tests\fairygui-tests\Classes\ModalWaitingScene.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\tests\fairygui-tests\Classes\PullToRefreshScene.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\tests\fairygui-tests\Classes\ScrollPaneScene.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\tests\fairygui-tests\Classes\TransitionDemoScene.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\tests\fairygui-tests\Classes\TreeViewScene.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\tests\fairygui-tests\Classes\VirtualListScene.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\tests\fairygui-tests\Classes\Window1.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\tests\fairygui-tests\Classes\Window2.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\tests\fairygui-tests\proj.win32\main.cpp">
+      <Filter>Source Files\proj.win32</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\github\engine-x\cocos\precheader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Classes\AppDelegate.h">
+      <Filter>Source Files\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Classes\BagScene.h">
+      <Filter>Source Files\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Classes\BagWindow.h">
+      <Filter>Source Files\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Classes\BasicsScene.h">
+      <Filter>Source Files\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Classes\ChatScene.h">
+      <Filter>Source Files\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Classes\CooldownScene.h">
+      <Filter>Source Files\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Classes\DemoScene.h">
+      <Filter>Source Files\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Classes\EmojiParser.h">
+      <Filter>Source Files\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Classes\GuideScene.h">
+      <Filter>Source Files\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Classes\HitTestScene.h">
+      <Filter>Source Files\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Classes\JoystickModule.h">
+      <Filter>Source Files\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Classes\JoystickScene.h">
+      <Filter>Source Files\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Classes\ListEffectScene.h">
+      <Filter>Source Files\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Classes\LoopListScene.h">
+      <Filter>Source Files\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Classes\MailItem.h">
+      <Filter>Source Files\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Classes\MenuScene.h">
+      <Filter>Source Files\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Classes\ModalWaitingScene.h">
+      <Filter>Source Files\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Classes\PullToRefreshScene.h">
+      <Filter>Source Files\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Classes\ScrollPaneScene.h">
+      <Filter>Source Files\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Classes\TransitionDemoScene.h">
+      <Filter>Source Files\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Classes\TreeViewScene.h">
+      <Filter>Source Files\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Classes\VirtualListScene.h">
+      <Filter>Source Files\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Classes\Window1.h">
+      <Filter>Source Files\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Classes\Window2.h">
+      <Filter>Source Files\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\proj.win32\main.h">
+      <Filter>Source Files\proj.win32</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Resources\HelloWorld.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Resources\UI\Bag.fui">
+      <Filter>Resources\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Resources\UI\Bag_atlas0.png">
+      <Filter>Resources\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Resources\UI\Basics.fui">
+      <Filter>Resources\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Resources\UI\Basics_atlas0.png">
+      <Filter>Resources\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Resources\UI\Basics_atlas_fjqr7k.png">
+      <Filter>Resources\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Resources\UI\Basics_atlas_nz0z20.png">
+      <Filter>Resources\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Resources\UI\Basics_gojg7u.mp3">
+      <Filter>Resources\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Resources\UI\Basics_o4lt7w.mp3">
+      <Filter>Resources\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Resources\UI\Cooldown.fui">
+      <Filter>Resources\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Resources\UI\Cooldown_atlas0.png">
+      <Filter>Resources\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Resources\UI\Emoji.fui">
+      <Filter>Resources\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Resources\UI\Emoji_atlas0.png">
+      <Filter>Resources\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Resources\UI\Extension.fui">
+      <Filter>Resources\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Resources\UI\Extension_atlas0.png">
+      <Filter>Resources\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Resources\UI\Guide.fui">
+      <Filter>Resources\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Resources\UI\Guide_atlas0.png">
+      <Filter>Resources\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Resources\UI\HitTest.fui">
+      <Filter>Resources\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Resources\UI\HitTest_atlas0.png">
+      <Filter>Resources\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Resources\UI\Joystick.fui">
+      <Filter>Resources\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Resources\UI\Joystick_atlas0.png">
+      <Filter>Resources\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Resources\UI\LoopList.fui">
+      <Filter>Resources\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Resources\UI\LoopList_atlas0.png">
+      <Filter>Resources\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Resources\UI\MainMenu.fui">
+      <Filter>Resources\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Resources\UI\MainMenu_atlas0.png">
+      <Filter>Resources\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Resources\UI\ModalWaiting.fui">
+      <Filter>Resources\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Resources\UI\ModalWaiting_atlas0.png">
+      <Filter>Resources\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Resources\UI\PullToRefresh.fui">
+      <Filter>Resources\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Resources\UI\PullToRefresh_atlas0.png">
+      <Filter>Resources\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Resources\UI\ScrollPane.fui">
+      <Filter>Resources\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Resources\UI\ScrollPane_atlas0.png">
+      <Filter>Resources\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Resources\UI\Transition.fui">
+      <Filter>Resources\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Resources\UI\Transition_atlas0.png">
+      <Filter>Resources\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Resources\UI\Transition_gkq03.mp3">
+      <Filter>Resources\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Resources\UI\TreeView.fui">
+      <Filter>Resources\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Resources\UI\TreeView_atlas0.png">
+      <Filter>Resources\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Resources\UI\VirtualList.fui">
+      <Filter>Resources\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Resources\UI\VirtualList_atlas0.png">
+      <Filter>Resources\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Resources\fonts\DroidSansFallback.ttf">
+      <Filter>Resources\fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Resources\fonts\Marker Felt.ttf">
+      <Filter>Resources\fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Resources\fonts\arial.ttf">
+      <Filter>Resources\fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Resources\icons\i0.png">
+      <Filter>Resources\icons</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Resources\icons\i1.png">
+      <Filter>Resources\icons</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Resources\icons\i2.png">
+      <Filter>Resources\icons</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Resources\icons\i3.png">
+      <Filter>Resources\icons</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Resources\icons\i4.png">
+      <Filter>Resources\icons</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Resources\icons\i5.png">
+      <Filter>Resources\icons</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Resources\icons\i6.png">
+      <Filter>Resources\icons</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Resources\icons\i7.png">
+      <Filter>Resources\icons</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Resources\icons\i8.png">
+      <Filter>Resources\icons</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Resources\icons\i9.png">
+      <Filter>Resources\icons</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Resources\icons\k0.png">
+      <Filter>Resources\icons</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Resources\icons\k1.png">
+      <Filter>Resources\icons</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\fairygui-tests\Resources\res\.gitkeep">
+      <Filter>Resources\res</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\work\github\engine-x\tests\fairygui-tests\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{8205ABB5-516F-33B4-8C5F-40F56E7A1F65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\UI">
+      <UniqueIdentifier>{A39D86A1-3811-3814-A24D-B65484645CDF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\fonts">
+      <UniqueIdentifier>{E6B71328-871F-3455-97C9-A08BD6164B8B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\icons">
+      <UniqueIdentifier>{62EB474D-9DF6-321D-A31F-6F6336C7EF2C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\res">
+      <UniqueIdentifier>{3F4400B3-2AAA-3AB4-B1DD-F67AC3BAD5A2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{A4BAD2AB-32A2-3B75-86A8-BB08949E87DB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Classes">
+      <UniqueIdentifier>{9FD2EFCF-3E02-3C01-A57E-F14FDE68000E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\proj.win32">
+      <UniqueIdentifier>{71EFFC7A-0AF7-3FCF-8AC5-62A69A335FDA}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
