@@ -143,7 +143,7 @@ project.properties
 /v*-console-*.zip
 /tools/fbx-conv/
 tests/cpp-tests/Resources/audio
-/tests/lua-empty-test/src/cocos/
+/tests/FiveWar/src/cocos/
 /tests/lua-game-controller-test/src/cocos/
 /tests/lua-tests/src/cocos/
 /tests/js-tests/res/
@@ -160,7 +160,7 @@ tests/cpp-tests/Resources/audio
 *.xcscmblueprint
 tests/cpp-empty-test/proj.tizen/res/
 tests/cpp-tests/proj.tizen/res/
-tests/lua-empty-test/project/proj.tizen/res/
+tests/FiveWar/project/proj.tizen/res/
 tests/lua-tests/project/proj.tizen/res/
 
 # Ignore vscode folder

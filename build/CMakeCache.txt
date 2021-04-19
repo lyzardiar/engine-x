@@ -432,6 +432,12 @@ ENABLE_STATIC:BOOL=ON
 //Force function inlining
 FORCE_INLINE:BOOL=ON
 
+//Value Computed by CMake
+FiveWar_BINARY_DIR:STATIC=E:/work/github/engine-x/build/engine/tests/FiveWar
+
+//Value Computed by CMake
+FiveWar_SOURCE_DIR:STATIC=E:/work/github/engine-x/tests/FiveWar/project
+
 //Dependencies for the target
 GUI_LIB_DEPENDS:STATIC=general;cocos2d;
 
@@ -984,5 +990,5 @@ UNSIGNED_LONG:INTERNAL=4
 WITH_JPEG7_INT:INTERNAL=0
 WITH_JPEG8_INT:INTERNAL=1
 //CMAKE_INSTALL_PREFIX during last run
-_GNUInstallDirs_LAST_CMAKE_INSTALL_PREFIX:INTERNAL=C:/Program Files (x86)/engine-x
+_GNUInstallDirs_LAST_CMAKE_INSTALL_PREFIX:INTERNAL=c:/engine-x
 

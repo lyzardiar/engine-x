@@ -64,7 +64,7 @@ def scan_all_libs(db):
     filesize = os.path.getsize(_path)/1024
     stats['libcpp_empty_test'] = filesize
     save_build_stats(db, 'libcpp_empty_test', filesize)
-    _path = 'tests/lua-empty-test/project/proj.android/libs/armeabi/liblua_empty_test.so'
+    _path = 'tests/FiveWar/project/proj.android/libs/armeabi/liblua_empty_test.so'
     filesize = os.path.getsize(_path)/1024
     stats['liblua_empty_test'] = filesize
     save_build_stats(db, 'liblua_empty_test', filesize)

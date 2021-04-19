@@ -38,7 +38,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("E:/work/github/engine-x/build/engine/tests/cpp-empty-test/cmake_install.cmake")
   include("E:/work/github/engine-x/build/engine/tests/cpp-tests/cmake_install.cmake")
   include("E:/work/github/engine-x/build/engine/tests/fairygui-tests/cmake_install.cmake")
-  include("E:/work/github/engine-x/build/engine/tests/lua-empty-test/cmake_install.cmake")
+  include("E:/work/github/engine-x/build/engine/tests/FiveWar/cmake_install.cmake")
   include("E:/work/github/engine-x/build/engine/tests/lua-test/cmake_install.cmake")
   include("E:/work/github/engine-x/build/engine/tests/HelloCpp/cmake_install.cmake")
 

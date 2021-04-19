@@ -19,8 +19,8 @@ if [ ! $? = 0 ]; then
     exit 1
 fi
 
-cocos compile -p tizen --tizen-arch arm -s tests/lua-empty-test
+cocos compile -p tizen --tizen-arch arm -s tests/FiveWar
 if [ ! $? = 0 ]; then
-    echo "compile lua empty test error"
+    echo "compile FiveWar test error"
     exit 1
 fi

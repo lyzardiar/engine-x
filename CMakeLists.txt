@@ -56,7 +56,7 @@ if(BUILD_EXTENSION_FAIRYGUI)
 endif()
 
 if(BUILD_LUA_LIBS)
-  add_subdirectory(${COCOS2DX_ROOT_PATH}/tests/lua-empty-test/project ${ENGINE_BINARY_PATH}/tests/lua-empty-test)
+  add_subdirectory(${COCOS2DX_ROOT_PATH}/tests/FiveWar/project ${ENGINE_BINARY_PATH}/tests/FiveWar)
   add_subdirectory(${COCOS2DX_ROOT_PATH}/tests/lua-tests/project ${ENGINE_BINARY_PATH}/tests/lua-test)
 endif(BUILD_LUA_LIBS)
 

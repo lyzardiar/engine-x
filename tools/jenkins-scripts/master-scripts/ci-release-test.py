@@ -129,9 +129,9 @@ def main():
     build_mode = ['debug', 'release']
     tests_dirs = ['tests/cpp-empty-test/proj.android',
                   'tests/cpp-tests/proj.android',
-                  'tests/lua-empty-test/project/proj.android',
+                  'tests/FiveWar/project/proj.android',
                   'tests/lua-tests/project/proj.android']
-    tests_names = ['cpp-empty-test', 'cpp-tests', 'lua-empty-test', 'lua-tests']
+    tests_names = ['cpp-empty-test', 'cpp-tests', 'FiveWar', 'lua-tests']
     remote_home = os.environ['REMOTE_HOME']
     for mode in build_mode:
         os.system('git reset --hard')

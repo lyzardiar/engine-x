@@ -343,7 +343,7 @@ class LibsCompiler(cocos.CCPlugin):
         # build the simulator project
         proj_path = os.path.join(engine_dir, 'tests/cpp-empty-test')
         if self.language == 'lua':
-            proj_path = os.path.join(engine_dir, 'tests/lua-empty-test')
+            proj_path = os.path.join(engine_dir, 'tests/FiveWar')
         elif self.language == 'js':
             proj_path = os.path.join(engine_dir, 'tests/js-tests')
 
