@@ -38,15 +38,11 @@ local function main()
         collectgarbage("incremental")
     else
         -- avoid memory leak
-        collectgarbage("setpause", 100) 
+        collectgarbage("setpause", 130) 
         collectgarbage("setstepmul", 5000)
     end
 
     initGLView()
-
-    require "hello2"
-    cclog("result is " .. myadd(1, 1))
-
     ---------------
 
     local visibleSize = cc.Director:getInstance():getVisibleSize()

@@ -170,12 +170,6 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="E:\work\github\engine-x\build\engine\tests\FiveWar\COPY_LUA-FiveWar.vcxproj">
-      <Project>{48759997-2F7A-3F30-ADB7-7B8EF1EB2FE7}</Project>
-      <Name>COPY_LUA-FiveWar</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-    </ProjectReference>
     <ProjectReference Include="E:\work\github\engine-x\build\engine\tests\lua-test\COPY_LUA-lua-tests.vcxproj">
       <Project>{CE33CF2E-221F-3166-B52C-BFFA02CCDC97}</Project>
       <Name>COPY_LUA-lua-tests</Name>

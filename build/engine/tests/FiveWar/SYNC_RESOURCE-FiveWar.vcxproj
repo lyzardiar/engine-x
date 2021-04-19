@@ -74,20 +74,6 @@
       <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
-    <PostBuildEvent>
-      <Message></Message>
-      <Command>setlocal
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -E echo "    copying to E:/work/github/engine-x/build/bin/FiveWar/$(Configuration)/Resources/res"
-if %errorlevel% neq 0 goto :cmEnd
-C:\Python27\python.exe E:/work/github/engine-x/cmake/scripts/sync_folder.py -s E:/work/github/engine-x/tests/FiveWar/project/../res -d E:/work/github/engine-x/build/bin/FiveWar/$(Configuration)/Resources/res
-if %errorlevel% neq 0 goto :cmEnd
-:cmEnd
-endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
-:cmErrorLevel
-exit /b %1
-:cmDone
-if %errorlevel% neq 0 goto :VCEnd</Command>
-    </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <Midl>
@@ -98,20 +84,6 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
-    <PostBuildEvent>
-      <Message></Message>
-      <Command>setlocal
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -E echo "    copying to E:/work/github/engine-x/build/bin/FiveWar/$(Configuration)/Resources/res"
-if %errorlevel% neq 0 goto :cmEnd
-C:\Python27\python.exe E:/work/github/engine-x/cmake/scripts/sync_folder.py -s E:/work/github/engine-x/tests/FiveWar/project/../res -d E:/work/github/engine-x/build/bin/FiveWar/$(Configuration)/Resources/res
-if %errorlevel% neq 0 goto :cmEnd
-:cmEnd
-endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
-:cmErrorLevel
-exit /b %1
-:cmDone
-if %errorlevel% neq 0 goto :VCEnd</Command>
-    </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
     <Midl>
@@ -122,20 +94,6 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
-    <PostBuildEvent>
-      <Message></Message>
-      <Command>setlocal
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -E echo "    copying to E:/work/github/engine-x/build/bin/FiveWar/$(Configuration)/Resources/res"
-if %errorlevel% neq 0 goto :cmEnd
-C:\Python27\python.exe E:/work/github/engine-x/cmake/scripts/sync_folder.py -s E:/work/github/engine-x/tests/FiveWar/project/../res -d E:/work/github/engine-x/build/bin/FiveWar/$(Configuration)/Resources/res
-if %errorlevel% neq 0 goto :cmEnd
-:cmEnd
-endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
-:cmErrorLevel
-exit /b %1
-:cmDone
-if %errorlevel% neq 0 goto :VCEnd</Command>
-    </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
     <Midl>
@@ -146,20 +104,6 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
-    <PostBuildEvent>
-      <Message></Message>
-      <Command>setlocal
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -E echo "    copying to E:/work/github/engine-x/build/bin/FiveWar/$(Configuration)/Resources/res"
-if %errorlevel% neq 0 goto :cmEnd
-C:\Python27\python.exe E:/work/github/engine-x/cmake/scripts/sync_folder.py -s E:/work/github/engine-x/tests/FiveWar/project/../res -d E:/work/github/engine-x/build/bin/FiveWar/$(Configuration)/Resources/res
-if %errorlevel% neq 0 goto :cmEnd
-:cmEnd
-endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
-:cmErrorLevel
-exit /b %1
-:cmDone
-if %errorlevel% neq 0 goto :VCEnd</Command>
-    </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
     <CustomBuild Include="E:\work\github\engine-x\build\CMakeFiles\f6ebe4b4907ad2aa8eb91553c0ff5266\SYNC_RESOURCE-FiveWar.rule">

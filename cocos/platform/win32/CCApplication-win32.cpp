@@ -89,6 +89,11 @@ int Application::run()
     auto director = Director::getInstance();
     auto glview = director->getOpenGLView();
 
+    if (glview == nullptr) {
+        director->end();  
+        return 0;
+    }
+
     // Retain glview to avoid glview being released in the while loop
     glview->retain();
 
