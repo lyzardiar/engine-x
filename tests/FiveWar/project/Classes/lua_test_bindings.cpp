@@ -26,6 +26,8 @@
 #include "cocos2d.h"
 #include "scripting/lua-bindings/manual/LuaBasicConversions.h"
 
+#include "gameai/maths/Double.hpp"
+
 NS_CC_BEGIN
 
 /**
@@ -715,5 +717,8 @@ int register_test_binding(lua_State* L)
         lua_register_cocos2dx_DrawNode3D(L);
         lua_register_cocos2dx_ValueTypeJudgeInTable(L);
     tolua_endmodule(L);
+
+
+    CCLOG("11111111111114.9406564584124654E-324: 0x%llx   0x0000000000000001", Double.doubleToLongBits(4.9406564584124654E-324));
     return 0;
 }

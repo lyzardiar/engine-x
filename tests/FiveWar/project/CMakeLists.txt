@@ -48,11 +48,68 @@ set(GAME_SOURCE
     Classes/AppDelegate.cpp
     Classes/lua_assetsmanager_test_sample.cpp
     Classes/lua_test_bindings.cpp
+    Classes/gameai/maths/Double.cpp
     )
 set(GAME_HEADER
     Classes/AppDelegate.h
     Classes/lua_test_bindings.h
     Classes/lua_assetsmanager_test_sample.h
+    Classes/gameai/maths/Double.hpp
+    Classes/gameai/maths/Vector2D.hpp
+    Classes/gameai/World.hpp
+    Classes/gameai/entities/Vehicle.hpp
+    Classes/gameai/maths/Triangulator.hpp
+    Classes/gameai/maths/Transformations.hpp
+    Classes/gameai/fsm/Telegram.hpp
+    Classes/gameai/entities/MovingEntity.hpp
+    Classes/gameai/maths/Matrix2D.hpp
+    Classes/gameai/entityshapes/ps/Hints.hpp
+    Classes/gameai/graph/Graph.hpp
+    Classes/gameai/maths/Geometry2D.hpp
+    Classes/gameai/maths/FastMath.hpp
+    Classes/gameai/Domain.hpp
+    Classes/gameai/entityshapes/ps/BitmapPic.hpp
+    Classes/gameai/steering/AutoPilot.hpp
+    Classes/gameai/base/Serializable.hpp
+    Classes/gameai/utils/StopWatch.hpp
+    Classes/gameai/utils/ForceRecorder.hpp
+    Classes/gameai/steering/SBF.hpp
+    Classes/gameai/graph/GraphSearch_BFS.hpp
+    Classes/gameai/entityshapes/ps/WallPic.hpp
+    Classes/gameai/entityshapes/ps/ObstaclePic.hpp
+    Classes/gameai/entityshapes/ps/BuildingPic.hpp
+    Classes/gameai/entities/Wall.hpp
+    Classes/gameai/entities/Building.hpp
+    Classes/gameai/utils/ObstacleSAXParser.hpp
+    Classes/gameai/utils/EntitySAXParser.hpp
+    Classes/gameai/utils/VehicleSAXParser.hpp
+    Classes/gameai/utils/Message.hpp
+    Classes/gameai/utils/GraphSAXParser.hpp
+    Classes/gameai/steering/SmootherVector2D.hpp
+    Classes/gameai/utils/BuildingSAXParser.hpp
+    Classes/gameai/maths/MathUtils.hpp
+    Classes/gameai/graph/IGraphSearch.hpp
+    Classes/gameai/graph/GraphSearch_Astar.hpp
+    Classes/gameai/graph/AstarHeuristic.hpp
+    Classes/gameai/fsm/State.hpp
+    Classes/gameai/entityshapes/ps/Umbrella.hpp
+    Classes/gameai/graph/GraphSearch_DFS.hpp
+    Classes/gameai/graph/GraphEdge.hpp
+    Classes/gameai/graph/AshCrowFlight.hpp
+    Classes/gameai/graph/GraphSearch_Dijkstra.hpp
+    Classes/gameai/graph/GraphNode.hpp
+    Classes/gameai/graph/AshManhattan.hpp
+    Classes/gameai/fsm/Dispatcher.hpp
+    Classes/gameai/fsm/FiniteStateMachine.hpp
+    Classes/gameai/entityshapes/ps/ImageBank.hpp
+    Classes/gameai/entityshapes/ps/PersonPic.hpp
+    Classes/gameai/entityshapes/ps/PicturePS.hpp
+    Classes/gameai/entityshapes/ps/CirclePic.hpp
+    Classes/gameai/entityshapes/Picture.hpp
+    Classes/gameai/entities/BaseEntity.hpp
+    Classes/gameai/entityshapes/ps/ArrowPic.hpp
+    Classes/gameai/entities/Obstacle.hpp
+    Classes/gameai/entities/Artefact.hpp
     )
 
 if(ANDROID)

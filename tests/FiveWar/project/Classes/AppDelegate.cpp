@@ -30,6 +30,8 @@
 #include "scripting/lua-bindings/manual/lua_module_register.h"
 #include "lua_test_bindings.h"
 
+#include "gameai/maths/Double.hpp"
+
 USING_NS_CC;
 
 AppDelegate::AppDelegate()
@@ -70,6 +72,24 @@ bool AppDelegate::applicationDidFinishLaunching()
     //The call was commented because it will lead to ZeroBrane Studio can't find correct context when debugging
     //engine->executeScriptFile("src/hello.lua");
     
+    CCLOG("4.9406564584124654E-324: 0x%llx   0x0000000000000001", Double.doubleToLongBits(4.9406564584124654E-324));
+
+    CCLOG("1.2345678901234569E+150: 0x%llx   0x5F182344CD3CDF9F", Double.doubleToLongBits(1.2345678901234569E+150));
+    CCLOG("1.2345678901234569E+300: 0x%llx   0x7E3D7EE8BCBBD352", Double.doubleToLongBits(1.2345678901234569E+300));
+
+    CCLOG("                    NaN: 0x%llx  0xFFF8000000000000", Double.doubleToLongBits(NAN));
+    CCLOG("              -Infinity: 0x%llx  0xFFF0000000000000", Double.doubleToLongBits(-INFINITY));
+    CCLOG("               Infinity: 0x%llx  0x7FF0000000000000", Double.doubleToLongBits(INFINITY));
+
+    CCLOG("0x41EFFFFFFFE00000: %f   4.2949672950000000E+009", Double.longBitsToDouble(0x41EFFFFFFFE00000LL));
+    CCLOG("0xFFFFFFFFFFFFFFFF: %f  NaN", Double.longBitsToDouble(0xFFFFFFFFFFFFFFFFLL));
+    CCLOG("0xFFF0000000000000: %f  -Infinity", Double.longBitsToDouble(0xFFF0000000000000LL));
+    CCLOG("0x7FF0000000000000: %f  Infinity", Double.longBitsToDouble(0x7FF0000000000000LL));
+
+
+    CCLOG("MAX_VALUE: %f", Double.MAX_VALUE);
+    CCLOG("MIN_VALUE: %f", Double.MIN_VALUE);
+
 #if CC_64BITS
     FileUtils::getInstance()->addSearchPath("tools/64bit");
 #endif
