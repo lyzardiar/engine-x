@@ -93,8 +93,17 @@ bool AppDelegate::applicationDidFinishLaunching()
 #if CC_64BITS
     FileUtils::getInstance()->addSearchPath("tools/64bit");
 #endif
+
+#if CC_TARGET_PLATFORM == CC_PLATFORM_WIN32
+    FileUtils::getInstance()->setPopupNotify(false);
+
+    FileUtils::getInstance()->addSearchPath("../src");
+    FileUtils::getInstance()->addSearchPath("../res");
+#elif 
     FileUtils::getInstance()->addSearchPath("src");
     FileUtils::getInstance()->addSearchPath("res");
+#endif
+
     engine->executeString("require 'main.lua'");
 
     return true;
