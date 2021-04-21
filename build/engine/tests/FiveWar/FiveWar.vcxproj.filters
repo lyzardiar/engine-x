@@ -27,6 +27,174 @@
     <ClInclude Include="E:\work\github\engine-x\tests\FiveWar\project\Classes\lua_assetsmanager_test_sample.h">
       <Filter>Source Files\Classes</Filter>
     </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\FiveWar\project\Classes\gameai\base\Serializable.hpp">
+      <Filter>Source Files\Classes\gameai\base</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\FiveWar\project\Classes\gameai\maths\Vector2D.hpp">
+      <Filter>Source Files\Classes\gameai\maths</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\FiveWar\project\Classes\gameai\utils\VehicleSAXParser.hpp">
+      <Filter>Source Files\Classes\gameai\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\FiveWar\project\Classes\gameai\utils\StopWatch.hpp">
+      <Filter>Source Files\Classes\gameai\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\FiveWar\project\Classes\gameai\utils\ObstacleSAXParser.hpp">
+      <Filter>Source Files\Classes\gameai\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\FiveWar\project\Classes\gameai\utils\Message.hpp">
+      <Filter>Source Files\Classes\gameai\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\FiveWar\project\Classes\gameai\utils\GraphSAXParser.hpp">
+      <Filter>Source Files\Classes\gameai\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\FiveWar\project\Classes\gameai\utils\ForceRecorder.hpp">
+      <Filter>Source Files\Classes\gameai\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\FiveWar\project\Classes\gameai\utils\EntitySAXParser.hpp">
+      <Filter>Source Files\Classes\gameai\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\FiveWar\project\Classes\gameai\utils\BuildingSAXParser.hpp">
+      <Filter>Source Files\Classes\gameai\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\FiveWar\project\Classes\gameai\steering\SmootherVector2D.hpp">
+      <Filter>Source Files\Classes\gameai\steering</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\FiveWar\project\Classes\gameai\steering\SBF.hpp">
+      <Filter>Source Files\Classes\gameai\steering</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\FiveWar\project\Classes\gameai\steering\AutoPilot.hpp">
+      <Filter>Source Files\Classes\gameai\steering</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\FiveWar\project\Classes\gameai\maths\Triangulator.hpp">
+      <Filter>Source Files\Classes\gameai\maths</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\FiveWar\project\Classes\gameai\maths\Transformations.hpp">
+      <Filter>Source Files\Classes\gameai\maths</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\FiveWar\project\Classes\gameai\maths\Matrix2D.hpp">
+      <Filter>Source Files\Classes\gameai\maths</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\FiveWar\project\Classes\gameai\maths\MathUtils.hpp">
+      <Filter>Source Files\Classes\gameai\maths</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\FiveWar\project\Classes\gameai\maths\Geometry2D.hpp">
+      <Filter>Source Files\Classes\gameai\maths</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\FiveWar\project\Classes\gameai\maths\FastMath2.hpp">
+      <Filter>Source Files\Classes\gameai\maths</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\FiveWar\project\Classes\gameai\maths\FastMath.hpp">
+      <Filter>Source Files\Classes\gameai\maths</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\FiveWar\project\Classes\gameai\graph\IGraphSearch.hpp">
+      <Filter>Source Files\Classes\gameai\graph</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\FiveWar\project\Classes\gameai\graph\GraphSearch_Dijkstra.hpp">
+      <Filter>Source Files\Classes\gameai\graph</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\FiveWar\project\Classes\gameai\graph\GraphSearch_DFS.hpp">
+      <Filter>Source Files\Classes\gameai\graph</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\FiveWar\project\Classes\gameai\graph\GraphSearch_BFS.hpp">
+      <Filter>Source Files\Classes\gameai\graph</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\FiveWar\project\Classes\gameai\graph\GraphSearch_Astar.hpp">
+      <Filter>Source Files\Classes\gameai\graph</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\FiveWar\project\Classes\gameai\graph\GraphNode.hpp">
+      <Filter>Source Files\Classes\gameai\graph</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\FiveWar\project\Classes\gameai\graph\GraphEdge.hpp">
+      <Filter>Source Files\Classes\gameai\graph</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\FiveWar\project\Classes\gameai\graph\Graph.hpp">
+      <Filter>Source Files\Classes\gameai\graph</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\FiveWar\project\Classes\gameai\graph\AstarHeuristic.hpp">
+      <Filter>Source Files\Classes\gameai\graph</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\FiveWar\project\Classes\gameai\graph\AshManhattan.hpp">
+      <Filter>Source Files\Classes\gameai\graph</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\FiveWar\project\Classes\gameai\graph\AshCrowFlight.hpp">
+      <Filter>Source Files\Classes\gameai\graph</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\FiveWar\project\Classes\gameai\fsm\Telegram.hpp">
+      <Filter>Source Files\Classes\gameai\fsm</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\FiveWar\project\Classes\gameai\fsm\State.hpp">
+      <Filter>Source Files\Classes\gameai\fsm</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\FiveWar\project\Classes\gameai\fsm\FiniteStateMachine.hpp">
+      <Filter>Source Files\Classes\gameai\fsm</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\FiveWar\project\Classes\gameai\fsm\Dispatcher.hpp">
+      <Filter>Source Files\Classes\gameai\fsm</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\FiveWar\project\Classes\gameai\entityshapes\ps\WallPic.hpp">
+      <Filter>Source Files\Classes\gameai\entityshapes\ps</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\FiveWar\project\Classes\gameai\entityshapes\ps\Umbrella.hpp">
+      <Filter>Source Files\Classes\gameai\entityshapes\ps</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\FiveWar\project\Classes\gameai\entityshapes\ps\PicturePS.hpp">
+      <Filter>Source Files\Classes\gameai\entityshapes\ps</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\FiveWar\project\Classes\gameai\entityshapes\ps\PersonPic.hpp">
+      <Filter>Source Files\Classes\gameai\entityshapes\ps</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\FiveWar\project\Classes\gameai\entityshapes\ps\ObstaclePic.hpp">
+      <Filter>Source Files\Classes\gameai\entityshapes\ps</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\FiveWar\project\Classes\gameai\entityshapes\ps\ImageBank.hpp">
+      <Filter>Source Files\Classes\gameai\entityshapes\ps</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\FiveWar\project\Classes\gameai\entityshapes\ps\Hints.hpp">
+      <Filter>Source Files\Classes\gameai\entityshapes\ps</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\FiveWar\project\Classes\gameai\entityshapes\ps\CirclePic.hpp">
+      <Filter>Source Files\Classes\gameai\entityshapes\ps</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\FiveWar\project\Classes\gameai\entityshapes\ps\BuildingPic.hpp">
+      <Filter>Source Files\Classes\gameai\entityshapes\ps</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\FiveWar\project\Classes\gameai\entityshapes\ps\BitmapPic.hpp">
+      <Filter>Source Files\Classes\gameai\entityshapes\ps</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\FiveWar\project\Classes\gameai\entityshapes\ps\ArrowPic.hpp">
+      <Filter>Source Files\Classes\gameai\entityshapes\ps</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\FiveWar\project\Classes\gameai\entityshapes\Picture.hpp">
+      <Filter>Source Files\Classes\gameai\entityshapes</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\FiveWar\project\Classes\gameai\entities\Wall.hpp">
+      <Filter>Source Files\Classes\gameai\entities</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\FiveWar\project\Classes\gameai\entities\Vehicle.hpp">
+      <Filter>Source Files\Classes\gameai\entities</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\FiveWar\project\Classes\gameai\entities\Obstacle.hpp">
+      <Filter>Source Files\Classes\gameai\entities</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\FiveWar\project\Classes\gameai\entities\MovingEntity.hpp">
+      <Filter>Source Files\Classes\gameai\entities</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\FiveWar\project\Classes\gameai\entities\Building.hpp">
+      <Filter>Source Files\Classes\gameai\entities</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\FiveWar\project\Classes\gameai\entities\BaseEntity.hpp">
+      <Filter>Source Files\Classes\gameai\entities</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\FiveWar\project\Classes\gameai\entities\Artefact.hpp">
+      <Filter>Source Files\Classes\gameai\entities</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\FiveWar\project\Classes\gameai\World.hpp">
+      <Filter>Source Files\Classes\gameai</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\work\github\engine-x\tests\FiveWar\project\Classes\gameai\Domain.hpp">
+      <Filter>Source Files\Classes\gameai</Filter>
+    </ClInclude>
     <ClInclude Include="E:\work\github\engine-x\tests\FiveWar\project\proj.win32\main.h">
       <Filter>Source Files\proj.win32</Filter>
     </ClInclude>
@@ -51,6 +219,36 @@
     </Filter>
     <Filter Include="Source Files\Classes">
       <UniqueIdentifier>{9FD2EFCF-3E02-3C01-A57E-F14FDE68000E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Classes\gameai">
+      <UniqueIdentifier>{0AA0D8EE-C454-339D-B647-ED94F8F53D14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Classes\gameai\base">
+      <UniqueIdentifier>{1F4E87DA-03DB-3B80-9E22-E61F8720FB9F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Classes\gameai\entities">
+      <UniqueIdentifier>{5D4E1956-556A-3EA6-90CB-409921B7C8CF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Classes\gameai\entityshapes">
+      <UniqueIdentifier>{F01B805A-E395-386D-86E4-403A2741A3A8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Classes\gameai\entityshapes\ps">
+      <UniqueIdentifier>{9F401FE4-2363-3460-B329-73D22372A401}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Classes\gameai\fsm">
+      <UniqueIdentifier>{32AA13B2-22ED-3B1C-A5C4-EF285368C3DA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Classes\gameai\graph">
+      <UniqueIdentifier>{277EA71E-73A6-34C3-B7B0-D3B714DC2E85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Classes\gameai\maths">
+      <UniqueIdentifier>{66D07D16-7763-34EA-B172-345AA985766E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Classes\gameai\steering">
+      <UniqueIdentifier>{2337538A-3C7E-39B0-831C-B72146D42E75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Classes\gameai\utils">
+      <UniqueIdentifier>{DF839A08-6482-377E-AF30-D354A45B3950}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files\proj.win32">
       <UniqueIdentifier>{71EFFC7A-0AF7-3FCF-8AC5-62A69A335FDA}</UniqueIdentifier>

@@ -1,10 +1,13 @@
 -- CC_USE_DEPRECATED_API = true
+CC_USE_FRAMEWORK = true
+
 require "cocos.init"
 
 -- cclog
 cclog = function(...)
     print(string.format(...))
 end
+cc.log = cclog
 
 -- for CCLuaEngine traceback
 function __G__TRACKBACK__(msg)
@@ -12,25 +15,6 @@ function __G__TRACKBACK__(msg)
     cclog("LUA ERROR: " .. tostring(msg) .. "\n")
     cclog(debug.traceback())
     cclog("----------------------------------------")
-end
-
-local function initGLView()
-    local director = cc.Director:getInstance()
-    local glView = director:getOpenGLView()
-    if nil == glView then
-        glView = cc.GLViewImpl:create("FiveWar Test")
-        director:setOpenGLView(glView)
-    end
-
-    director:setOpenGLView(glView)
-
-    glView:setDesignResolutionSize(480, 320, cc.ResolutionPolicy.NO_BORDER)
-
-    --turn on display FPS
-    director:setDisplayStats(true)
-
-    --set FPS. the default value is 1.0/60 if you don't call this
-    director:setAnimationInterval(1.0 / 60)
 end
 
 local function main()
@@ -42,7 +26,9 @@ local function main()
         collectgarbage("setstepmul", 5000)
     end
 
-    initGLView()
+    cc.log("Jit: %s", jit and "On" or "Off")
+    cc.log("Lua: %s", _VERSION)
+
     ---------------
 
     local visibleSize = cc.Director:getInstance():getVisibleSize()
@@ -94,7 +80,7 @@ local function main()
 
     -- create farm
     local function createLayerFarm()
-        local layerFarm = cc.Layer:create()
+        local layerFarm = cc.Node:create()
 
         -- add in farm background
         local bg = cc.Sprite:create("farm.jpg")
@@ -137,7 +123,7 @@ local function main()
 
         local function onTouchMoved(touch, event)
             local location = touch:getLocation()
-            cclog("onTouchMoved: %0.2f, %0.2f", location.x, location.y)
+            -- cclog("onTouchMoved: %0.2f, %0.2f", location.x, location.y)
             if touchBeginPoint then
                 local cx, cy = layerFarm:getPosition()
                 layerFarm:setPosition(cx + location.x - touchBeginPoint.x,
@@ -153,12 +139,25 @@ local function main()
             spriteDog.isPaused = false
         end
 
-        local listener = cc.EventListenerTouchOneByOne:create()
-        listener:registerScriptHandler(onTouchBegan,cc.Handler.EVENT_TOUCH_BEGAN )
-        listener:registerScriptHandler(onTouchMoved,cc.Handler.EVENT_TOUCH_MOVED )
-        listener:registerScriptHandler(onTouchEnded,cc.Handler.EVENT_TOUCH_ENDED )
-        local eventDispatcher = layerFarm:getEventDispatcher()
-        eventDispatcher:addEventListenerWithSceneGraphPriority(listener, layerFarm)
+        -- local listener = cc.EventListenerTouchOneByOne:create()
+        -- listener:registerScriptHandler(onTouchBegan,cc.Handler.EVENT_TOUCH_BEGAN )
+        -- listener:registerScriptHandler(onTouchMoved,cc.Handler.EVENT_TOUCH_MOVED )
+        -- listener:registerScriptHandler(onTouchEnded,cc.Handler.EVENT_TOUCH_ENDED )
+        -- local eventDispatcher = layerFarm:getEventDispatcher()
+        -- eventDispatcher:addEventListenerWithSceneGraphPriority(listener, layerFarm)
+
+        function layerFarm:HitTest() return true end
+
+        layerFarm:setTouchEnabled(true)
+        layerFarm:addNodeEventListener(cc.NODE_TOUCH_EVENT, function(event)
+            if event.name == "began" then 
+                return onTouchBegan(event.touch, event)
+            elseif event.name == "moved" then 
+                onTouchMoved(event.touch, event)
+            elseif event.name == "ended" then 
+                onTouchEnded(event.touch, event)
+            end
+        end)
 
         return layerFarm
     end
